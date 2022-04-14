@@ -1,0 +1,18 @@
+nav{
+  position: fixed;
+  background: white;
+}
+
+nav > .nav-container{
+  padding: 0 1.2em;
+}
+
+nav > .navbar-links > ul > li{
+  color: var(--gray);
+  transition: all 0.5s;
+}
+
+nav > .navbar-links > ul > li:hover{
+  color: var(--dark-blue);
+  text-decoration: none;
+}

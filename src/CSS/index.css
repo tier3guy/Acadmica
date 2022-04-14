@@ -1,10 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Lora&family=Noto+Serif&family=Roboto:wght@400&display=swap');
+
+
+/* IMPORTING COMPONENTS CSS */
+@import url('./components-css/navbar.css');
+@import url('./components-css/main.css');
+
 :root{
 
   /* COLOR PALETTE */
   --dark-blue : #151D3B;
   --blue : #4245f3;
-  --gray: #DADBBD;
+  --gray: #ebecce;
   --black: #141E27;
 
-  
+
+  /* FONT FAMILY */
+  --font-barlow : 'Barlow';
+  --font-nato : 'Noto Serif';
+  --font-roboto : 'Roboto';
+
+}
+
+
+body, a{
+  color: var(--black);
+  font-family: var(--font-roboto);
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+  font-family: var(--font-barlow);
+  font-size: 1.8em;
+  color : var(--dark-blue);
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.button-all{
+  border: none;
+  outline: none;
+  padding: 0.5em 1.5em;
+  border-radius: 35px;
+  transition: all 0.5s;
+}
+
+.button-primary{
+  background: var(--blue);
+  color: var(--gray);
+}
+
+.btn-join, .btn-discord{
+  color: white;
+  padding: 0.8em 2.5em;
+  font-size: 1.1em;
+}
+
+.btn-discord{
+  background: white;
+  color : var(--dark-blue);
+  margin : 0 20px;
+  border: 1px dashed var(--black);
+  padding: 0.8em 1.2em;
+  border-radius: 30px;
 }
