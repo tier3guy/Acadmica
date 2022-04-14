@@ -1,0 +1,95 @@
+footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  color: rgb(64, 68, 120);
+  line-height: 10px;
+  font-size: 13px;
+}
+footer p{
+  justify-content: space-between;
+}
+.footer-row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.footer-col-first {
+  flex-basis: 30%;
+}
+footer hr {
+  width: 87%;
+  border: 0;
+  border-bottom: 0.5px solid rgb(64, 68, 120);
+  padding-top: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.footer-row h4,h3{
+  color: var(--black);
+}
+.footer-col-first h4{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.footer-col h3{
+  width: fit-content;
+  margin-bottom: 22px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+}
+.email-id{
+  width: fit-content;
+  color: var(--blue);
+  border-bottom: 1px solid var(--blue);
+}
+.footer-col ul{
+  padding-left: 0;
+}
+.footer-col ul li{
+  margin-bottom: 1rem;
+}
+.footer-col ul li a{
+  color: rgb(64, 68, 120);
+}
+.footer-col-fourth .btn-container{
+  margin: 20px;
+}
+.footer-col-fourth button{
+  padding: 12px 20px;
+}
+.footer-row2{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+.footer-icon-contact{
+  line-height: 40px;
+  margin-bottom: 0;
+}
+.social-icons{
+  padding-top: 10px;
+}
+.social-icons .fa-brands{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+  color: var(--gray);
+  background: var(--grey);
+  margin-right: 15px;
+  cursor: pointer;
+}

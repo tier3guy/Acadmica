@@ -1,24 +1,26 @@
   
   .facilities{
     font-family: var(--font-barlow);
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 12em;
   }
   
   .facilities p{
+    margin-top: 3em;
     color: var(--black);
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-    text-align: center;
+    font-family: var(--font-roboto);
+  }
+  
+  .facilities-col p{
+    margin-top: 1.5em;
   }
   
   .facilities h1{
-    font-size: 36px;
-    font-weight: 600;
+    font-size: 3em;
+    font-family: var(--font-barlow);
+    color : var(--dark-blue);
   }
   
   .facilities-row{
@@ -33,11 +35,16 @@
     margin-bottom: 5%;
     text-align: center;
   }
-  .facilities-col img{
-    width: 50%;
-    height: 50%;
-    border-radius: 10px;
-  }
+
+.facilities-col img{
+  width: 100%;
+  border-radius: 10px;
+}
+.facilities-col .image{
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
   .facilities-col p{
     padding: 0;
   }
@@ -45,4 +52,8 @@
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: center;
+  }
+  .facilities-col a{
+    color: var(--dark-blue);
+    font-weight: 600;
   }

@@ -10,10 +10,11 @@
 :root{
 
   /* COLOR PALETTE */
-  --dark-blue : #151D3B;
+  --dark-blue : #081B61;
   --blue : #4245f3;
   --gray: #ebecce;
   --black: #141E27;
+  --grey: rgb(88, 84, 84);
 
 
   /* FONT FAMILY */
@@ -21,6 +22,10 @@
   --font-nato : 'Noto Serif';
   --font-roboto : 'Roboto';
 
+}
+
+.add-shadow{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
 }
 
 

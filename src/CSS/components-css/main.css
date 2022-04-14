@@ -1,6 +1,6 @@
 .main-container{
   width: 90vw;
-  height : 100vh;
+  min-height : 100vh;
   margin: 0 auto;
   position: relative;
 }
