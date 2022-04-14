@@ -1,6 +1,7 @@
 nav{
   position: fixed;
   background: white;
+  z-index: 999999;
 }
 
 nav > .nav-container{

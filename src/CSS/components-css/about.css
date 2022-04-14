@@ -3,20 +3,23 @@
     width: 90%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 5em;
   }
   
   .facilities p{
-    color: #777;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
+    margin-top: 3em;
+    color: var(--black);
+    font-family: var(--font-roboto);
+  }
+  
+  .facilities-col p{
+    margin-top: 1.5em;
   }
   
   .facilities h1{
-    font-size: 36px;
-    font-weight: 600;
+    font-size: 3em;
+    font-family: var(--font-barlow);
+    color : var(--dark-blue);
   }
   
   .facilities-row{
