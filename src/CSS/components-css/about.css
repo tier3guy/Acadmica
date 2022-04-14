@@ -1,17 +1,19 @@
   
   .facilities{
-    width: 90%;
+    font-family: var(--font-barlow);
+    width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
   }
   
   .facilities p{
-    color: #777;
+    color: var(--black);
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+    text-align: center;
   }
   
   .facilities h1{
@@ -29,10 +31,11 @@
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
-    text-align: left;
+    text-align: center;
   }
   .facilities-col img{
-    width: 100%;
+    width: 50%;
+    height: 50%;
     border-radius: 10px;
   }
   .facilities-col p{
@@ -41,10 +44,5 @@
   .facilities-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
-    text-align: left;
-  }
-  .facilities-col .image{
-      width: 350px;
-      height: 300px;
-      object-fit: cover;
+    text-align: center;
   }
