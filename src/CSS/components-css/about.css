@@ -1,0 +1,50 @@
+  
+  .facilities{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .facilities p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+  }
+  
+  .facilities h1{
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  .facilities-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+  }
+  .facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .facilities-col p{
+    padding: 0;
+  }
+  .facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .facilities-col .image{
+      width: 350px;
+      height: 300px;
+      object-fit: cover;
+  }
