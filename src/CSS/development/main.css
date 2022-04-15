@@ -1,0 +1,53 @@
+.dev-image{
+  height: 75%;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-top: -20em;
+}
+
+.dev-main-para{
+  font-size: 1.2em;
+}
+
+.icon-container .fa-arrow-down{
+  font-size: 1.1em;
+  margin: 0 20px;
+}
+
+.icon-container{
+  font-size: 1.3em;
+}
+
+.tracks-section{
+  padding: 5em 0;
+  width: 90%;
+  margin: auto;
+  font-family: var(--font-barlow);
+}
+
+.tracks-section h1 span{
+  color: var(--blue);
+}
+
+.tracks-container ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.tracks-container ul li a i{
+  font-size: 6em;
+  margin-bottom: 0.5em;
+  color: #d3d1d1;
+}
+
+.tracks-container a{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2em;
+  transition: all 0.1s;
+  color: var(--dark-blue);
+}
+
+.tracks-container a:hover{
+  color: var(--blue)
+}
