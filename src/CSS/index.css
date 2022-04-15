@@ -83,6 +83,10 @@ li{
 
 a:hover{
   text-decoration: none;
+}
+
+.button-primary:hover{
+  text-decoration: none;
   color : white;
 }
 
