@@ -1,0 +1,13 @@
+.content-sem-container{
+  width: 90%;
+  padding: 5em 0;
+  margin: 0 auto;
+  font-family: var(--font-barlow);
+  min-height: 100vh;
+}
+
+.content-sem-container h1{
+  color: var(--dark-blue);
+  font-size: 4em;
+  margin: 0;
+}

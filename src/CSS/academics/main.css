@@ -1,3 +1,5 @@
+@import url('./csit.css');
+
 .fa-solid{
   transition: all 0.2s;
 }
@@ -55,4 +57,13 @@
   background: rgba(92, 92, 255, 0.171);
   border: 1px solid var(--blue);
   color: black;
+}
+
+.syllabus-link{
+  width: fit-content;
+  margin: auto;
+  margin-top: 2em ;
+  font-size: 1.1em !important;
+  padding-bottom: 12px !important;
+  border-bottom: 1px dashed var(--blue) !important;
 }
