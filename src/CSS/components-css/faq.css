@@ -38,7 +38,6 @@
   border: none;
   color: var(--dark-blue);
   outline: none;
-  font-weight: 600;
   padding: 1px 0;
 }
 .faq-content>p{
@@ -49,5 +48,5 @@
   font-size: 14px;
   height: 0;
   overflow: hidden;
-  transition: all 0.8s;
+  transition: all 0.4s;
 }
