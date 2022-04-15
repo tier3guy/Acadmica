@@ -11,12 +11,12 @@
 
     <link rel="stylesheet" href="../CSS/index.css">
 
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
   </head>
 <body>
-
   
-    <!-- Navbar starts here -->
-    <nav id="nav" class = "center p-4 w-100">
+  <!-- Navbar starts here -->
+  <nav id="nav" class = "center p-4 w-100">
 
       <div class="nav-container w-100 d-flex align-items-center justify-content-between" >
 
@@ -39,25 +39,27 @@
         </div>
 
       </div>
-
+      
     </nav>
     <!-- Navbar ends here -->
-  
+    
     <!-- main form -->
     <div class="main-container subscribe-form-container">
-
-      <h1 class="text-center">Thanks for showing interest in our newsletter !</h1>
-      <form action="">
-
-        <input type="text" class="text-center form-input" placeholder="example@gmail.com"/>
-        <h4 class="text-center">We promise, we will not spam your email</h4>
-        <button type="submit" class="button-primary button-all btn-submit">
+      
+      <h1 class="text-center" id="bigmsg">Thanks for showing interest in our newsletter !</h1>
+      <div class="form">
+        <input type="email" id="email-input" class="text-center form-input " placeholder="example@gmail.com"/>
+        <h4 class="text-center" id="msg">We promise, we will not spam your email</h4>
+        <button id="submitbtn" class="button-primary button-all btn-submit" onclick="writeData()">
           Subscribe Us
         </button>
-
-      </form>
+        <a href="../../public/index.html" id="backbtn" class="button-primary button-all btn-submit">
+          Go Back
+        </a>
+      </div>
 
     </div>
 
+    <script src="../JS/fb.js"></script>
 </body>
 </html>

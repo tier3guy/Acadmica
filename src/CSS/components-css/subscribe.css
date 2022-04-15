@@ -4,12 +4,11 @@
   color : var(--dark-blue);
 }
 
-form{
+.form{
   margin: auto;
   padding: auto;
   width: 60%;
   position: relative;
-
 }
 
 .form-input{
@@ -30,4 +29,19 @@ form{
   display: block;
   margin: 3em auto;
   font-size: 1.3em;
+}
+
+#backbtn{
+  background: transparent;
+  color: var(--blue);
+  width: fit-content;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 1em auto;
+  transition: all 0.2s;
+  border-radius: 0px;
+}
+
+#backbtn:hover{
+  border-bottom: 1px dashed var(--blue);
 }
