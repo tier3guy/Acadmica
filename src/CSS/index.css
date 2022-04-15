@@ -76,9 +76,7 @@ li{
   background: white;
   color : var(--dark-blue);
   margin : 0 20px;
-  border: 1px dashed var(--black);
   padding: 0.8em 1.2em;
-  border-radius: 30px;
 }
 
 a:hover{

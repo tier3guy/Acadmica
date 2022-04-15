@@ -38,3 +38,10 @@
   object-fit: cover;
   border-radius: 18px;
 }
+
+
+.fa-discord{
+  font-size: 1.1em;
+  color: var(--blue);
+  padding-right: 12px;
+}
