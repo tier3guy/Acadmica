@@ -1,0 +1,31 @@
+.FAQ {
+  margin: auto;
+  padding-top: 6em;
+  text-align: center;
+}
+.FAQ h1 {
+  font-size: 3em;
+  font-family: var(--font-barlow);
+  color: var(--dark-blue);
+}
+.FAQ .acad {
+  font-weight: 900;
+}
+.FAQ p {
+  margin-top: 3em;
+  color: var(--black);
+  font-family: var(--font-roboto);
+}
+.faq-box{
+    margin-top: 4em;
+    margin-bottom: 6em;
+}
+.faq-row{
+    width: 62%;
+    border: 1px solid var(--blue);
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 0.8em;
+    padding: 1.5em;
+    background: #f6f6f7;
+}
