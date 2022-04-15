@@ -29,3 +29,25 @@
     padding: 1.5em;
     background: #f6f6f7;
 }
+.faq-btn{
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  color: var(--dark-blue);
+  outline: none;
+  font-weight: 600;
+  padding: 1px 0;
+}
+.faq-content>p{
+  margin: 20px 0 auto;
+}
+.faq-content{
+  text-align: justify;
+  font-size: 14px;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.8s;
+}
