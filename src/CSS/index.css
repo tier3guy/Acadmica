@@ -83,3 +83,7 @@ a:hover{
   text-decoration: none;
   color : white;
 }
+
+.logo:hover{
+  color: var(--dark-blue);
+}

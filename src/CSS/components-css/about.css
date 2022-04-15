@@ -58,4 +58,8 @@
     color: var(--dark-blue);
     border-bottom: 1px dashed var(--dark-blue);
     padding: 0.8em;
+    transition: all 0.1s;
+  }
+  .facilities-col a:hover{
+    color: var(--blue);
   }
