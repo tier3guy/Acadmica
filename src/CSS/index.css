@@ -5,6 +5,7 @@
 @import url('./components-css/navbar.css');
 @import url('./components-css/main.css');
 @import url('./components-css/about.css');
+@import url('./components-css/subscribe.css');
 
 :root{
 
@@ -75,4 +76,9 @@ li{
   border: 1px dashed var(--black);
   padding: 0.8em 1.2em;
   border-radius: 30px;
+}
+
+a:hover{
+  text-decoration: none;
+  color : white;
 }

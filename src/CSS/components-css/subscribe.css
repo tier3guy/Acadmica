@@ -1,0 +1,33 @@
+.subscribe-form-container{
+  padding-top: 15em;
+  font-family: var(--font-barlow);
+  color : var(--dark-blue);
+}
+
+form{
+  margin: auto;
+  padding: auto;
+  width: 60%;
+  position: relative;
+
+}
+
+.form-input{
+  color : var(--blue);
+  width: 100%;
+  font-family: var(--font-roboto);
+  margin: 2em auto;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--blue);
+}
+
+
+.btn-submit{
+  display: block;
+  margin: 3em auto;
+  font-size: 1.3em;
+}
