@@ -5,15 +5,17 @@
 @import url('./components-css/navbar.css');
 @import url('./components-css/main.css');
 @import url('./components-css/about.css');
+@import url('./components-css/footer.css');
 @import url('./components-css/subscribe.css');
 
 :root{
 
   /* COLOR PALETTE */
-  --dark-blue : #151D3B;
+  --dark-blue : #081B61;
   --blue : #4245f3;
   --gray: #ebecce;
   --black: #141E27;
+  --grey: rgb(88, 84, 84);
 
 
   /* FONT FAMILY */
@@ -31,6 +33,7 @@
 body, a{
   color: var(--black);
   font-family: var(--font-roboto);
+  overflow-x: hidden;
 }
 
 .center{

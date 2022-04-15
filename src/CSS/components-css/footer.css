@@ -1,0 +1,119 @@
+footer {
+  width: 100vw;
+  position: relative;
+  bottom: 0;
+  color: var(--dark-blue);
+  line-height: 10px;
+  font-size: 0.9em;
+  font-family: var(--font-roboto);
+}
+
+footer p{
+  justify-content: space-between;
+}
+
+
+.footer-row {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 6em;
+}
+
+
+.footer-col-first {
+  flex-basis: 30%;
+}
+
+
+footer hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 0.5px solid var(--dark-blue);
+  padding-top: 5em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-col-first h2, .footer-col h2{
+  font-size: 1.8em;
+  margin-bottom: 1em;
+  font-weight: 300;
+}
+
+
+.footer-col h2{
+  width: fit-content;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+
+.email-id{
+  width: fit-content;
+  color: var(--blue);
+  border-bottom: 1px solid var(--blue);
+  text-decoration: none;
+  font-size: 1em;
+}
+
+
+.footer-col ul{
+  padding-left: 0;
+}
+
+
+.footer-col ul li{
+  margin-bottom: 1rem;
+}
+
+
+.footer-col ul li a{
+  color: var(--dark-blue);
+}
+
+
+.footer-col-fourth .btn-container{
+  margin: 0 20px;
+}
+
+
+.footer-col-fourth button{
+  padding: 12px 20px;
+}
+
+
+.footer-row2{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+
+
+.footer-icon-contact{
+  line-height: 40px;
+  margin-bottom: 0;
+}
+
+
+.social-icons{
+  padding-top: 0.8em;
+}
+
+
+.social-icons .fa{
+  width: 30px;
+  height: 30px;
+  font-size: 1.8em;
+  color : var(--dark-blue);
+  margin-right: 15px;
+  cursor: pointer;
+}

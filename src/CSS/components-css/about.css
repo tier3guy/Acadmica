@@ -1,9 +1,10 @@
   
   .facilities{
+    font-family: var(--font-barlow);
     width: 90%;
     margin: auto;
     text-align: center;
-    padding-top: 5em;
+    padding-top: 12em;
   }
   
   .facilities p{
@@ -32,22 +33,29 @@
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
-    text-align: left;
+    text-align: center;
   }
-  .facilities-col img{
-    width: 100%;
-    border-radius: 10px;
-  }
+
+.facilities-col img{
+  width: 100%;
+  border-radius: 10px;
+}
+.facilities-col .image{
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
   .facilities-col p{
     padding: 0;
+    margin-bottom: 1em;
   }
   .facilities-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
-    text-align: left;
+    text-align: center;
   }
-  .facilities-col .image{
-      width: 350px;
-      height: 200px;
-      object-fit: cover;
+  .facilities-col a{
+    color: var(--dark-blue);
+    border-bottom: 1px dashed var(--dark-blue);
+    padding: 0.8em;
   }
