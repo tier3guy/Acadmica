@@ -120,15 +120,30 @@ footer hr {
 
 @media (max-width: 700px){
   footer{
+      text-align: center !important;
       bottom: unset;
   }
   .footer-row, .footer-row2{
-    flex-direction: 100%;
+    flex-direction: column;
+    align-items: center;
   } 
-  .footer-col, .footer-col-first .footer-col-fourth{
-      flex-basis: 100%;
+  .footer-col-first h2, .footer-col h2{
+    all: revert;
+    font-size: xx-large;
   }
-  .footer-col:nth-child(2), :nth-child(3){
-      flex-basis: 100%;
+  .footer-col-third{
+    margin-top: 2em;
+  }
+  .footer-col-first p{
+    display: inline;
+  }
+  .footer-col-second{
+    margin-top: 2em;
+  }
+  .footer-col-fourth{
+    margin-top: 2em;
+  }
+  .footer-icon-contact{
+    line-height: 1em;
   }
 }
