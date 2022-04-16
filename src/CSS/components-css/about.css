@@ -63,3 +63,9 @@
   .facilities-col a:hover{
     color: var(--blue);
   }
+
+  @media(max-width: 700px){
+    .facilities-row{
+        flex-direction: column;
+    }
+}

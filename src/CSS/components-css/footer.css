@@ -117,3 +117,18 @@ footer hr {
   margin-right: 15px;
   cursor: pointer;
 }
+
+@media (max-width: 700px){
+  footer{
+      bottom: unset;
+  }
+  .footer-row, .footer-row2{
+    flex-direction: 100%;
+  } 
+  .footer-col, .footer-col-first .footer-col-fourth{
+      flex-basis: 100%;
+  }
+  .footer-col:nth-child(2), :nth-child(3){
+      flex-basis: 100%;
+  }
+}
