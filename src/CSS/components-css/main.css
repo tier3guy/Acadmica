@@ -109,3 +109,23 @@
 .text-container-studyroom span{
   color: var(--blue);
 }
+
+.room-main{
+  font-size: 1.1em;
+  margin-top: 5em;
+}
+
+.room-main span{
+  color: var(--blue);
+}
+
+.room-main h1{
+  color: var(--dark-blue);
+  padding-bottom: 12px;
+  transition: all 0.1s;
+  width: fit-content;
+}
+
+.room-main a h1:hover{
+  border-bottom: 2px dashed var(--blue);
+}
