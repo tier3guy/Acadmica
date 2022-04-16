@@ -1,0 +1,12 @@
+.interview-container > .tracks-container > h2 > span{
+  color: var(--blue);
+  border-bottom: 1px solid var(--dark-blue);
+  padding-bottom: 12px;
+  border: 1px solid #000;
+}
+
+iframe{
+  width: 35em;
+  height: 18em;
+  margin: 0 1em;
+}
