@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 70%;
+  font-size: 14px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 70%;
+  border: 1px solid #ddd;
+  font-size: 14px;            
+}
+
+  #myTable th, #myTable td {
+      text-align: left;
+      padding: 5px;
+     
+  }
+
+  #myTable tr {
+      border-bottom: 1px solid #ddd;
+  }
+
+      #myTable tr.header, #myTable tr:hover {
+          background-color: #f1f1f1;
+      }
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+.auto-style1 {
+  width: 55%;
+  height: 31px;
+}
+.auto-style2 {
+  height: 43px;
+}
+.auto-style3 {
+  width: 5%;
+}
+.auto-style4 {
+  height: 43px;
+  width: 5%;
+}
+.auto-style5 {
+  height: 75px;
+}
+.auto-style6 {
+  width: 5%;
+  height: 75px;
+}
+
+.syllabus-container{
+  padding-top: 8em;
+ font-family: var(--font-barlow);
+ width: 90%;
+ margin: auto;
+}
+
+.syllabus-container h1{
+  font-size: 3.5em;
+  color: var(--dark-blue);
+}
+
+.syllabus-container p{
+  font-size: 1.1em;
+  color: var(--blue);
+}
+
+table{
+  margin: auto;
+}
+
+.syllabus-container .org-link{
+  color: var(--blue);
+  text-decoration: dashed;
+  font-weight: normal;
+}
+
+.syllabus-container .org-link-para{
+  color: var(--dark-blue) !important;
+  text-decoration: dashed;
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+.syllabus-container #myInput{
+  padding: 1.1em;
+  font-size: 1.1em;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--blue);
+  color: var(--dark-blue);
+}
+
+.syllabus-container #myInput:focus, .syllabus-container #myInput:active{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--blue);
+}
+
+.fa-magnifying-glass{
+  color: var(--dark-blue);
+  padding: 0;
+  font-size: 0.9em;
+}
