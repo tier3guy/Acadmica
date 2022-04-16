@@ -49,4 +49,63 @@
 .studyroom-container{
   width: 90%;
   min-height: 100vh;
+  font-family: var(--font-barlow);
+  padding-top: 10em;
+}
+
+.studyroom-container .main-container-studyroom .img-container{
+  position: relative;
+  width: 50%;
+  height: 70vh;
+}
+
+.sr-img{
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.61) 0px 2px 5px 0px;
+  width: 20em;
+  height: 13em;
+  object-fit: cover;
+  transition: all 0s;
+}
+
+.acadmic{
+  right: 20%;
+  top: 0;
+  z-index: 1;
+}
+
+/*
+.acadmic:hover, .dsa:hover{
+  border-right: 4px solid var(--blue);
+}
+
+*/
+
+.devdo{
+  z-index: 2;
+  top: 25%;
+  left: 0;
+}
+
+/*
+.devdo:hover{
+  border-left: 4px solid var(--blue);
+}
+*/
+.dsa{
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+}
+
+.text-container-studyroom{
+  width: 40%;
+  
+}
+.text-container-studyroom h1{
+  font-size: 3.5em;
+}
+.text-container-studyroom span{
+  color: var(--blue);
 }
