@@ -45,3 +45,8 @@
   color: var(--blue);
   padding-right: 12px;
 }
+
+.studyroom-container{
+  width: 90%;
+  min-height: 100vh;
+}
