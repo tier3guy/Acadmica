@@ -65,6 +65,9 @@
   }
 
   @media(max-width: 700px){
+    .facilities{
+      padding-top: 6em;
+    }
     .facilities-row{
         flex-direction: column;
     }
