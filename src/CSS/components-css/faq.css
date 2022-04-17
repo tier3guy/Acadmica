@@ -46,7 +46,14 @@
 .faq-content{
   text-align: justify;
   font-size: 14px;
-  height: 0;
   overflow: hidden;
   transition: all 0.4s;
+  position: relative;
+}
+.faq-content a{
+  position: absolute;
+  top: 5em !important;
+  color: var(--dark-blue);
+  padding-bottom: 5px;
+  border-bottom: 2px dashed var(--blue);
 }
