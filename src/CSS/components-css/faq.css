@@ -56,6 +56,7 @@
   text-align: justify;
   font-size: 14px;
   overflow: hidden;
+  height: 0;
   transition: all 0.4s;
   position: relative;
 }
@@ -65,5 +66,4 @@
   top: 8em !important;
   color: var(--dark-blue);
   padding-bottom: 5px;
-  border-bottom: 2px dashed var(--blue);
 }
