@@ -41,9 +41,8 @@
   border-radius: 10px;
 }
 .facilities-col .image{
-  width: 350px;
-  height: 200px;
-  object-fit: cover;
+  width: 100%;
+  height: 35vh;
 }
   .facilities-col p{
     padding: 0;
