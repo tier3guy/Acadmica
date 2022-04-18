@@ -47,13 +47,13 @@
   text-align: justify;
   font-size: 14px;
   overflow: hidden;
+  height: 0;
   transition: all 0.4s;
   position: relative;
 }
 .faq-content a{
-  position: absolute;
+  position: revert;
   top: 5em !important;
   color: var(--dark-blue);
   padding-bottom: 5px;
-  border-bottom: 2px dashed var(--blue);
 }
