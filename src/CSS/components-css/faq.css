@@ -3,23 +3,28 @@
   padding-top: 6em;
   text-align: center;
 }
+
 .FAQ h1 {
   font-size: 3em;
   font-family: var(--font-barlow);
   color: var(--dark-blue);
 }
+
 .FAQ .acad {
   font-weight: 450;
 }
+
 .FAQ p {
   margin-top: 3em;
   color: var(--black);
   font-family: var(--font-roboto);
 }
+
 .faq-box{
     margin-top: 4em;
     margin-bottom: 6em;
 }
+
 .faq-row{
     width: 60%;
     border: 1px solid var(--blue);
@@ -29,6 +34,7 @@
     padding: 1.5em;
     background: #f6f6f7;
 }
+
 .faq-btn{
   width: 100%;
   background-color: transparent;
@@ -40,10 +46,13 @@
   outline: none;
   padding: 1px 0;
 }
+
 .faq-content>p{
   margin: 20px 0 auto;
 }
+
 .faq-content{
+  height: 0;
   text-align: justify;
   font-size: 14px;
   overflow: hidden;
@@ -51,9 +60,10 @@
   transition: all 0.4s;
   position: relative;
 }
-.faq-content a{
+
+.faq-content > a{
   position: revert;
-  top: 5em !important;
+  top: 8em !important;
   color: var(--dark-blue);
   padding-bottom: 5px;
 }

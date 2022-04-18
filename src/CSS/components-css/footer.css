@@ -55,8 +55,8 @@ footer hr {
 .email-id{
   width: fit-content;
   color: var(--blue);
-  border-bottom: 1px solid var(--blue);
   text-decoration: none;
+  border-bottom: 1px dashed var(--blue);
   font-size: 1em;
 }
 
@@ -145,5 +145,10 @@ footer hr {
   }
   .footer-icon-contact{
     line-height: 1em;
+  }
+
+  .email-id{
+    margin: 1em 0;
+    margin-bottom: 2em !important;
   }
 }
