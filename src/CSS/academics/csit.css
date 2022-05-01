@@ -12,8 +12,7 @@
 }
 
 .sem-container-container{
-  margin-bottom: 3em;
-  
+  margin-bottom: 3em;  
 }
 
 .sem-chain{
@@ -22,4 +21,13 @@
   width: fit-content;
   margin: auto;
   display: block;
+}
+
+.sub-name > .hwn{
+  margin-bottom: 1em;
+}
+
+.notes p{
+  margin-top: 0.5em;
+  margin-bottom: 0;
 }
