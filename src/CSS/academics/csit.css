@@ -23,8 +23,16 @@
   display: block;
 }
 
+.notes-row{
+  width: 50% !important;
+  border: none !important;
+}
+
 .sub-name > .hwn{
   margin-bottom: 1em;
+  color: var(--dark-blue);
+  font-size: large;
+  font-weight: 600;
 }
 
 .notes p{
