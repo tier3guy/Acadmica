@@ -1,34 +1,50 @@
-@import url('./csit.css');
+@import url("./csit.css");
 
-.fa-solid{
+.fa-solid {
   transition: all 0.2s;
 }
 
-.fa-server:hover{
+.fa-server:hover {
   color: rgba(33, 33, 241, 0.5);
 }
 
-.fa-robot:hover{
+.fa-robot:hover {
   color: rgba(253, 77, 253, 0.548);
 }
 
-.fa-bolt:hover{
+.fa-bolt:hover {
   color: rgba(255, 255, 0, 0.637);
 }
 
-.fa-helmet-safety:hover{
+.fa-helmet-safety:hover {
   color: rgba(252, 172, 24, 0.5);
 }
 
-.fa-wrench:hover{
+.fa-wrench:hover {
   color: rgba(16, 255, 156, 0.5);
 }
 
-.fa-bolt:hover{
+.fa-bolt:hover {
   color: rgba(255, 255, 0, 0.637);
 }
 
-.sem-container{
+.fa-cubes:hover {
+  color: rgb(22, 103, 174);
+}
+
+.fa-android:hover {
+  color: rgb(159, 192, 55);
+}
+
+.fa-code:hover {
+  color: rgb(0, 0, 0);
+}
+
+.fa-connectdevelop:hover {
+  /* fallback for old browsers */
+  color: rgb(218, 165, 32);
+}
+.sem-container {
   margin-top: 10em;
   position: absolute;
   right: 0;
@@ -38,11 +54,11 @@
   flex-direction: column;
 }
 
-.sem-container ul{
+.sem-container ul {
   display: flex;
 }
 
-.btn-sem{
+.btn-sem {
   padding: 20px;
   background: rgba(92, 92, 255, 0.5);
   border: 1px solid var(--blue);
@@ -53,16 +69,16 @@
   transition: all 0.2s;
 }
 
-.btn-sem:hover{
+.btn-sem:hover {
   background: rgba(92, 92, 255, 0.171);
   border: 1px solid var(--blue);
   color: black;
 }
 
-.syllabus-link{
+.syllabus-link {
   width: fit-content;
   margin: auto;
-  margin-top: 2em ;
+  margin-top: 2em;
   font-size: 1.1em !important;
   padding-bottom: 12px !important;
   border-bottom: 1px dashed var(--blue) !important;
