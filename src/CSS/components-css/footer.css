@@ -137,6 +137,9 @@ footer hr {
   .footer-col-first p{
     display: inline;
   }
+  .footer-col-first div {
+    justify-content: center;
+  }
   .footer-col-second{
     margin-top: 2em;
   }
