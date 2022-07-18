@@ -129,3 +129,8 @@
 .room-main a h1:hover{
   border-bottom: 2px dashed var(--blue);
 }
+
+.img-buy-coffee{
+  width: 35px;
+  height: 35px;
+}
