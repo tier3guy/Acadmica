@@ -1,4 +1,4 @@
-## [LIVE SITE](https://tier3guy.github.io/Acadmica/public/index.html)
+## [LIVE SITE](https://acadmica.social)
 
 # Folder Structure
 
