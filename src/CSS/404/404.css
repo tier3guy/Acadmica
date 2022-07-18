@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,11 +12,6 @@
     --color-blue-varient: #374088;
     --color-light: #f2f2f3;
     --color-light-varient: #d1d0d1;
-}
-
-@font-face {
-    font-family: "Barlow";
-    src: url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&display=swap');
 }
 
 #not_found {
@@ -45,7 +42,7 @@
 }
 
 .not_found .not_found_404 h1 {
-    font-family: "Barlow";
+    font-family: 'JetBrains Mono', monospace;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -63,7 +60,7 @@
 }
 
 .not_found_text h2 {
-    font-family: "Barlow";
+    font-family: 'JetBrains Mono', monospace;
     font-size: 33px;
     font-weight: 200;
     text-align: center;
@@ -75,7 +72,7 @@
 }
 
 .not_found_text p {
-    font-family: "Barlow";
+    font-family: 'JetBrains Mono', monospace;
     font-size: 16px;
     font-weight: 200;
     margin-top: 0px;
@@ -84,7 +81,7 @@
 }
 
 .not_found_text a {
-    font-family: "Barlow";
+    font-family: 'JetBrains Mono', monospace;
     color: var(--color-blue);
     font-weight: 200;
     text-decoration: none;
