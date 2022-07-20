@@ -32,3 +32,8 @@ This is a multipages website. You can click on page at navbar to open your desir
   - **index.css :** This file contains css code of base css file, it connects all the css file in it.
 
 <h1 align="center" style=""> Special Thanks to our valubale Contributors </h1>
+<div align="center">
+ <a href="https://github.com/tier3guy/Acadmica/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=tier3guy/Acadmica" />
+ </a>
+</div>
