@@ -137,6 +137,9 @@ footer hr {
   .footer-col-first p{
     display: inline;
   }
+  .footer-col-first div {
+    justify-content: center;
+  }
   .footer-col-second{
     margin-top: 2em;
   }
@@ -146,9 +149,9 @@ footer hr {
   .footer-icon-contact{
     line-height: 1em;
   }
-
   .email-id{
     margin: 1em 0;
     margin-bottom: 2em !important;
   }
+
 }
