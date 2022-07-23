@@ -118,3 +118,8 @@ a:hover{
 .logo:hover{
   color: var(--dark-blue);
 }
+
+#join_study_room{
+  color: #ffffff;
+  font-weight: bold;
+}
