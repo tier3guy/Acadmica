@@ -33,3 +33,7 @@ This is a multipages website. You can click on page at navbar to open your desir
     
   - **index.css :** This file contains css code of base css file, it connects all the css file in it.
 
+<h1 align="center">A big thanks to our valuable contributors</h1>
+<a href="https://github.com/tier3guy/Acadmica/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=tier3guy/Acadmica" />
+</a>
