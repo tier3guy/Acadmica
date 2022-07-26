@@ -14,14 +14,13 @@
 @import url('./interview/main.css');
 
 html::-webkit-scrollbar{
-  width: 1vw;
+  width: 0.7vw;
 }
 
 html::-webkit-scrollbar-thumb{
   background: linear-gradient(#3756f2,#4245F3);
   border: .25em solid blue black;
-  border-radius: 100vw;
-  
+  border-radius: 100vw;  
 }
 
 html::-webkit-scrollbar-thumb:hover{
@@ -110,6 +109,14 @@ a:hover{
   text-decoration: none;
 }
 
+.googleForm{
+  font-weight: bold;
+}
+
+.googleForm:hover{
+  color: var(--blue);
+}
+
 .button-primary:hover{
   text-decoration: none;
   color : white;
@@ -117,4 +124,92 @@ a:hover{
 
 .logo:hover{
   color: var(--dark-blue);
+}
+
+/* Loading Animation */
+
+.wrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.loading{
+  position: relative;
+}
+
+.content{
+  color: var(--blue);
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.bounceball {
+  position: relative;
+  display: inline-block;
+  height: 37px;
+  width: 15px;
+}
+.bounceball:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--blue);
+  transform-origin: 50%;
+  -webkit-animation: bounce 500ms alternate infinite ease;
+          animation: bounce 500ms alternate infinite ease;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    top: 30px;
+    height: 5px;
+    border-radius: 60px 60px 20px 20px;
+    transform: scaleX(2);
+  }
+  35% {
+    height: 15px;
+    border-radius: 50%;
+    transform: scaleX(1);
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    top: 30px;
+    height: 5px;
+    border-radius: 60px 60px 20px 20px;
+    transform: scaleX(2);
+  }
+  35% {
+    height: 15px;
+    border-radius: 50%;
+    transform: scaleX(1);
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: scaleX(2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
