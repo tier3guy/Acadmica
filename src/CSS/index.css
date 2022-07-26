@@ -17,6 +17,16 @@ html::-webkit-scrollbar{
   width: 0.7vw;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  margin: 0;
+}
+
 html::-webkit-scrollbar-thumb{
   background: linear-gradient(#3756f2,#4245F3);
   border: .25em solid blue black;
@@ -66,6 +76,12 @@ body, a{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.space-between{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo{
@@ -202,14 +218,5 @@ a:hover{
   }
   100% {
     top: 0;
-  }
-}
-
-@keyframes expand {
-  0% {
-    transform: scaleX(2);
-  }
-  100% {
-    transform: scale(1);
   }
 }
