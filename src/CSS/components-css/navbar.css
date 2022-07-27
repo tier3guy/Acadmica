@@ -22,7 +22,7 @@ nav > .nav-links > ul > li:hover{
   display: none;
 }
 
-@media(max-width: 700px){
+@media(max-width: 991px){
   #responsive-nav{
     display: block;
     position: fixed;
