@@ -1,107 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Lora&family=Noto+Serif&family=Roboto:wght@400&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Lora&family=Noto+Serif&family=Roboto:wght@400&display=swap");
 
 /* IMPORTING COMPONENTS CSS */
-@import url('./components-css/navbar.css');
-@import url('./components-css/main.css');
-@import url('./components-css/about.css');
-@import url('./components-css/footer.css');
-@import url('./components-css/subscribe.css');
-@import url('./development/main.css');
-@import url('./academics/main.css');
-@import url('./components-css/faq.css');
-@import url('./academics/syllabus.css');
-@import url('./interview/main.css');
+@import url("./components-css/navbar.css");
+@import url("./components-css/main.css");
+@import url("./components-css/about.css");
+@import url("./components-css/footer.css");
+@import url("./components-css/subscribe.css");
+@import url("./development/main.css");
+@import url("./academics/main.css");
+@import url("./components-css/faq.css");
+@import url("./academics/syllabus.css");
+@import url("./interview/main.css");
 
-html::-webkit-scrollbar{
+html::-webkit-scrollbar {
   width: 0.7vw;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-ul{
+ul {
   margin: 0;
 }
 
-html::-webkit-scrollbar-thumb{
-  background: linear-gradient(#3756f2,#4245F3);
-  border: .25em solid blue black;
-  border-radius: 100vw;  
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(#3756f2, #4245f3);
+  border: 0.25em solid blue black;
+  border-radius: 100vw;
 }
 
-html::-webkit-scrollbar-thumb:hover{
+html::-webkit-scrollbar-thumb:hover {
   background-color: #5c5ef5;
 }
 
-html::-webkit-scrollbar-track{
+html::-webkit-scrollbar-track {
   background-color: #ffffff;
   border-radius: 100vw;
-  margin-block: .5em;
+  margin-block: 0.5em;
 }
 
-:root{
-
+:root {
   /* COLOR PALETTE */
-  --dark-blue : #081B61;
-  --blue : #4245f3;
+  --dark-blue: #081b61;
+  --blue: #4245f3;
   --gray: #ebecce;
-  --black: #141E27;
+  --black: #141e27;
   --grey: rgb(88, 84, 84);
 
-
   /* FONT FAMILY */
-  --font-barlow : 'Barlow';
-  --font-nato : 'Noto Serif';
-  --font-roboto : 'Roboto';
-
+  --font-barlow: "Barlow";
+  --font-nato: "Noto Serif";
+  --font-roboto: "Roboto";
 }
 
-.add-shadow{
+.add-shadow {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
 }
 
-
-body, a{
+body,
+a {
   color: var(--black);
   font-family: var(--font-roboto);
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
-.center{
+.center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.space-between{
+.space-between {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.logo{
+.logo {
   font-family: var(--font-barlow);
   font-size: 1.8em;
-  color : var(--dark-blue);
+  color: var(--dark-blue);
 }
 
-li{
+li {
   text-decoration: none;
   list-style: none;
 }
 
-.button-all{
+.button-all {
   border: none;
   outline: none;
-  padding: 0.5em 1.5em;
-  border-radius: 35px;
+  padding: 0.5em 0.5em;
+  border-radius: 15px;
   transition: all 0.5s;
-}  
+}
+
+.button-all:hover {
+  transform: scale(1.05);
+}
 
 .btn-join-anchor-tag {
   color: white;
@@ -111,65 +111,71 @@ li{
   color: white;
 }
 
-.button-primary{
+.button-primary {
   background: var(--blue);
   color: var(--gray);
 }
 
-.button-primary:hover{
+.button-primary:hover {
   background-color: #0b1db4;
 }
 
-.btn-join, .btn-discord{
+.btn-join,
+.btn-discord {
   color: white;
-  padding: 0.8em 2.5em;
-  font-size: 1.1em;
+  padding: 1em 1em;
+  font-size: 1em;
 }
 
-.btn-discord{
+.btn-discord {
   background: white;
-  color : var(--dark-blue);
-  margin : 0 20px;
+  color: var(--dark-blue);
+  margin: 0 20px;
   padding: 0.8em 1.2em;
+  box-shadow: 0px 0px 15px -10px;
 }
 
-a:hover{
+.btn-discord:hover {
+  box-shadow: 0px 0px 15px -8px;
+}
+
+a:hover {
   text-decoration: none;
 }
 
-.googleForm{
+.googleForm {
   font-weight: bold;
 }
 
-.googleForm:hover{
+.googleForm:hover {
   color: var(--blue);
 }
 
-.button-primary:hover{
+.button-primary:hover {
   text-decoration: none;
-  color : white;
+  color: white;
 }
 
-.logo:hover{
+.logo:hover {
   color: var(--dark-blue);
 }
 
-
-#join_study_room{
+#join_study_room {
   color: #ffffff;
   font-weight: bold;
 }
 
-iframe{
+iframe {
   transition: all 0.1s;
 }
 
-iframe:hover{
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+iframe:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 /* Loading Animation */
 
-.wrapper{
+.wrapper {
   position: absolute;
   top: 0;
   left: 0;
@@ -181,11 +187,11 @@ iframe:hover{
   background-color: white;
 }
 
-.loading{
+.loading {
   position: relative;
 }
 
-.content{
+.content {
   color: var(--blue);
   display: inline-block;
   margin-left: 10px;
@@ -211,7 +217,7 @@ iframe:hover{
   background-color: var(--blue);
   transform-origin: 50%;
   -webkit-animation: bounce 500ms alternate infinite ease;
-          animation: bounce 500ms alternate infinite ease;
+  animation: bounce 500ms alternate infinite ease;
 }
 
 @-webkit-keyframes bounce {
@@ -246,5 +252,4 @@ iframe:hover{
   100% {
     top: 0;
   }
-
 }
