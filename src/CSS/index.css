@@ -154,6 +154,11 @@ a:hover{
   color: var(--dark-blue);
 }
 
+
+#join_study_room{
+  color: #ffffff;
+  font-weight: bold;
+
 /* Loading Animation */
 
 .wrapper{
@@ -231,4 +236,5 @@ a:hover{
   100% {
     top: 0;
   }
+
 }
