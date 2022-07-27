@@ -189,7 +189,9 @@ iframe:hover{
   color: var(--blue);
   display: inline-block;
   margin-left: 10px;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 3em;
+  font-family: var(--font-barlow);
 }
 
 .bounceball {
