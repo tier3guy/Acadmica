@@ -101,11 +101,23 @@ li{
   padding: 0.5em 1.5em;
   border-radius: 35px;
   transition: all 0.5s;
+}  
+
+.btn-join-anchor-tag {
+  color: white;
+}
+
+.btn-join-anchor-tag:hover {
+  color: white;
 }
 
 .button-primary{
   background: var(--blue);
   color: var(--gray);
+}
+
+.button-primary:hover{
+  background-color: #0b1db4;
 }
 
 .btn-join, .btn-discord{
