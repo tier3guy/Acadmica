@@ -81,3 +81,10 @@ iframe{
     width: 90%;
   }
 }
+
+.resume-building{
+  width: 50% !important;
+  padding-top: 3em;
+  padding-left: 3em;
+  color: var(--dark-blue);
+}
