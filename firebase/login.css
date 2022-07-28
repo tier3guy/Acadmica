@@ -1,0 +1,20 @@
+
+h1{
+  color: var(--blue);
+}
+.main-container{
+  padding: 2.5em 1em;
+
+  width: 35%;
+}
+.form-input{
+  margin-top: 15px !important;
+}
+h4{
+  margin-top: 25px !important;
+}
+.btn-submit{
+  display: block;
+  margin: 0 auto;
+  font-size: 1.3em;
+}

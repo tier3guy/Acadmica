@@ -101,11 +101,23 @@ li{
   padding: 0.5em 1.5em;
   border-radius: 35px;
   transition: all 0.5s;
+}  
+
+.btn-join-anchor-tag {
+  color: white;
+}
+
+.btn-join-anchor-tag:hover {
+  color: white;
 }
 
 .button-primary{
   background: var(--blue);
   color: var(--gray);
+}
+
+.button-primary:hover{
+  background-color: #0b1db4;
 }
 
 .btn-join, .btn-discord{
@@ -141,7 +153,6 @@ a:hover{
 .logo:hover{
   color: var(--dark-blue);
 }
-
 .footer-row2{
   display: flex;
   justify-content: space-evenly;
@@ -150,6 +161,19 @@ a:hover{
 
 .footer-divider{
   margin: 0 auto;
+}
+
+#join_study_room{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+iframe{
+  transition: all 0.1s;
+}
+
+iframe:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 /* Loading Animation */
@@ -174,7 +198,9 @@ a:hover{
   color: var(--blue);
   display: inline-block;
   margin-left: 10px;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 3em;
+  font-family: var(--font-barlow);
 }
 
 .bounceball {
@@ -229,4 +255,5 @@ a:hover{
   100% {
     top: 0;
   }
+
 }
