@@ -153,7 +153,15 @@ a:hover{
 .logo:hover{
   color: var(--dark-blue);
 }
+.footer-row2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+.footer-divider{
+  margin: 0 auto;
+}
 
 #join_study_room{
   color: #ffffff;
@@ -167,6 +175,7 @@ iframe{
 iframe:hover{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
 /* Loading Animation */
 
 .wrapper{
