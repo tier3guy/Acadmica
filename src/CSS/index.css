@@ -142,6 +142,16 @@ a:hover{
   color: var(--dark-blue);
 }
 
+.footer-row2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-divider{
+  margin: 0 auto;
+}
+
 /* Loading Animation */
 
 .wrapper{
