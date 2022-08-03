@@ -118,6 +118,19 @@ footer hr {
   cursor: pointer;
 }
 
+.facebook:hover{
+  color:#4267B2 ;
+}
+.instagram:hover{
+  color:#E1306C ;
+}
+.twitter:hover{
+  color:#1DA1F2;
+}
+.linkedIn:hover{
+  color:#0A66C2;
+}
+
 @media (max-width: 700px){
   footer{
       text-align: center !important;
