@@ -13,6 +13,13 @@
 @import url('./academics/syllabus.css');
 @import url('./interview/main.css');
 
+
+html, body{
+  overflow-x: hidden;
+}
+
+
+
 html::-webkit-scrollbar{
   width: 0.7vw;
 }
