@@ -25,8 +25,16 @@
     <link rel="stylesheet" href="./src/CSS/index.css" />
   </head>
   <body>
+
+    <div class="wrapper">
+      <div class="loading">
+        <div class="bounceball"></div>
+        <div class="content"><h1>@cadmica.social</h1></div>
+      </div>
+    </div>
     
     <!-- Navbar starts here -->
+    <div class="main-content">
     <nav id="nav" class="center p-4 w-100">
       <div
         class="nav-container w-100 d-flex align-items-center justify-content-between"
@@ -34,7 +42,7 @@
         <a class="logo" href="#"> @cadmica! </a>
         
         <div class="nav-links">
-          <ul class="center">
+          <ul class="space-between">
             <li class="pl-3 pr-3"><a href="./public/studyroom.html">Study Room</a></li>
             <li class="pl-3 pr-3">
               <a href="https://discord.gg/ZkHXnxhda7" target="__black">Discord Server</a>
@@ -48,6 +56,7 @@
           <a
             href="./src/pages/subscribe.html"
             class="button-primary button-all"
+            style="color: white"
           >
             Subscribe Us
           </a>
@@ -64,9 +73,10 @@
           </button>
           <div class="faq-content responsive-nav-content">
             <ul class="nav-items-response">
-              <li><a href="">Study Room</a></li>
+              <li><a href="public/studyroom.html">Study Room</a></li>
               <li><a href="https://discord.gg/ZkHXnxhda7">Discord Server</a></li>
-              <li><a href="">Study Statistics</a></li>
+              <li><a href="src/pages/Stats/stats.html">Study Statistics</a></li>
+              <li><a href="https://github.com/tier3guy/Acadmica">GitHub</a></li>
             </ul>
           </div>
         </div>
@@ -91,14 +101,14 @@
 
         <div class="main-btn-container mt-5 d-flex">
           <button class="button-all button-primary btn-join">
-            <a href="https://tier3guy.github.io/Acadmica/public/studyroom.html">Join Study Room</a>
+            <a href="https://tier3guy.github.io/Acadmica/public/studyroom.html" class="btn-join-anchor-tag">Join Study Room</a>
           </button>
           <button class="button-all btn-discord">
             <i class="fa-brands fa-discord"></i><a href= "https://discord.com/invite/ZkHXnxhda7">Discord</a>
           </button>
         </div>
       </div>
-
+  
       <div class="image-container">
         <img
           src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -191,7 +201,7 @@
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
-            <p>The answer is somewhere yes and somewhere no! Our motive is provide you the best notes, so we compare our notes vs notes present on the internet. The more accurate and detailed one wins.</p>
+            <p>The answer is somewhere between YES and NO. Our motive is to provide you the best notes, so we compare our notes vs notes present on the internet. The more accurate and detailed one wins.</p>
           </div>
         </div>
         <div class="faq-row">
@@ -210,9 +220,9 @@
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
-            <p>Just go to the top click on the contribute button or just click on the link below. You will be redirected to a google form. Fill the form and upload the documents. Wooho! and you are done.</p>
+            <p>Click the CONTRIBUTE button on top or just click on the link below. You will be redirected to a google form. Fill the form and upload the documents. Wooho! and you are done.</p>
 
-            <a href="">Google Form</a>
+            <a href="" class="googleForm">Google Form</a> 
           </div>
         </div>
       </div>
@@ -221,7 +231,7 @@
     <!-- Footer starts here -->
     <section>
       <footer>
-        <hr />
+        <hr class="footer-divider"/>
         <div class="footer-row">
           <div class="footer-col-first">
             <h2>Acadmica</h2>
@@ -274,6 +284,7 @@
                 href="./src/pages/subscribe.html"
                 class="button-primary button-all"
                 type="button"
+                style="color: white"
                 >Subscribe Us</a
               >
             </div>
@@ -289,10 +300,11 @@
         </div>
       </footer>
     </section>
-
+  </div>
     <!-- Custom JS -->
     <script src="./src/JS/faq.js"></script>
     <script src="./src/JS/main.js"></script>
+    <script src="src/JS/index.js"></script>
 
     <!-- BOOTSTRAP JS CDN LINK GOES HERE -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
