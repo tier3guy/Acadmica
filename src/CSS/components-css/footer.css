@@ -56,7 +56,6 @@ footer hr {
   width: fit-content;
   color: var(--blue);
   text-decoration: none;
-  border-bottom: 1px dashed var(--blue);
   font-size: 1em;
 }
 
