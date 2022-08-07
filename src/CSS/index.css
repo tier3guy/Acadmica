@@ -8,10 +8,18 @@
 @import url('./components-css/footer.css');
 @import url('./components-css/subscribe.css');
 @import url('./development/main.css');
+@import url('./development/subpages.css');
 @import url('./academics/main.css');
 @import url('./components-css/faq.css');
 @import url('./academics/syllabus.css');
 @import url('./interview/main.css');
+
+
+html, body{
+  overflow-x: hidden;
+}
+
+
 
 html::-webkit-scrollbar{
   width: 0.7vw;

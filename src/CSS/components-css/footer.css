@@ -105,17 +105,59 @@ footer hr {
 
 
 .social-icons{
-  padding-top: 0.8em;
+  display: flex;
+  /* padding-top: 0.8em; */
+  /* border: 2px solid black; */
+  /* height: 30px; */
 }
 
 
 .social-icons .fa{
-  width: 30px;
-  height: 30px;
-  font-size: 1.8em;
-  color : var(--dark-blue);
+  /* width: 30px; */
+  display: flex;
+  /* height: 30px; */
+  font-size: 24px;
+  /* color : var(--dark-blue); */
+  /* color:#0A66C2; */
   margin-right: 15px;
   cursor: pointer;
+}
+.social-icons > a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+  color: #081b61;
+  /* border: 2px solid black; */
+  width: 30px;
+  margin-right: 15px ;
+  height: 30px;
+  width: 30px;
+}
+
+i{
+  margin: auto;
+  border-radius:10px ;
+}
+.facebook:hover{
+  border-radius:2px ;
+  background:#4267B2 ;
+  color:#fff ;
+  padding: 2px auto;
+}
+.instagram:hover{
+  color: #fff ;
+  border-radius: 7px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.twitter:hover{
+  /* background-color: #285AEB; */
+  color:#1DA1F2;
+}
+.linkedIn:hover{
+  border-radius: 3px;
+  background-color: #0A66C2;
+  color: white !important;
 }
 
 @media (max-width: 700px){

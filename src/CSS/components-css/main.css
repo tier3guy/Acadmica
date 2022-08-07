@@ -20,6 +20,7 @@
   font-size: 3em;
 }
 
+
 .text-container .exclaimation{
   color: var(--blue);
 }
@@ -134,3 +135,33 @@
   width: 35px;
   height: 35px;
 }
+@media screen  and  (max-width:850px) {
+  .text-container .title {
+    /* color: var(--blue); */
+    font-size: 2em;
+  }
+  .main-container {
+    min-height: 72vh;
+  }
+  .facilities-row {
+   
+    
+    flex-direction: column;
+}
+.image-container {
+  width: 45vh;
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  margin-top: 5em;
+  display: block;
+}
+.text-container {
+  margin-top: 10em;
+  width: 100%;
+  /* position: absolute; */
+  /* left: 0; */
+  font-family: var(--font-barlow);
+  color: var(--dark-blue);
+  display: block;
+}}
