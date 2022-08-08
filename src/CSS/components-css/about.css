@@ -24,13 +24,13 @@
   .facilities-row .mt-1 {
     background: #4245f3;
     border-radius: 3px;
-    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     box-sizing: border-box;
     color: #FFFFFF;
     cursor: pointer;
     font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
     font-size: 16px;
-    font-weight: 700;
+    /*font-weight: 700;*/
     line-height: 24px;
     opacity: 1;
     outline: 0 solid transparent;
@@ -38,9 +38,8 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: fit-content;
     word-break: break-word;
-    border: 0;
+    border: 0; 
   }
 
   .facilities-row .mt-1:hover {
@@ -72,12 +71,15 @@
   }
 
   .facilities-col {
+    height: 70vh;
     flex-basis: 31%;
-    border-radius: 10px;
     margin-bottom: 5%;
     text-align: center;
+    transition: all 0.1s;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
-
   .facilities-col text-center img :hover {
     box-shadow: 10px 10px 5px #000000;
     -moz-box-shadow: 0px 10px 5px #000000;
@@ -87,12 +89,12 @@
 
   .facilities-col img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 7px 7px 15px 15px;
   }
 
   .facilities-col .image {
     width: 100%;
-    height: 45vh;
+    height: 40vh;
     object-fit: cover;
   }
 
@@ -110,7 +112,6 @@
   .facilities-col a {
     color: var(--dark-blue);
     border-bottom: 1px dashed var(--dark-blue);
-    padding: 0.8em;
     transition: all 0.1s;
   }
 
