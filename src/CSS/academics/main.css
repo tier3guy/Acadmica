@@ -2,6 +2,7 @@
 
 .fa-solid {
   transition: all 0.2s;
+  display: contents;
 }
 
 .fa-server:hover {
