@@ -7,15 +7,18 @@
   }
 
   .facilities div.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+    border-radius: 5px;
     width: 100%;
     height: 300px;
-    padding: 5px;
-    border-radius: 20px;
-    border: 2px solid #4245f3;
-    box-shadow: darkgray 0 8px 8px 0;
-    font-weight: 700;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /*font-weight: 700;*/
     font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
-
+    border: 3px solid #4245f3;
   }
   
   .facilities-row .mt-1 {
