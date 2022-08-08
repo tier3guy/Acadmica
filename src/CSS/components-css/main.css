@@ -76,24 +76,13 @@
   z-index: 1;
 }
 
-/*
-.acadmic:hover, .dsa:hover{
-  border-right: 4px solid var(--blue);
-}
-
-*/
-
 .devdo{
   z-index: 2;
   top: 25%;
   left: 0;
 }
 
-/*
-.devdo:hover{
-  border-left: 4px solid var(--blue);
-}
-*/
+
 .dsa{
   right: 0;
   bottom: 0;

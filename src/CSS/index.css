@@ -31,8 +31,27 @@ html::-webkit-scrollbar{
   box-sizing: border-box;
 }
 
+:root{
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+}
+.dark-mode{
+  --primary-color: #000106;
+  --secondary-color: #fff;
+}
+
 ul{
   margin: 0;
+}
+
+#switch-btn{
+  width: 20px;
+  cursor: pointer;
+}
+
+div .nav-links ul{
+  display: flex;
+  text-align: right;
 }
 
 html::-webkit-scrollbar-thumb{
