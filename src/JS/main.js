@@ -6,3 +6,4 @@ window.addEventListener('scroll',(e)=>{
     nav.classList.remove("add-shadow");
   }
 });
+

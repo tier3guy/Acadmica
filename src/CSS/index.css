@@ -17,6 +17,9 @@
 
 html, body{
   overflow-x: hidden;
+  --background-color: white;
+  background-color: var(--background-color);
+  transition: var(--transition-delay);
 }
 
 
@@ -30,10 +33,21 @@ html::-webkit-scrollbar{
   padding: 0;
   box-sizing: border-box;
 }
-
+body.dark{
+  --background-color:#3D3C42;
+  --blue:white;
+  --dark-blue:#7FB5FF;
+  --button-color:#1363DF;
+  --button-discord:#7FB5FF;
+  --text-color:#7FB5FF;
+  --text-color1:#1363DF;
+  --transition-delay: 1s;
+  
+}
 :root{
   --primary-color: #edf2fc;
   --secondary-color: #212121;
+  /* --background-color: white; */
 }
 .dark-mode{
   --primary-color: #000106;
@@ -78,6 +92,13 @@ html::-webkit-scrollbar-track{
   --gray: #ebecce;
   --black: #141E27;
   --grey: rgb(88, 84, 84);
+  --button-color:#4245f3;
+  --button-discord:white;
+  --text-color:#141E27;
+  --text-color1:#141E27;
+  --transition-delay: 1s;
+  
+  
 
 
   /* FONT FAMILY */
@@ -140,7 +161,7 @@ li{
 }
 
 .button-primary{
-  background: var(--blue);
+  background: var(--button-color);
   color: var(--gray);
 }
 
@@ -162,7 +183,7 @@ li{
     padding: 0.5em 1.5em;
     border-radius: 5px;
     transition: all 0.5s;
-    background: white;
+    background: var(--button-discord);
     color: var(--dark-blue);
     margin: 0 20px;
     padding: 0.8em 1.2em;
@@ -298,4 +319,26 @@ iframe:hover{
     top: 0;
   }
 
+}
+ /* new  */
+ .theme-toggle-button{
+  background-color: var(--button-discord);
+  color: var(--black);
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: .5em 1em; */
+  /* border-radius: .3em;
+  border: none;
+  outline: none; */
+  transition: var(--transition-delay);
+  transform: scale(1);
+
+
+}
+.theme-toggle-button:hover,
+.theme-toggle-button:focus{
+  transform: scale(1.1);
+ 
 }

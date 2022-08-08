@@ -46,7 +46,7 @@
 
   .facilities p {
     margin-top: 3em;
-    color: var(--black);
+    color: var(--text-color);
     font-family: var(--font-roboto);
   }
 
@@ -102,6 +102,7 @@
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: center;
+    color: var(--text-color1);
   }
 
   .facilities-col a {

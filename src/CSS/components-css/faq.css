@@ -31,7 +31,7 @@
 
 .FAQ p {
   margin-top: 3em;
-  color: var(--black);
+  color:black;
   font-family: var(--font-roboto);
 }
 
@@ -46,7 +46,7 @@
     margin: auto;
     margin-bottom: 0.8em;
     padding: 1.5em;
-    background: #f6f6f7;
+    background: var(--button-color);
 }
 
 
@@ -80,6 +80,6 @@
 .faq-content > a{
   position: revert;
   top: 8em !important;
-  color: var(--dark-blue);
+  color: var(--background-color);
   padding-bottom: 5px;
 }

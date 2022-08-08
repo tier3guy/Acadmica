@@ -1,6 +1,12 @@
+:root{
+  --navbar-color:white;
+}
+body.dark{
+  --navbar-color:#1363DF;
+}
 nav{
   position: fixed;
-  background: white;
+  background: var(--navbar-color);
   z-index: 999999;
 }
 
