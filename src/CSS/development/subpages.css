@@ -1,0 +1,33 @@
+.intro-title {
+    color: var(--blue);
+    font-family: var(--font-barlow);
+    font-size: 80px;
+}
+
+.intro {
+    font-family: var(--font-barlow);
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    font-family: var(--font-barlow);
+    color: var(--dark-blue);
+}
+
+.intro p {
+    margin-top: 1.5em;
+    color: var(--black);
+    font-family: var(--font-roboto);
+}
+
+.resource {
+    text-decoration: underline;
+    font-size: 2.5em;
+    font-family: var(--font-barlow);
+    color: var(--dark-blue);
+}
+

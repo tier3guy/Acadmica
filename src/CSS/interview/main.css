@@ -20,7 +20,25 @@ iframe{
   margin: 0;
   padding: 0;
   font-size: 1.2em;
-  border-bottom: 2px dashed var(--blue);
+  background: #5E5DF0;
+  border-radius: 4px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
 }
 
 @media(max-width: 700px){
@@ -61,13 +79,16 @@ iframe{
     position: static;
     margin: auto;
   }
-
+  
   .video-container{
     flex-direction: column;
     box-sizing: border-box;
     width: 100vw;
   }
-
+  .codingLang p {
+    width: 75%;
+    font-size: 500;
+  }
   iframe{
     width: 85%;
     margin: 0 !important;

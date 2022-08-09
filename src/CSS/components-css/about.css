@@ -1,74 +1,127 @@
-  
-  .facilities{
+  .facilities {
     font-family: var(--font-barlow);
     width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 12em;
   }
+
+  .facilities div.about{
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid #4245f3;
+    box-shadow: darkgray 0 8px 8px 0;
+    font-weight: 700;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+
+  }
   
-  .facilities p{
+  .facilities-row .mt-1 {
+    background: #4245f3;
+    border-radius: 3px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+  }
+
+  .facilities-row .mt-1:hover {
+    color: white;
+  }
+
+  .facilities p {
     margin-top: 3em;
-    color: var(--black);
+    color: var(--text-color);
     font-family: var(--font-roboto);
   }
-  
-  .facilities-col p{
+
+  .facilities-col p {
     margin-top: 1.5em;
   }
-  
-  .facilities h1{
+
+  .facilities h1 {
     font-size: 3em;
     font-family: var(--font-barlow);
-    color : var(--dark-blue);
+    color: var(--dark-blue);
   }
-  
-  .facilities-row{
+  .facilities h1 span{
+    color: #4245f3;
+  }
+  .facilities-row {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
   }
-  
-  .facilities-col{
+
+  .facilities-col {
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: center;
   }
 
-.facilities-col img{
-  width: 100%;
-  border-radius: 10px;
-}
-.facilities-col .image{
-  width: 100%;
-  height: 45vh;
-  object-fit: cover;
-}
-  .facilities-col p{
+  .facilities-col text-center img :hover {
+    box-shadow: 10px 10px 5px #000000;
+    -moz-box-shadow: 0px 10px 5px #000000;
+    -webkit-box-shadow: 0px 10px 5px #000000;
+    cursor: pointer;
+  }
+
+  .facilities-col img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .facilities-col .image {
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+  }
+
+  .facilities-col p {
     padding: 0;
     margin-bottom: 1em;
   }
-  .facilities-col h3{
+
+  .facilities-col h3 {
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: center;
+    color: var(--text-color1);
   }
-  .facilities-col a{
+
+  .facilities-col a {
     color: var(--dark-blue);
     border-bottom: 1px dashed var(--dark-blue);
     padding: 0.8em;
     transition: all 0.1s;
   }
-  .facilities-col a:hover{
+
+  .facilities-col a:hover {
     color: var(--blue);
   }
 
-  @media(max-width: 700px){
-    .facilities{
+  @media(max-width: 700px) {
+    .facilities {
       padding-top: 6em;
     }
-    .facilities-row{
-        flex-direction: column;
+
+    .facilities-row {
+      flex-direction: column;
     }
   }
