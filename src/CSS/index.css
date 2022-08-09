@@ -324,21 +324,14 @@ iframe:hover{
  .theme-toggle-button{
   background-color: var(--button-discord);
   color: var(--black);
-  /* display: flex;
+  cursor: pointer;
+  display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
-  padding: .5em 1em; */
-  /* border-radius: .3em;
-  border: none;
-  outline: none; */
-  transition: var(--transition-delay);
-  transform: scale(1);
-
-
-}
-.theme-toggle-button:hover,
-.theme-toggle-button:focus{
-  transform: scale(1.1);
- 
+  border-radius: 50% !important;
+  height: 35px !important;
+  width: 35px !important;
+  padding: 0px !important;
+  box-shadow: none;
+  margin-left: 25px;
 }
