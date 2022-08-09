@@ -12,11 +12,11 @@ window.addEventListener('load', function(){
         document.querySelector('.main-content').style.display = 'block';
     },2000)
 })
+
 document.querySelector('.theme-toggle-button').addEventListener('click',() =>{
-    document.body.classList.toggle('dark')
+    document.body.classList.toggle('dark');
+    document.querySelector('.theme-icon').classList.toggle("fa-sun");
 })
 document.querySelector('.theme-toggle-button2').addEventListener('click',() =>{
     document.body.classList.toggle('dark')
 })
-
-// console.log(document.querySelectorAll('.theme-toggle-button'));
