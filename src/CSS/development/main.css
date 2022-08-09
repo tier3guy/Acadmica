@@ -1,8 +1,9 @@
 .dev-image{
-  height: 75%;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-  margin-top: -20em;
+  margin-top: -2em;
+  object-fit: cover;
+  width: 100%;
 }
 
 .tracks{
