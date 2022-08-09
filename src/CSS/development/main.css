@@ -5,6 +5,29 @@
   margin-top: -20em;
 }
 
+.tracks{
+  display: flex; 
+  justify-content: space-around; 
+  flex-flow: row wrap;
+  margin: 10px auto;
+}
+
+.tracks-2{
+  display: flex; 
+  justify-content: space-around; 
+  flex-flow: row wrap;
+  margin: 20px auto;
+  width: 75%;
+}
+
+.tracks-2 li{
+  padding: 30px;
+}
+
+.tracks li{
+  padding: 30px;
+}
+
 .dev-main-para{
   font-size: 1.2em;
 }
