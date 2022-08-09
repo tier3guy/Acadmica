@@ -149,7 +149,7 @@ li{
   padding: 0.5em 1.5em;
   border-radius: 5px;
   transition: all 0.5s;
-  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }  
 
 .btn-join-anchor-tag {
@@ -174,7 +174,11 @@ li{
     padding: 0.6em 1.5em;
     border-radius: 5px;
     font-size: 1.1em;
-    box-shadow: #5e5df0 0 10px 20px -10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+}
+.bs{
+  box-shadow: #5e5df0 0 10px 20px -10px;
 }
 
 .btn-discord{
@@ -334,4 +338,8 @@ iframe:hover{
   padding: 0px !important;
   box-shadow: none;
   margin-left: 25px;
+}
+
+.subscribe-btn > a{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
 }

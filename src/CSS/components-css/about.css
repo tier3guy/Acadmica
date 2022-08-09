@@ -9,13 +9,12 @@
   .facilities div.about{
     width: 100%;
     height: 300px;
-    padding: 5px;
+    padding: 5px 20px;
+    padding-bottom: 15px;
     border-radius: 20px;
-    border: 2px solid #4245f3;
-    box-shadow: darkgray 0 8px 8px 0;
-    font-weight: 700;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
-
+    margin-top: 2em;
   }
   
   .facilities-row .mt-1 {
@@ -27,7 +26,6 @@
     cursor: pointer;
     font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
     font-size: 16px;
-    font-weight: 700;
     line-height: 24px;
     opacity: 1;
     outline: 0 solid transparent;
