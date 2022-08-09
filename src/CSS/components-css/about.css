@@ -2,6 +2,7 @@
     font-family: var(--font-barlow);
     width: 90%;
     margin: auto;
+    margin-top: 3em;
     text-align: center;
     padding-top: 12em;
   }
@@ -20,7 +21,7 @@
   .facilities-row .mt-1 {
     background: #4245f3;
     border-radius: 3px;
-    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     box-sizing: border-box;
     color: #FFFFFF;
     cursor: pointer;

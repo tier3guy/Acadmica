@@ -1,15 +1,15 @@
 .FAQ {
   margin: auto;
-  padding-top: 6em;
+  margin-top: 3em;
+  padding-top: 5em !important;
   text-align: center;
-  border: 3px solid grey;
   border-radius: 20px;
-  box-shadow: 0 5px 5px 0;
   height: 40%;
   width: 70%;
   padding: 30px;
   padding-bottom: 10px;
   margin-bottom: 30px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .FAQ .faq-row:hover{
