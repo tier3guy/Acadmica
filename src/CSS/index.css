@@ -35,7 +35,6 @@ html::-webkit-scrollbar{
 }
 body.dark{
   --background-color:#3D3C42;
-  --laoding-bg: #000;
   --blue:white;
   --dark-blue:#7FB5FF;
   --button-color:#1363DF;
@@ -98,7 +97,6 @@ html::-webkit-scrollbar-track{
   --text-color:#141E27;
   --text-color1:#141E27;
   --transition-delay: 1s;
-  --loading-bg: #fff;
   
   
 
@@ -256,7 +254,7 @@ iframe:hover{
   justify-content: center;
   height: 100%;
   width: 100%;
-  background-color: var(--laoding-bg);
+  background-color: white;
 }
 
 .loading{
@@ -364,9 +362,4 @@ iframe:hover{
     margin:  0;
     width: 48%;
   }
-}
-
-span#faq-quest{
-  width: 80%;
-  text-align: start;
 }
