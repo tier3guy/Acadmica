@@ -83,3 +83,11 @@
   color: var(--background-color);
   padding-bottom: 5px;
 }
+
+@media(max-width: 700px) {
+  .FAQ{
+    width: 92%;
+    padding-left: 15px; 
+    padding-right: 15px; 
+  }
+}

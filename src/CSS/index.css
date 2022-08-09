@@ -343,3 +343,23 @@ iframe:hover{
 .subscribe-btn > a{
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
 }
+
+
+
+@media(max-width: 700px) {
+  .btn-discord-small{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .main-btn-container{
+    margin-top: 2em !important;
+    margin: auto !important;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .btn-join, .btn-discord-small{
+    margin:  0;
+    width: 48%;
+  }
+}

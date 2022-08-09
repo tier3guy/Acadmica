@@ -121,6 +121,11 @@
     }
 
     .facilities-row {
+      margin-top: 3em;
+      flex-direction: column;
+    }
+    .facilities-col {
+      margin-top: 1.5em;
       flex-direction: column;
     }
   }
