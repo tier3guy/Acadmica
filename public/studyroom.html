@@ -13,7 +13,12 @@
     ></script>
 
     <!-- Favicon -->
-    <link rel="icon" href="../src/assets/favicon.png" type="image/png" sizes="32X32">
+    <link
+      rel="icon"
+      href="../src/assets/favicon.png"
+      type="image/png"
+      sizes="32X32"
+    />
 
     <!-- BOOTSTRAP CDN LINK GOES HERE -->
     <link
@@ -26,7 +31,6 @@
     <link rel="stylesheet" href="../src/CSS/index.css" />
   </head>
   <body>
-    
     <!-- Navbar starts here -->
     <nav id="nav" class="center p-4 w-100">
       <div
@@ -41,7 +45,9 @@
               <a href="https://discord.gg/ZkHXnxhda7">Discord Server</a>
             </li>
             <li class="pl-3 pr-3"><a href="./503.html">Study Statistics</a></li>
-            <li class="pl-3 pr-3"><a href="https://github.com/tier3guy/Acadmica">GitHub</a></li>
+            <li class="pl-3 pr-3">
+              <a href="https://github.com/tier3guy/Acadmica">GitHub</a>
+            </li>
           </ul>
         </div>
 
@@ -55,36 +61,105 @@
         </div>
       </div>
     </nav>
-    <!-- Navbar ends here -->
 
+    <nav id="responsive-nav">
+      <div class="faq-box">
+        <div class="faq-row res-nav-row">
+          <button class="faq-btn">
+            <a class="logo" href="#"> @cadmica! </a>
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="faq-content responsive-nav-content">
+            <ul class="nav-items-response">
+              <li><a href="public/studyroom.html">Study Room</a></li>
+              <li>
+                <a href="https://discord.gg/ZkHXnxhda7">Discord Server</a>
+              </li>
+              <li>
+                <a href="src/pages/Stats/stats.html">Study Statistics</a>
+              </li>
+              <li>
+                <a href="https://github.com/tier3guy/Acadmica">GitHub</a>
+              </li>
+              <!-- <li><a href="#"> <button class="theme-toggle-button btn-container center button-primary button-all">
+              <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M7.5,2C5.71,3.15 4.5,5.18 4.5,7.5C4.5,9.82 5.71,11.85 7.53,13C4.46,13 2,10.54 2,7.5A5.5,5.5 0 0,1 7.5,2M19.07,3.5L20.5,4.93L4.93,20.5L3.5,19.07L19.07,3.5M12.89,5.93L11.41,5L9.97,6L10.39,4.3L9,3.24L10.75,3.12L11.33,1.47L12,3.1L13.73,3.13L12.38,4.26L12.89,5.93M9.59,9.54L8.43,8.81L7.31,9.59L7.65,8.27L6.56,7.44L7.92,7.35L8.37,6.06L8.88,7.33L10.24,7.36L9.19,8.23L9.59,9.54M19,13.5A5.5,5.5 0 0,1 13.5,19C12.28,19 11.15,18.6 10.24,17.93L17.93,10.24C18.6,11.15 19,12.28 19,13.5M14.6,20.08L17.37,18.93L17.13,22.28L14.6,20.08M18.93,17.38L20.08,14.61L22.28,17.15L18.93,17.38M20.08,12.42L18.94,9.64L22.28,9.88L20.08,12.42M9.63,18.93L12.4,20.08L9.87,22.27L9.63,18.93Z" />
+              </svg>
+              Swap themes
+          </button></a></li> -->
 
-    <div class="studyroom-container m-auto">
-      
-      <div class="main-container-studyroom w-100 d-flex justify-content-between align-items-center">
-        <div class="img-container">
-          <img src="https://images.unsplash.com/photo-1607013407627-6ee814329547?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=664&q=80" alt="acad" class="sr-img acadmic">
-          <img src="https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="devdo" class="sr-img devdo">
-          <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="dsa" class="sr-img dsa">
-        </div>
-      
-      
-        <div class="text-container-studyroom">
-
-          <h1>We have designed our study room </h1>
-          <h1 class="mb-5">into <span>three"</span> majors</h1>
-          
-          <div class="mt-5 icon-container">
-            scroll down to explore them all.<i class="fa-solid fa-arrow-down"></i>
+              <li>
+                <button class="theme-toggle-button2 button-primary button-all">
+                  <svg
+                    class="icon"
+                    style="width: 24px; height: 24px"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M7.5,2C5.71,3.15 4.5,5.18 4.5,7.5C4.5,9.82 5.71,11.85 7.53,13C4.46,13 2,10.54 2,7.5A5.5,5.5 0 0,1 7.5,2M19.07,3.5L20.5,4.93L4.93,20.5L3.5,19.07L19.07,3.5M12.89,5.93L11.41,5L9.97,6L10.39,4.3L9,3.24L10.75,3.12L11.33,1.47L12,3.1L13.73,3.13L12.38,4.26L12.89,5.93M9.59,9.54L8.43,8.81L7.31,9.59L7.65,8.27L6.56,7.44L7.92,7.35L8.37,6.06L8.88,7.33L10.24,7.36L9.19,8.23L9.59,9.54M19,13.5A5.5,5.5 0 0,1 13.5,19C12.28,19 11.15,18.6 10.24,17.93L17.93,10.24C18.6,11.15 19,12.28 19,13.5M14.6,20.08L17.37,18.93L17.13,22.28L14.6,20.08M18.93,17.38L20.08,14.61L22.28,17.15L18.93,17.38M20.08,12.42L18.94,9.64L22.28,9.88L20.08,12.42M9.63,18.93L12.4,20.08L9.87,22.27L9.63,18.93Z"
+                    />
+                  </svg>
+                  Swap themes
+                </button>
+              </li>
+            </ul>
           </div>
         </div>
+      </div>
+    </nav>
+    <!-- Navbar ends here -->
 
+    <div class="studyroom-container m-auto">
+      <div
+        class="main-container-studyroom w-100 d-flex justify-content-between align-items-center"
+      >
+        <div class="img-container">
+          <img
+            src="https://images.unsplash.com/photo-1607013407627-6ee814329547?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=664&q=80"
+            alt="acad"
+            class="sr-img acadmic"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+            alt="devdo"
+            class="sr-img devdo"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt="dsa"
+            class="sr-img dsa"
+          />
+        </div>
+
+        <div class="text-container-studyroom">
+          <h1>We have designed our study room</h1>
+          <h1 class="mb-5">into <span>three"</span> majors</h1>
+
+          <div class="mt-5 icon-container">
+            scroll down to explore them all.<i
+              class="fa-solid fa-arrow-down"
+            ></i>
+          </div>
+        </div>
       </div>
 
       <div class="room-main">
-        <p>Genrally there are three tracks that you will in your college, one your college itself that we call as acadmics another one is coding and solving DSA questions, that we call as interview preparation and the third one is the projects building that we call as development. Further insides these three we much more sub-categories like in academics we have divided this academics into many streams that we generally see B.Tech. In development we have many tracks such web, android, blockchain and much more. Enjoy all the free and the best resources over the internet.</p>
-      
-        <a href="../src/pages/academics/syllabus.html"><h1 class="mt-5 mb-5">Makaut based UG <span>Syllabus"</span></h1></a>
+        <p>
+          Genrally there are three tracks that you will in your college, one
+          your college itself that we call as acadmics another one is coding and
+          solving DSA questions, that we call as interview preparation and the
+          third one is the projects building that we call as development.
+          Further insides these three we much more sub-categories like in
+          academics we have divided this academics into many streams that we
+          generally see B.Tech. In development we have many tracks such web,
+          android, blockchain and much more. Enjoy all the free and the best
+          resources over the internet.
+        </p>
 
+        <a href="../src/pages/academics/syllabus.html"
+          ><h1 class="mt-5 mb-5">Makaut based UG <span>Syllabus"</span></h1></a
+        >
 
         <!-- TODO : CONTENT WRITING
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic omnis deserunt odit cupiditate voluptate, dolorem doloribus provident quod quae quasi dolorum repudiandae. Totam in rerum natus repudiandae error dicta fugiat.
@@ -108,7 +183,9 @@
                 src="https://images.unsplash.com/photo-1561089489-f13d5e730d72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
               />
               <h3 class="text-center">Academics</h3>
-              <p>Stream seperated academics notes/study materials at one place.</p>
+              <p>
+                Stream seperated academics notes/study materials at one place.
+              </p>
               <a class="mt-1" href="../src/pages/academics/main.html"
                 >Visit Academics</a
               >
@@ -139,24 +216,27 @@
             </div>
           </div>
         </section>
-
       </div>
-
     </div>
-
 
     <!-- Footer starts here -->
     <section>
       <footer>
-        <hr class="footer-divider"/>
+        <hr class="footer-divider" />
         <div class="footer-row">
           <div class="footer-col-first">
             <h2>Acadmica</h2>
             <p>Help you to study more often</p>
             <p>than before</p>
-            <a href="https://www.buymeacoffee.com/gavinash62D" class="buyMeCoffee-btn">
+            <a
+              href="https://www.buymeacoffee.com/gavinash62D"
+              class="buyMeCoffee-btn"
+            >
               <div class="mt-5 d-flex align-items-center">
-                <img class="img-buy-coffee mr-3" src="../src/assets/buyMeCoffeeLogo.png">
+                <img
+                  class="img-buy-coffee mr-3"
+                  src="../src/assets/buyMeCoffeeLogo.png"
+                />
                 Help us grow more
               </div>
             </a>
@@ -191,7 +271,9 @@
             </h2>
             <ul>
               <li><a href="">Study Room</a></li>
-              <li><a href="https://discord.gg/ZkHXnxhda7">Discord Server</a></li>
+              <li>
+                <a href="https://discord.gg/ZkHXnxhda7">Discord Server</a>
+              </li>
               <li><a href="">Study Statistics</a></li>
             </ul>
           </div>
@@ -220,8 +302,15 @@
     <script src="../src/JS/faq.js"></script>
     <script src="../src/JS/main.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
