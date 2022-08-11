@@ -46,13 +46,21 @@
 }
 .sem-container {
   margin-top: 10em;
-  position: absolute;
+  /* position: absolute; */
   right: 0;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   flex-direction: column;
 }
+@media (max-width: 768px) {
+  .sem-container {
+    /* flex-direction: column; */
+    display: flex;
+    align-items: center;
+  }
+}
+  
 
 .sem-container ul {
   display: flex;
@@ -70,9 +78,9 @@
 }
 
 .btn-sem:hover {
-  background: rgba(92, 92, 255, 0.171);
+  background: rgba(6, 6, 240, 0.548);
   border: 1px solid var(--blue);
-  color: black;
+  color: White;
 }
 
 .syllabus-link {
@@ -81,4 +89,7 @@
   margin-top: 2em;
   font-size: 1.1em !important;
   padding-bottom: 12px !important;
+}
+.btn-all{
+  margin: 5px;
 }
