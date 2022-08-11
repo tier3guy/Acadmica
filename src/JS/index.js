@@ -14,9 +14,10 @@ window.addEventListener('load', function(){
 })
 
 document.querySelector('.theme-toggle-button').addEventListener('click',() =>{
-    document.body.classList.toggle('dark');
-    document.querySelector('.theme-icon').classList.toggle("fa-sun");
+    console.log("click")
+    document.body.classList.toggle('dark')
 })
 document.querySelector('.theme-toggle-button2').addEventListener('click',() =>{
+    console.log("click")
     document.body.classList.toggle('dark')
 })
