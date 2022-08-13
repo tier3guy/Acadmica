@@ -28,7 +28,12 @@
   border: none !important;
 }
 
-.sub-name > .hwn{
+.sub-name{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+ .hwn{
   margin-bottom: 1em;
   color: var(--dark-blue);
   font-size: large;
@@ -39,3 +44,13 @@
   margin-top: 0.5em;
   margin-bottom: 0;
 }
+.sem-name{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+/* .space{
+  top: 10vh;
+  height: 50vh;
+  margin-bottom: 1em;
+} */

@@ -3,11 +3,13 @@
   min-height : 100vh;
   margin: 0 auto;
   position: relative;
+  display: grid;
+  grid-row-end: auto;
 }
 
 .text-container{
   margin-top: 10em;
-  width: 35%;
+  width: 50%;
   position: absolute;
   left: 0;
   font-family: var(--font-barlow);
