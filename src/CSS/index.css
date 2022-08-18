@@ -15,7 +15,8 @@
 @import url('./interview/main.css');
 
 
-html, body{
+html,
+body {
   overflow-x: hidden;
   --background-color: white;
   background-color: var(--background-color);
@@ -24,135 +25,139 @@ html, body{
 
 
 
-html::-webkit-scrollbar{
+html::-webkit-scrollbar {
   width: 0.7vw;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body.dark{
-  --background-color:#3D3C42;
+
+body.dark {
+  --background-color: #3D3C42;
   --laoding-bg: #000;
-  --blue:white;
-  --dark-blue:#7FB5FF;
-  --button-color:#1363DF;
-  --button-discord:#7FB5FF;
-  --text-color:#7FB5FF;
-  --text-color1:#1363DF;
+  --blue: white;
+  --dark-blue: #7FB5FF;
+  --button-color: #1363DF;
+  --button-discord: #7FB5FF;
+  --text-color: #7FB5FF;
+  --text-color1: #1363DF;
   --transition-delay: 1s;
-  
+
 }
-:root{
+
+:root {
   --primary-color: #edf2fc;
   --secondary-color: #212121;
   /* --background-color: white; */
 }
-.dark-mode{
+
+.dark-mode {
   --primary-color: #000106;
   --secondary-color: #fff;
 }
 
-ul{
+ul {
   margin: 0;
 }
 
-#switch-btn{
+#switch-btn {
   width: 20px;
   cursor: pointer;
 }
 
-div .nav-links ul{
+div .nav-links ul {
   display: flex;
   text-align: right;
 }
 
-html::-webkit-scrollbar-thumb{
-  background: linear-gradient(#3756f2,#4245F3);
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(#3756f2, #4245F3);
   border: .25em solid blue black;
-  border-radius: 100vw;  
+  border-radius: 100vw;
 }
 
-html::-webkit-scrollbar-thumb:hover{
+html::-webkit-scrollbar-thumb:hover {
   background-color: #5c5ef5;
 }
 
-html::-webkit-scrollbar-track{
+html::-webkit-scrollbar-track {
   background-color: #ffffff;
   border-radius: 100vw;
   margin-block: .5em;
 }
 
-:root{
+:root {
 
   /* COLOR PALETTE */
-  --dark-blue : #081B61;
-  --blue : #4245f3;
+  --dark-blue: #081B61;
+  --blue: #4245f3;
   --gray: #ebecce;
   --black: #141E27;
   --grey: rgb(88, 84, 84);
-  --button-color:#4245f3;
-  --button-discord:white;
-  --text-color:#141E27;
-  --text-color1:#141E27;
+  --button-color: #4245f3;
+  --button-discord: white;
+  --text-color: #141E27;
+  --text-color1: #141E27;
   --transition-delay: 1s;
   --loading-bg: #fff;
-  
-  
+
+
 
 
   /* FONT FAMILY */
-  --font-barlow : 'Barlow';
-  --font-nato : 'Noto Serif';
-  --font-roboto : 'Roboto';
+  --font-barlow: 'Barlow';
+  --font-nato: 'Noto Serif';
+  --font-roboto: 'Roboto';
 
 }
 
-.add-shadow{
+.add-shadow {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
 }
 
 
-body, a{
+body,
+a {
   color: var(--black);
   font-family: var(--font-roboto);
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
-.center{
+.center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.space-between{
+.space-between {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.logo{
+.logo {
   font-family: var(--font-barlow);
   font-size: 1.8em;
-  color : var(--dark-blue);
+  color: var(--dark-blue);
 }
 
-li{
+li {
   text-decoration: none;
   list-style: none;
 }
 
-.button-all{
+.button-all {
   border: none;
   outline: none;
   padding: 0.5em 1.5em;
   border-radius: 5px;
   transition: all 0.5s;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-}  
+}
 
 .btn-join-anchor-tag {
   color: white;
@@ -162,92 +167,98 @@ li{
   color: white;
 }
 
-.button-primary{
+.button-primary {
   background: var(--button-color);
   color: var(--gray);
 }
 
-.button-primary:hover{
+.button-primary:hover {
   background-color: #0b1db4;
 }
 
-.btn-join, .btn-discord{
-    color: white;
-    padding: 0.6em 1.5em;
-    border-radius: 5px;
-    font-size: 1.1em;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    
+.btn-join,
+.btn-discord {
+  color: white;
+  padding: 0.6em 1.5em;
+  border-radius: 5px;
+  font-size: 1.1em;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
 }
-.bs{
+
+.bs {
   box-shadow: #5e5df0 0 10px 20px -10px;
 }
 
-.btn-discord{
-    border: none;
-    outline: none;
-    padding: 0.5em 1.5em;
-    border-radius: 5px;
-    transition: all 0.5s;
-    background: var(--button-discord);
-    color: var(--dark-blue);
-    margin: 0 20px;
-    padding: 0.8em 1.2em;
+.btn-discord {
+  border: none;
+  outline: none;
+  padding: 0.5em 1.5em;
+  border-radius: 5px;
+  transition: all 0.5s;
+  background: var(--button-discord);
+  color: var(--dark-blue);
+  margin: 0 20px;
+  padding: 0.8em 1.2em;
 }
 
 .btn-discord:hover {
-    background-color: #eeebeb;
+  background-color: #eeebeb;
 }
-a:hover{
+
+a:hover {
   text-decoration: none;
 }
+
 .img-responsive {
-    margin-right: 1.5em;
-    width: 33em;
-    height: 29.5em;
+  margin-right: 1.5em;
+  width: 33em;
+  height: 29.5em;
 }
-.googleForm{
+
+.googleForm {
   font-weight: bold;
 }
 
-.googleForm:hover{
+.googleForm:hover {
   color: var(--blue);
 }
 
-.button-primary:hover{
+.button-primary:hover {
   text-decoration: none;
-  color : white;
+  color: white;
 }
 
-.logo:hover{
+.logo:hover {
   color: var(--dark-blue);
 }
-.footer-row2{
+
+.footer-row2 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.footer-divider{
+.footer-divider {
   margin: 0 auto;
 }
 
-#join_study_room{
+#join_study_room {
   color: #ffffff;
   font-weight: bold;
 }
 
-iframe{
+iframe {
   transition: all 0.1s;
 }
 
-iframe:hover{
+iframe:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 /* Loading Animation */
 
-.wrapper{
+.wrapper {
   position: absolute;
   top: 0;
   left: 0;
@@ -259,11 +270,11 @@ iframe:hover{
   background-color: var(--laoding-bg);
 }
 
-.loading{
+.loading {
   position: relative;
 }
 
-.content{
+.content {
   color: var(--blue);
   display: inline-block;
   margin-left: 10px;
@@ -278,6 +289,7 @@ iframe:hover{
   height: 37px;
   width: 15px;
 }
+
 .bounceball:before {
   position: absolute;
   content: "";
@@ -289,7 +301,7 @@ iframe:hover{
   background-color: var(--blue);
   transform-origin: 50%;
   -webkit-animation: bounce 500ms alternate infinite ease;
-          animation: bounce 500ms alternate infinite ease;
+  animation: bounce 500ms alternate infinite ease;
 }
 
 @-webkit-keyframes bounce {
@@ -299,11 +311,13 @@ iframe:hover{
     border-radius: 60px 60px 20px 20px;
     transform: scaleX(2);
   }
+
   35% {
     height: 15px;
     border-radius: 50%;
     transform: scaleX(1);
   }
+
   100% {
     top: 0;
   }
@@ -316,18 +330,21 @@ iframe:hover{
     border-radius: 60px 60px 20px 20px;
     transform: scaleX(2);
   }
+
   35% {
     height: 15px;
     border-radius: 50%;
     transform: scaleX(1);
   }
+
   100% {
     top: 0;
   }
 
 }
- /* new  */
- .theme-toggle-button{
+
+/* new  */
+.theme-toggle-button {
   background-color: var(--button-discord);
   color: var(--black);
   cursor: pointer;
@@ -342,31 +359,58 @@ iframe:hover{
   margin-left: 25px;
 }
 
-.subscribe-btn > a{
+.subscribe-btn>a {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
 }
 
 
 
 @media(max-width: 700px) {
-  .btn-discord-small{
+  .btn-discord-small {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
   }
-  .main-btn-container{
+
+  .main-btn-container {
     margin-top: 2em !important;
     margin: auto !important;
     display: flex !important;
     justify-content: space-between !important;
   }
-  .btn-join, .btn-discord-small{
-    margin:  0;
+
+  .btn-join,
+  .btn-discord-small {
+    margin: 0;
     width: 48%;
   }
 }
 
-span#faq-quest{
+@media (max-width: 1200px) {
+  .main-container h1 {
+    font-size: 2em;
+  }
+
+  .image-container img {
+    height: 18em;
+    width: auto;
+  }
+}
+
+@media (max-width: 980px) {
+  .image-container img {
+    height: 16em;
+    width: auto;
+  }
+}
+
+@media (min-width: 1300px) {
+  .facilities {
+    margin-top: -50em;
+  }
+}
+
+span#faq-quest {
   width: 80%;
   text-align: start;
 }
