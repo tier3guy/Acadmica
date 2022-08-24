@@ -404,9 +404,43 @@ iframe:hover {
   }
 }
 
-@media (min-width: 1300px) {
-  .facilities {
-    margin-top: -50em;
+@media (max-width: 849px){
+    .image-container{
+      margin: 0 auto;
+      margin-top: 5em;
+    }
+}
+
+@media (max-width: 440px){
+  .image-container img {
+    height: 15em;
+    width: auto;
+  }
+}
+
+@media (max-width: 420px){
+  .image-container img {
+    height: 14em;
+    width: auto;  
+  }
+}
+
+@media (max-width: 380px){
+  .image-container img {
+    height: 13em;
+    width: auto;
+  }
+}
+@media (max-width: 365px){
+  .image-container img {
+    height: 12em;
+    width: auto;
+  }
+}
+@media (max-width: 340px){
+  .image-container img {
+    height: 11em;
+    width: auto;
   }
 }
 
