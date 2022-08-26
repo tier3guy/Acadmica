@@ -8,107 +8,156 @@
 @import url('./components-css/footer.css');
 @import url('./components-css/subscribe.css');
 @import url('./development/main.css');
+@import url('./development/subpages.css');
 @import url('./academics/main.css');
 @import url('./components-css/faq.css');
 @import url('./academics/syllabus.css');
 @import url('./interview/main.css');
 
 
-html, body{
+html,
+body {
   overflow-x: hidden;
+  --background-color: white;
+  background-color: var(--background-color);
+  transition: var(--transition-delay);
 }
 
 
 
-html::-webkit-scrollbar{
+html::-webkit-scrollbar {
   width: 0.7vw;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-ul{
+body.dark {
+  --background-color: #3D3C42;
+  --laoding-bg: #000;
+  --blue: white;
+  --dark-blue: #7FB5FF;
+  --button-color: #1363DF;
+  --button-discord: #7FB5FF;
+  --text-color: #7FB5FF;
+  --text-color1: #1363DF;
+  --transition-delay: 1s;
+
+}
+
+:root {
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+  /* --background-color: white; */
+}
+
+.dark-mode {
+  --primary-color: #000106;
+  --secondary-color: #fff;
+}
+
+ul {
   margin: 0;
 }
 
-html::-webkit-scrollbar-thumb{
-  background: linear-gradient(#3756f2,#4245F3);
-  border: .25em solid blue black;
-  border-radius: 100vw;  
+#switch-btn {
+  width: 20px;
+  cursor: pointer;
 }
 
-html::-webkit-scrollbar-thumb:hover{
+div .nav-links ul {
+  display: flex;
+  text-align: right;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(#3756f2, #4245F3);
+  border: .25em solid blue black;
+  border-radius: 100vw;
+}
+
+html::-webkit-scrollbar-thumb:hover {
   background-color: #5c5ef5;
 }
 
-html::-webkit-scrollbar-track{
+html::-webkit-scrollbar-track {
   background-color: #ffffff;
   border-radius: 100vw;
   margin-block: .5em;
 }
 
-:root{
+:root {
 
   /* COLOR PALETTE */
-  --dark-blue : #081B61;
-  --blue : #4245f3;
+  --dark-blue: #081B61;
+  --blue: #4245f3;
   --gray: #ebecce;
   --black: #141E27;
   --grey: rgb(88, 84, 84);
+  --button-color: #4245f3;
+  --button-discord: white;
+  --text-color: #141E27;
+  --text-color1: #141E27;
+  --transition-delay: 1s;
+  --loading-bg: #fff;
+
+
 
 
   /* FONT FAMILY */
-  --font-barlow : 'Barlow';
-  --font-nato : 'Noto Serif';
-  --font-roboto : 'Roboto';
+  --font-barlow: 'Barlow';
+  --font-nato: 'Noto Serif';
+  --font-roboto: 'Roboto';
 
 }
 
-.add-shadow{
+.add-shadow {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
 }
 
 
-body, a{
+body,
+a {
   color: var(--black);
   font-family: var(--font-roboto);
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
-.center{
+.center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.space-between{
+.space-between {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.logo{
+.logo {
   font-family: var(--font-barlow);
   font-size: 1.8em;
-  color : var(--dark-blue);
+  color: var(--dark-blue);
 }
 
-li{
+li {
   text-decoration: none;
   list-style: none;
 }
 
-.button-all{
+.button-all {
   border: none;
   outline: none;
   padding: 0.5em 1.5em;
-  border-radius: 35px;
+  border-radius: 5px;
   transition: all 0.5s;
-}  
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
 
 .btn-join-anchor-tag {
   color: white;
@@ -118,74 +167,98 @@ li{
   color: white;
 }
 
-.button-primary{
-  background: var(--blue);
+.button-primary {
+  background: var(--button-color);
   color: var(--gray);
 }
 
-.button-primary:hover{
+.button-primary:hover {
   background-color: #0b1db4;
 }
 
-.btn-join, .btn-discord{
+.btn-join,
+.btn-discord {
   color: white;
-  padding: 0.8em 2.5em;
+  padding: 0.6em 1.5em;
+  border-radius: 5px;
   font-size: 1.1em;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
 }
 
-.btn-discord{
-  background: white;
-  color : var(--dark-blue);
-  margin : 0 20px;
+.bs {
+  box-shadow: #5e5df0 0 10px 20px -10px;
+}
+
+.btn-discord {
+  border: none;
+  outline: none;
+  padding: 0.5em 1.5em;
+  border-radius: 5px;
+  transition: all 0.5s;
+  background: var(--button-discord);
+  color: var(--dark-blue);
+  margin: 0 20px;
   padding: 0.8em 1.2em;
 }
 
-a:hover{
+.btn-discord:hover {
+  background-color: #eeebeb;
+}
+
+a:hover {
   text-decoration: none;
 }
 
-.googleForm{
+.img-responsive {
+  margin-right: 1.5em;
+  width: 33em;
+  height: 29.5em;
+}
+
+.googleForm {
   font-weight: bold;
 }
 
-.googleForm:hover{
+.googleForm:hover {
   color: var(--blue);
 }
 
-.button-primary:hover{
+.button-primary:hover {
   text-decoration: none;
-  color : white;
+  color: white;
 }
 
-.logo:hover{
+.logo:hover {
   color: var(--dark-blue);
 }
-.footer-row2{
+
+.footer-row2 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.footer-divider{
+.footer-divider {
   margin: 0 auto;
 }
 
-#join_study_room{
+#join_study_room {
   color: #ffffff;
   font-weight: bold;
 }
 
-iframe{
+iframe {
   transition: all 0.1s;
 }
 
-iframe:hover{
+iframe:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 /* Loading Animation */
 
-.wrapper{
+.wrapper {
   position: absolute;
   top: 0;
   left: 0;
@@ -194,14 +267,14 @@ iframe:hover{
   justify-content: center;
   height: 100%;
   width: 100%;
-  background-color: white;
+  background-color: var(--laoding-bg);
 }
 
-.loading{
+.loading {
   position: relative;
 }
 
-.content{
+.content {
   color: var(--blue);
   display: inline-block;
   margin-left: 10px;
@@ -216,6 +289,7 @@ iframe:hover{
   height: 37px;
   width: 15px;
 }
+
 .bounceball:before {
   position: absolute;
   content: "";
@@ -227,7 +301,7 @@ iframe:hover{
   background-color: var(--blue);
   transform-origin: 50%;
   -webkit-animation: bounce 500ms alternate infinite ease;
-          animation: bounce 500ms alternate infinite ease;
+  animation: bounce 500ms alternate infinite ease;
 }
 
 @-webkit-keyframes bounce {
@@ -237,11 +311,13 @@ iframe:hover{
     border-radius: 60px 60px 20px 20px;
     transform: scaleX(2);
   }
+
   35% {
     height: 15px;
     border-radius: 50%;
     transform: scaleX(1);
   }
+
   100% {
     top: 0;
   }
@@ -254,13 +330,121 @@ iframe:hover{
     border-radius: 60px 60px 20px 20px;
     transform: scaleX(2);
   }
+
   35% {
     height: 15px;
     border-radius: 50%;
     transform: scaleX(1);
   }
+
   100% {
     top: 0;
   }
 
+}
+
+/* new  */
+.theme-toggle-button {
+  background-color: var(--button-discord);
+  color: var(--black);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50% !important;
+  height: 35px !important;
+  width: 35px !important;
+  padding: 0px !important;
+  box-shadow: none;
+  margin-left: 25px;
+}
+
+.subscribe-btn>a {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
+}
+
+
+
+@media(max-width: 700px) {
+  .btn-discord-small {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .main-btn-container {
+    margin-top: 2em !important;
+    margin: auto !important;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  .btn-join,
+  .btn-discord-small {
+    margin: 0;
+    width: 48%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-container h1 {
+    font-size: 2em;
+  }
+
+  .image-container img {
+    height: 18em;
+    width: auto;
+  }
+}
+
+@media (max-width: 980px) {
+  .image-container img {
+    height: 16em;
+    width: auto;
+  }
+}
+
+@media (max-width: 849px){
+    .image-container{
+      margin: 0 auto;
+      margin-top: 5em;
+    }
+}
+
+@media (max-width: 440px){
+  .image-container img {
+    height: 15em;
+    width: auto;
+  }
+}
+
+@media (max-width: 420px){
+  .image-container img {
+    height: 14em;
+    width: auto;  
+  }
+}
+
+@media (max-width: 380px){
+  .image-container img {
+    height: 13em;
+    width: auto;
+  }
+}
+@media (max-width: 365px){
+  .image-container img {
+    height: 12em;
+    width: auto;
+  }
+}
+@media (max-width: 340px){
+  .image-container img {
+    height: 11em;
+    width: auto;
+  }
+}
+
+span#faq-quest {
+  width: 80%;
+  text-align: start;
 }
