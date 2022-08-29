@@ -19,7 +19,7 @@ html,
 body {
   overflow-x: hidden;
   --background-color: white;
-  background-color: var(--background-color);
+  background-image: var(--background-image);
   transition: var(--transition-delay);
 }
 
@@ -36,7 +36,7 @@ html::-webkit-scrollbar {
 }
 
 body.dark {
-  --background-color: #3D3C42;
+  --background-image: linear-gradient(90deg, #fcfcfc, white);
   --laoding-bg: #000;
   --blue: white;
   --dark-blue: #7FB5FF;

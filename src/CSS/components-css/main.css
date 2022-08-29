@@ -18,7 +18,7 @@
 }
 
 .text-container .title{
-  color: var(--blue);
+  color: blue;
   font-size: 3em;
 }
 
