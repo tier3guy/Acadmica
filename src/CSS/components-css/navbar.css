@@ -14,15 +14,17 @@ nav > .nav-container{
   padding: 0 1.2em;
 }
 
-nav > .nav-links > ul > li{
-  color: var(--gray);
+.nav-items-a{
+  color: var(--text-color8);
   transition: all 0.5s;
 }
 
-nav > .nav-links > ul > li:hover{
-  color: var(--dark-blue);
-  text-decoration: none;
+.nav-items-a:hover{
+  color: var(--text-color9);
+  transition: all 0.5s;
 }
+
+
 
 #responsive-nav{
   display: none;

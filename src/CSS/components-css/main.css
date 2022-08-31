@@ -13,12 +13,14 @@
   position: absolute;
   left: 0;
   font-family: var(--font-barlow);
-  color : var(--dark-blue);
+  /* color : var(--dark-blue); */
+  color: var(--text-color4);
   
 }
 
 .text-container .title{
-  color: var(--blue);
+  /* color: var(--blue); */
+  color: var(--text-color3);
   font-size: 3em;
 }
 
