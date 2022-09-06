@@ -36,13 +36,14 @@ html::-webkit-scrollbar {
 }
 
 body.dark {
-  --background-color: #3D3C42;
+  
+  --background-color: #000000;
   --laoding-bg: #000;
   --blue: white;
   /* --blue: #7FB5FF; */
   --dark-blue: #7FB5FF;
   --button-color: #1363DF;
-  --button-discord: #7FB5FF;
+  --button-discord: transparent;
   --text-color: #7FB5FF;
   --text-color1: #1363DF;
   --transition-delay: 1s;
@@ -59,6 +60,7 @@ body.dark {
   --bg-color: #595959;
 
 }
+
 
 :root {
   --primary-color: #edf2fc;
@@ -110,7 +112,7 @@ html::-webkit-scrollbar-track {
   --black: #141E27;
   --grey: rgb(88, 84, 84);
   --button-color: #4245f3;
-  --button-discord: white;
+  --button-discord: transparent;
   --text-color: #141E27;
   --text-color1: #141E27;
   --transition-delay: 1s;
@@ -144,7 +146,7 @@ html::-webkit-scrollbar-track {
 
 body,
 a {
-  color: var(--black);
+  color: var(--text-color2);
   font-family: var(--font-roboto);
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -180,10 +182,11 @@ li {
   border-radius: 5px;
   transition: all 0.5s;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border:1px solid var(--button-color);
 }
 
 .btn-join-anchor-tag {
-  color: white;
+  color: var(--text-color2);
 }
 
 .btn-join-anchor-tag:hover {
@@ -191,22 +194,25 @@ li {
 }
 
 .button-primary {
-  background: var(--button-color);
-  color: var(--gray);
+  background: transparent;
+  background-color:root;
+  color: var(--text-color2);
+ 
 }
 
 .button-primary:hover {
   background-color: #0b1db4;
+  color:white;
 }
 
 .btn-join,
 .btn-discord {
-  color: white;
+  color: var(--text-color2);
   padding: 0.6em 1.5em;
   border-radius: 5px;
   font-size: 1.1em;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-
+  /* border:1px solid var(--button-color); */
 }
 
 .bs {
@@ -220,15 +226,21 @@ li {
   border-radius: 5px;
   transition: all 0.5s;
   background: var(--button-discord);
-  color: var(--dark-blue);
+  color:white;
   margin: 0 20px;
   padding: 0.8em 1.2em;
+  border:1px solid var(--button-color);
 }
 
 .btn-discord:hover {
-  background-color: #eeebeb;
+  text-decoration: none;
+  background-color: #0b1db4;
+  color:white;
 }
-
+.btn-discord:hover a{
+  text-decoration: none;
+  color:white;
+}
 a:hover {
   text-decoration: none;
 }
@@ -252,6 +264,10 @@ a:hover {
   color: white;
 }
 
+.btn-side-by-side:hover a,.btn-side-by-side:hover .fa-discord{
+  color:white;
+  }
+  
 .logo:hover {
   color: var(--dark-blue);
 }
@@ -381,7 +397,10 @@ iframe:hover {
   box-shadow: none;
   margin-left: 25px;
 }
+.theme-toggle-button:hover{
+/* background-color: var(--text-color2); */
 
+}
 .subscribe-btn>a {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
 }

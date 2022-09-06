@@ -13,11 +13,15 @@
 }
 
 .FAQ .faq-row:hover{
-  background: var(--bg-color);
+  
   /* background: #595959; */
+  background-color:transparent;
+  border:1px solid var(--button-color);
   padding-left: 40px;
   transition: all 0.6s ease 0s;
-  color: white;
+  /* color: var(--text-color2); */
+  background: #0b1db4;
+  color:var(--loading-bg);
 }
 
 .FAQ h1 {
@@ -50,7 +54,9 @@
     margin: auto;
     margin-bottom: 0.8em;
     padding: 1.5em;
-    background: var(--button-color);
+    /* background: var(--button-color); */
+    border:1px solid var(--button-color);
+
 }
 
 
@@ -63,12 +69,15 @@
   border: none;
   outline: none;
   padding: 1px 0;
+  color:var(--text-color2);
+}
+.faq-row:hover .faq-btn{
+  color:white;
 }
 
-#faq-quest{
-  color: var(--text-color4);
+.fa-moon{
+  color:var(--text-color2);
 }
-
 
 .faq-content>p{
   margin: 20px 0 auto;
