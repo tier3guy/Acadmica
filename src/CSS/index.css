@@ -46,16 +46,16 @@ body.dark {
   --text-color: #7FB5FF;
   --text-color1: #1363DF;
   --transition-delay: 1s;
-  --text-color2: #ffffff; 
-  --text-color3: #7FB5FF; 
-  --text-color4: #f0f0f0; 
-  --text-color5: #b8b8b8; 
-  --text-color6: #4245f3; 
-  --text-color7: #a8a8a8; 
-  --text-color8: #bcd8ff; 
-  --text-color9: #f0f0f0; 
-  --box-shadow-1: rgba(255, 255, 255, 0.6); 
-  --box-shadow-2: rgba(0, 145, 255, 0.15); 
+  --text-color2: #ffffff;
+  --text-color3: #7FB5FF;
+  --text-color4: #f0f0f0;
+  --text-color5: #b8b8b8;
+  --text-color6: #4245f3;
+  --text-color7: #a8a8a8;
+  --text-color8: #bcd8ff;
+  --text-color9: #f0f0f0;
+  --box-shadow-1: rgba(255, 255, 255, 0.6);
+  --box-shadow-2: rgba(0, 145, 255, 0.15);
   --bg-color: #595959;
 
 }
@@ -123,8 +123,8 @@ html::-webkit-scrollbar-track {
   --text-color7: black;
   --text-color8: #141E27;
   --text-color9: #4245f3;
-  --box-shadow-1: rgba(60, 64, 67, 0.3); 
-  --box-shadow-2: rgba(60, 64, 67, 0.15); 
+  --box-shadow-1: rgba(60, 64, 67, 0.3);
+  --box-shadow-2: rgba(60, 64, 67, 0.15);
   --bg-color: #b1b2ee;
 
 
@@ -444,7 +444,7 @@ iframe:hover {
 @media (max-width: 420px){
   .image-container img {
     height: 14em;
-    width: auto;  
+    width: auto;
   }
 }
 
@@ -466,7 +466,53 @@ iframe:hover {
     width: auto;
   }
 }
+.common-style{
+  padding: 40px 0;
+  margin:0px;
+  float:left;
+  width: 100%;
+  justify-content: center;
+}
+.container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+.row{
+  margin-left: 0;
+  margin-right:0;
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.col{
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
 
+.titles,.links{
+  text-decoration-line: underline;
+  font-size: 25px;
+}
+a,label{
+  cursor: pointer;
+}
+.communities{
+  text-decoration: underline;
+  font-size: 25px;
+}
+.definition{
+  font-size: 20px;
+}
 span#faq-quest {
   width: 80%;
   text-align: start;
