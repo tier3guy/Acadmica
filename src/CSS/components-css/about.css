@@ -13,7 +13,7 @@
     padding: 5px 20px;
     padding-bottom: 15px;
     border-radius: 20px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    box-shadow: var(--box-shadow-1) 0px 1px 2px 0px, var(--box-shadow-2) 0px 1px 3px 1px;
     font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
     margin-top: 2em;
   }
@@ -45,7 +45,8 @@
 
   .facilities p {
     margin-top: 3em;
-    color: var(--text-color);
+    /* color: var(--text-color); */
+    color: var(--text-color5);
     font-family: var(--font-roboto);
   }
 
@@ -56,11 +57,17 @@
   .facilities h1 {
     font-size: 3em;
     font-family: var(--font-barlow);
-    color: var(--dark-blue);
+    color: var(--text-color6);
   }
+
   .facilities h1 span{
-    color: #4245f3;
+    color: var(--text-color3);
   }
+
+  .facilities h3{
+    color: var(--text-color2);
+  }
+
   .facilities-row {
     margin-top: 5%;
     display: flex;
@@ -95,17 +102,20 @@
   .facilities-col p {
     padding: 0;
     margin-bottom: 1em;
+    font-family: var(--font-roboto);
   }
 
   .facilities-col h3 {
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: center;
-    color: var(--text-color1);
+    /* color: var(--text-color1); */
+    color: var(--dark-blue);
   }
 
   .facilities-col a {
-    color: var(--dark-blue);
+    color: var(--dark-blue);  
+    font-family: var(--font-roboto);
     border-bottom: 1px dashed var(--dark-blue);
     padding: 0.8em;
     transition: all 0.1s;
