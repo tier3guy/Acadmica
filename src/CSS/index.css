@@ -218,7 +218,7 @@ li {
   outline: none;
   padding: 0.5em 1.5em;
   border-radius: 5px;
-  transition: all 0.5s;
+  transition: all 0s;
   background: var(--button-discord);
   color: var(--dark-blue);
   margin: 0 20px;
@@ -227,6 +227,11 @@ li {
 
 .btn-discord:hover {
   background-color: #eeebeb;
+}
+
+.btn-discord:hover .fa-discord {
+  background-color: #eeebeb;
+  color: rgb(0, 0, 0);
 }
 
 a:hover {
@@ -427,53 +432,57 @@ iframe:hover {
   }
 }
 
-@media (max-width: 849px){
-    .image-container{
-      margin: 0 auto;
-      margin-top: 5em;
-    }
+@media (max-width: 849px) {
+  .image-container {
+    margin: 0 auto;
+    margin-top: 5em;
+  }
 }
 
-@media (max-width: 440px){
+@media (max-width: 440px) {
   .image-container img {
     height: 15em;
     width: auto;
   }
 }
 
-@media (max-width: 420px){
+@media (max-width: 420px) {
   .image-container img {
     height: 14em;
     width: auto;
   }
 }
 
-@media (max-width: 380px){
+@media (max-width: 380px) {
   .image-container img {
     height: 13em;
     width: auto;
   }
 }
-@media (max-width: 365px){
+
+@media (max-width: 365px) {
   .image-container img {
     height: 12em;
     width: auto;
   }
 }
-@media (max-width: 340px){
+
+@media (max-width: 340px) {
   .image-container img {
     height: 11em;
     width: auto;
   }
 }
-.common-style{
+
+.common-style {
   padding: 40px 0;
-  margin:0px;
-  float:left;
+  margin: 0px;
+  float: left;
   width: 100%;
   justify-content: center;
 }
-.container{
+
+.container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -481,15 +490,17 @@ iframe:hover {
   margin-left: auto;
   box-sizing: border-box;
 }
-.row{
+
+.row {
   margin-left: 0;
-  margin-right:0;
+  margin-right: 0;
   padding: 0 15px;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
 }
-.col{
+
+.col {
   flex: 0 0 100%;
   max-width: 100%;
   position: relative;
@@ -499,20 +510,26 @@ iframe:hover {
   box-sizing: border-box;
 }
 
-.titles,.links{
+.titles,
+.links {
   text-decoration-line: underline;
   font-size: 25px;
 }
-a,label{
+
+a,
+label {
   cursor: pointer;
 }
-.communities{
+
+.communities {
   text-decoration: underline;
   font-size: 25px;
 }
-.definition{
+
+.definition {
   font-size: 20px;
 }
+
 span#faq-quest {
   width: 80%;
   text-align: start;
