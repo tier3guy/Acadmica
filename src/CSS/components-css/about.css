@@ -1,3 +1,121 @@
+
+.facilities {
+  font-family: var(--font-barlow);
+  width: 90%;
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.facilities div.about{
+  width: 100%;
+  height: 100%;
+  padding: 5px 20px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+  margin-top: 2em;
+}
+
+.facilities-row .mt-1 {
+  background: #4245f3;
+  border-radius: 3px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.facilities-row .mt-1:hover {
+  color: white;
+}
+
+.facilities p {
+  margin-top: 3em;
+  color: var(--text-color);
+  font-family: var(--font-roboto);
+}
+
+.facilities-col p {
+  margin-top: 1.5em;
+}
+
+.facilities h1 {
+  font-size: 3em;
+  font-family: var(--font-barlow);
+  color: var(--dark-blue);
+}
+.facilities h1 span{
+  color: #4245f3;
+}
+.facilities-row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.facilities-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.facilities-col text-center img :hover {
+  box-shadow: 10px 10px 5px #000000;
+  -moz-box-shadow: 0px 10px 5px #000000;
+  -webkit-box-shadow: 0px 10px 5px #000000;
+  cursor: pointer;
+}
+
+.facilities-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.facilities-col .image {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+}
+
+.facilities-col p {
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+.facilities-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: var(--text-color1);
+}
+
+.facilities-col a {
+  color: var(--dark-blue);
+  border-bottom: 1px dashed var(--dark-blue);
+  padding: 0.8em;
+  transition: all 0.1s;
+}
+
+.facilities-col a:hover {
+  color: var(--blue);
+}
+
+@media(max-width: 700px) {
   .facilities {
     font-family: var(--font-barlow);
     width: 90%;
@@ -76,12 +194,13 @@
   }
 
   .facilities-row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
+    margin-top: 3em;
+    flex-direction: column;
   }
-
   .facilities-col {
+    margin-top: 1.5em;
+    flex-direction: column;
+
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -130,9 +249,11 @@
 
   .facilities-col a:hover {
     color: var(--blue);
-  }
 
-  @media(max-width: 700px) {
+  }
+}
+
+@media(max-width: 700px) {
     .facilities {
       padding-top: 6em;
     }
@@ -147,3 +268,4 @@
       flex-direction: column;
     }
   }
+

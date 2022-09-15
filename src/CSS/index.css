@@ -39,6 +39,7 @@ body.dark {
   --background-color: #3D3C42;
   --laoding-bg: #000;
   --blue: white;
+  color: white;
   /* --blue: #7FB5FF; */
   --dark-blue: #7FB5FF;
   --button-color: #1363DF;
@@ -239,7 +240,6 @@ a:hover {
 }
 
 .img-responsive {
-  margin-right: 1.5em;
   width: 33em;
   height: 29.5em;
 }
@@ -410,7 +410,6 @@ iframe:hover {
   .btn-join,
   .btn-discord-small {
     margin: 0;
-    width: 48%;
   }
 }
 
@@ -439,7 +438,18 @@ iframe:hover {
   }
 }
 
+
+@media (min-width: 851px){
+  .image-container{
+    margin: 0 auto;
+    margin-top: 10em;
+  }
+}
+
+
+
 @media (max-width: 440px) {
+
   .image-container img {
     height: 15em;
     width: auto;

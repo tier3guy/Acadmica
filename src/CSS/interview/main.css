@@ -75,8 +75,7 @@ iframe{
   .image-container{
     margin-top: 5em !important;
     padding: 0px;
-    width: 95%;
-    position: static;
+    width: auto;
     margin: auto;
   }
   
