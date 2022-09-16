@@ -39,6 +39,7 @@ body.dark {
   --background-color: #3D3C42;
   --laoding-bg: #000;
   --blue: white;
+  color: white;
   /* --blue: #7FB5FF; */
   --dark-blue: #7FB5FF;
   --button-color: #1363DF;
@@ -218,7 +219,7 @@ li {
   outline: none;
   padding: 0.5em 1.5em;
   border-radius: 5px;
-  transition: all 0.5s;
+  transition: all 0s;
   background: var(--button-discord);
   color: var(--dark-blue);
   margin: 0 20px;
@@ -229,12 +230,16 @@ li {
   background-color: #eeebeb;
 }
 
+.btn-discord:hover .fa-discord {
+  background-color: #eeebeb;
+  color: rgb(0, 0, 0);
+}
+
 a:hover {
   text-decoration: none;
 }
 
 .img-responsive {
-  margin-right: 1.5em;
   width: 33em;
   height: 29.5em;
 }
@@ -270,6 +275,123 @@ a:hover {
   color: #ffffff;
   font-weight: bold;
 }
+.feedback {
+  font-family: var(--font-barlow);
+  width: 90%;
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.feedback div.about{
+  width: 100%;
+  height: 100%;
+  padding: 5px 20px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+  margin-top: 2em;
+}
+
+.feedback-row .mt-1 {
+  background: #4245f3;
+  border-radius: 3px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.feedback-row .mt-1:hover {
+  color: white;
+}
+
+.feedback p {
+  margin-top: 3em;
+  color: var(--text-color);
+  font-family: var(--font-roboto);
+}
+
+.feedback-col p {
+  margin-top: 1.5em;
+}
+
+.feedback h1 {
+  font-size: 3em;
+  font-family: var(--font-barlow);
+  color: var(--dark-blue);
+}
+.feedback h1 span{
+  color: #4245f3;
+}
+.feedback-row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.feedback-col text-center img :hover {
+  box-shadow: 10px 10px 5px #000000;
+  -moz-box-shadow: 0px 10px 5px #000000;
+  -webkit-box-shadow: 0px 10px 5px #000000;
+  cursor: pointer;
+}
+
+.feedback-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.feedback-col .image {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+}
+
+.feedback-col p {
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+.feedback-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: var(--text-color1);
+}
+
+.feedback-col a {
+  color: var(--dark-blue);
+  border-bottom: 1px dashed var(--dark-blue);
+  padding: 0.8em;
+  transition: all 0.1s;
+}
+
+.feedback-col a:hover {
+  color: var(--blue);
+}
+
+
 
 iframe {
   transition: all 0.1s;
@@ -405,7 +527,6 @@ iframe:hover {
   .btn-join,
   .btn-discord-small {
     margin: 0;
-    width: 48%;
   }
 }
 
@@ -427,53 +548,68 @@ iframe:hover {
   }
 }
 
-@media (max-width: 849px){
-    .image-container{
-      margin: 0 auto;
-      margin-top: 5em;
-    }
+@media (max-width: 849px) {
+  .image-container {
+    margin: 0 auto;
+    margin-top: 5em;
+  }
 }
 
-@media (max-width: 440px){
+
+@media (min-width: 851px){
+  .image-container{
+    margin: 0 auto;
+    margin-top: 10em;
+  }
+}
+
+
+
+@media (max-width: 440px) {
+
   .image-container img {
     height: 15em;
     width: auto;
   }
 }
 
-@media (max-width: 420px){
+@media (max-width: 420px) {
   .image-container img {
     height: 14em;
     width: auto;
   }
 }
 
-@media (max-width: 380px){
+@media (max-width: 380px) {
   .image-container img {
     height: 13em;
     width: auto;
   }
 }
-@media (max-width: 365px){
+
+@media (max-width: 365px) {
   .image-container img {
     height: 12em;
     width: auto;
   }
 }
-@media (max-width: 340px){
+
+@media (max-width: 340px) {
   .image-container img {
     height: 11em;
     width: auto;
   }
 }
-.common-style{
+
+.common-style {
   padding: 40px 0;
-  margin:0px;
-  float:left;
+  margin: 0px;
+  float: left;
   width: 100%;
   justify-content: center;
 }
-.container{
+
+.container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -481,15 +617,17 @@ iframe:hover {
   margin-left: auto;
   box-sizing: border-box;
 }
-.row{
+
+.row {
   margin-left: 0;
-  margin-right:0;
+  margin-right: 0;
   padding: 0 15px;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
 }
-.col{
+
+.col {
   flex: 0 0 100%;
   max-width: 100%;
   position: relative;
@@ -499,18 +637,23 @@ iframe:hover {
   box-sizing: border-box;
 }
 
-.titles,.links{
+.titles,
+.links {
   text-decoration-line: underline;
   font-size: 25px;
 }
-a,label{
+
+a,
+label {
   cursor: pointer;
 }
-.communities{
+
+.communities {
   text-decoration: underline;
   font-size: 25px;
 }
-.definition{
+
+.definition {
   font-size: 20px;
 }
 span#faq-quest {
