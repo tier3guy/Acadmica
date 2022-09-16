@@ -39,6 +39,7 @@ body.dark {
   --background-color: #3D3C42;
   --laoding-bg: #000;
   --blue: white;
+  color: white;
   /* --blue: #7FB5FF; */
   --dark-blue: #7FB5FF;
   --button-color: #1363DF;
@@ -46,16 +47,16 @@ body.dark {
   --text-color: #7FB5FF;
   --text-color1: #1363DF;
   --transition-delay: 1s;
-  --text-color2: #ffffff; 
-  --text-color3: #7FB5FF; 
-  --text-color4: #f0f0f0; 
-  --text-color5: #b8b8b8; 
-  --text-color6: #4245f3; 
-  --text-color7: #a8a8a8; 
-  --text-color8: #bcd8ff; 
-  --text-color9: #f0f0f0; 
-  --box-shadow-1: rgba(255, 255, 255, 0.6); 
-  --box-shadow-2: rgba(0, 145, 255, 0.15); 
+  --text-color2: #ffffff;
+  --text-color3: #7FB5FF;
+  --text-color4: #f0f0f0;
+  --text-color5: #b8b8b8;
+  --text-color6: #4245f3;
+  --text-color7: #a8a8a8;
+  --text-color8: #bcd8ff;
+  --text-color9: #f0f0f0;
+  --box-shadow-1: rgba(255, 255, 255, 0.6);
+  --box-shadow-2: rgba(0, 145, 255, 0.15);
   --bg-color: #595959;
 
 }
@@ -123,8 +124,8 @@ html::-webkit-scrollbar-track {
   --text-color7: black;
   --text-color8: #141E27;
   --text-color9: #4245f3;
-  --box-shadow-1: rgba(60, 64, 67, 0.3); 
-  --box-shadow-2: rgba(60, 64, 67, 0.15); 
+  --box-shadow-1: rgba(60, 64, 67, 0.3);
+  --box-shadow-2: rgba(60, 64, 67, 0.15);
   --bg-color: #b1b2ee;
 
 
@@ -218,7 +219,7 @@ li {
   outline: none;
   padding: 0.5em 1.5em;
   border-radius: 5px;
-  transition: all 0.5s;
+  transition: all 0s;
   background: var(--button-discord);
   color: var(--dark-blue);
   margin: 0 20px;
@@ -229,12 +230,16 @@ li {
   background-color: #eeebeb;
 }
 
+.btn-discord:hover .fa-discord {
+  background-color: #eeebeb;
+  color: rgb(0, 0, 0);
+}
+
 a:hover {
   text-decoration: none;
 }
 
 .img-responsive {
-  margin-right: 1.5em;
   width: 33em;
   height: 29.5em;
 }
@@ -405,7 +410,6 @@ iframe:hover {
   .btn-join,
   .btn-discord-small {
     margin: 0;
-    width: 48%;
   }
 }
 
@@ -427,44 +431,113 @@ iframe:hover {
   }
 }
 
-@media (max-width: 849px){
-    .image-container{
-      margin: 0 auto;
-      margin-top: 5em;
-    }
+@media (max-width: 849px) {
+  .image-container {
+    margin: 0 auto;
+    margin-top: 5em;
+  }
 }
 
-@media (max-width: 440px){
+
+@media (min-width: 851px){
+  .image-container{
+    margin: 0 auto;
+    margin-top: 10em;
+  }
+}
+
+
+
+@media (max-width: 440px) {
+
   .image-container img {
     height: 15em;
     width: auto;
   }
 }
 
-@media (max-width: 420px){
+@media (max-width: 420px) {
   .image-container img {
     height: 14em;
-    width: auto;  
+    width: auto;
   }
 }
 
-@media (max-width: 380px){
+@media (max-width: 380px) {
   .image-container img {
     height: 13em;
     width: auto;
   }
 }
-@media (max-width: 365px){
+
+@media (max-width: 365px) {
   .image-container img {
     height: 12em;
     width: auto;
   }
 }
-@media (max-width: 340px){
+
+@media (max-width: 340px) {
   .image-container img {
     height: 11em;
     width: auto;
   }
+}
+
+.common-style {
+  padding: 40px 0;
+  margin: 0px;
+  float: left;
+  width: 100%;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.col {
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.titles,
+.links {
+  text-decoration-line: underline;
+  font-size: 25px;
+}
+
+a,
+label {
+  cursor: pointer;
+}
+
+.communities {
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.definition {
+  font-size: 20px;
 }
 
 span#faq-quest {

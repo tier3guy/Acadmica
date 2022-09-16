@@ -17,7 +17,6 @@
   /* background: #595959; */
   padding-left: 40px;
   transition: all 0.6s ease 0s;
-  color: white;
 }
 
 .FAQ h1 {
@@ -63,12 +62,16 @@
   border: none;
   outline: none;
   padding: 1px 0;
+  color: rgb(255, 255, 255);
+}
+
+.FAQ .faq-row:hover #faq-quest{
+  color: var(--text-color4)
 }
 
 #faq-quest{
-  color: var(--text-color4);
+  color: white
 }
-
 
 .faq-content>p{
   margin: 20px 0 auto;

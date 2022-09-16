@@ -6,7 +6,6 @@
     color: var(--text-color7);
 }
 
-
 .footer_area {
     position: relative;
     z-index: 1;
@@ -139,12 +138,19 @@
     box-shadow: none;
     margin-right: 10px;
 }
+
+
 .footer_social_area a i {
     line-height: 36px;
 }
+
 .footer_social_area a:hover,
 .footer_social_area a:focus {
-    color: #ffffff;
+    /* color: white; */
+    color: var(--black);
+    /* color: var(--navbar-color); */
+    background-color: var(--button-discord);
+    transition-duration: .5s;
 }
 
 @-webkit-keyframes bi-cycle {
