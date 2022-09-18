@@ -275,6 +275,123 @@ a:hover {
   color: #ffffff;
   font-weight: bold;
 }
+.feedback {
+  font-family: var(--font-barlow);
+  width: 90%;
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.feedback div.about{
+  width: 100%;
+  height: 100%;
+  padding: 5px 20px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+  margin-top: 2em;
+}
+
+.feedback-row .mt-1 {
+  background: #4245f3;
+  border-radius: 3px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.feedback-row .mt-1:hover {
+  color: white;
+}
+
+.feedback p {
+  margin-top: 3em;
+  color: var(--text-color);
+  font-family: var(--font-roboto);
+}
+
+.feedback-col p {
+  margin-top: 1.5em;
+}
+
+.feedback h1 {
+  font-size: 3em;
+  font-family: var(--font-barlow);
+  color: var(--dark-blue);
+}
+.feedback h1 span{
+  color: #4245f3;
+}
+.feedback-row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.feedback-col text-center img :hover {
+  box-shadow: 10px 10px 5px #000000;
+  -moz-box-shadow: 0px 10px 5px #000000;
+  -webkit-box-shadow: 0px 10px 5px #000000;
+  cursor: pointer;
+}
+
+.feedback-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.feedback-col .image {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+}
+
+.feedback-col p {
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+.feedback-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: var(--text-color1);
+}
+
+.feedback-col a {
+  color: var(--dark-blue);
+  border-bottom: 1px dashed var(--dark-blue);
+  padding: 0.8em;
+  transition: all 0.1s;
+}
+
+.feedback-col a:hover {
+  color: var(--blue);
+}
+
+
 
 iframe {
   transition: all 0.1s;
@@ -539,6 +656,10 @@ label {
 .definition {
   font-size: 20px;
 }
+
+
+
+
 
 span#faq-quest {
   width: 80%;
