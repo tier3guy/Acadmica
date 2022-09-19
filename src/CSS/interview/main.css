@@ -5,6 +5,68 @@
   border: 1px solid #000;
 }
 
+.tracks-container > p {
+  color: var(--text-color5);
+}
+
+.tracks-container > h2 > span {
+  color: var(--blue);
+}
+
+.tracks-section > h1, h2 {
+  color: var(--dark-blue);
+}
+
+.tracks-section > h1 > span {
+  color: #4245f3;
+}
+
+.FAQ > h1, h3 {
+  color: var(--dark-blue);
+}
+
+.FAQ > h1, h3 > span {
+  color: #4245f3;
+}
+
+.FAQ > div .faq-row a {
+  text-decoration: none;
+  color: var(--text-color5);
+}
+
+.dsa-and-comp-funds h1 {
+  color: var(--dark-blue);
+}
+
+.dsa-and-comp-funds h5 {
+  color: var(--text-color5);
+}
+
+.dsa-and-comp-funds h5 span a {
+  color: var(--text-color2);
+}
+
+.dsa-and-comp-funds h1 span {
+  color: #4245f3;
+}
+
+.dsa-and-comp-funds .resume-building ul li a {
+  color: var(--text-color5);
+}
+
+.section-aptitude h1 {
+  color: var(--dark-blue);
+}
+
+.section-aptitude h1 span {
+  color: #4245f3;
+}
+
+#donation {
+  color: var(--text-color5);
+}
+
+
 iframe{
   width: 35em;
   height: 18em;

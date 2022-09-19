@@ -31,7 +31,7 @@
 
     <link rel="stylesheet" href="../src/CSS/index.css" />
   </head>
-  <body>
+  <body class="dark">
     <!-- Navbar starts here -->
     <nav id="nav" class="center p-4 w-100">
       <div
@@ -39,26 +39,35 @@
       >
         <a class="logo" href="../index.html"> @cadmica! </a>
 
-        <div class="navbar-links">
-          <ul class="center">
-            <li class="pl-3 pr-3"><a href="../index.html">Home</a></li>
+        <div class="nav-links">
+          <ul class="space-between">
             <li class="pl-3 pr-3">
-              <a href="https://discord.gg/ZkHXnxhda7">Discord Server</a>
+              <a class="nav-items-a" href="../index.html">Home</a>
             </li>
-            <li class="pl-3 pr-3"><a href="./503.html">Study Statistics</a></li>
             <li class="pl-3 pr-3">
-              <a href="https://github.com/tier3guy/Acadmica">GitHub</a>
+              <a class="nav-items-a" href="https://discord.gg/ZkHXnxhda7">Discord Server</a>
+            </li>
+            <li class="pl-3 pr-3">
+              <a class="nav-items-a" href="./503.html">Study Statistics</a>
+            </li>
+            <li class="pl-3 pr-3">
+              <a class="nav-items-a" href="https://github.com/tier3guy/Acadmica">GitHub</a>
             </li>
           </ul>
         </div>
 
-        <div class="btn-container center">
-          <a
-            href="../src/pages/subscribe.html"
-            class="button-primary button-all"
-          >
-            Subscribe Us
-          </a>
+        <div class="d-flex">
+          <div class="btn-container center">
+            <a
+              href="../src/pages/subscribe.html"
+              class="button-primary button-all"
+            >
+              Subscribe Us
+            </a>
+          </div>
+          <div class="form-check form-switch theme-toggle-button button-all">
+            <i class="theme-icon fa-solid fa-sun"></i>
+          </div>
         </div>
       </div>
     </nav>
@@ -287,6 +296,7 @@ Further within these three are many more sub-categories, such as academics, whic
 
     <script src="../src/JS/faq.js"></script>
     <script src="../src/JS/main.js"></script>
+    <script src="../src/JS/index.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
