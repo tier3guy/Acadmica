@@ -21,11 +21,19 @@
   color: #4245f3;
 }
 
-.FAQ > h1, h3 {
+.FAQ h3 {
   color: var(--dark-blue);
 }
 
-.FAQ > h1, h3 > span {
+.FAQ h3 span {
+  color: #4245f3;
+}
+
+.FAQ h1 {
+  color: var(--dark-blue);
+}
+
+.FAQ h1 span {
   color: #4245f3;
 }
 

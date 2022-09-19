@@ -245,6 +245,10 @@ a:hover {
   height: 29.5em;
 }
 
+#text-three{
+  color: #4245f3;
+}
+
 .icon-container{
   color: var(--dark-blue);
 }
