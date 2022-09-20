@@ -1,253 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Acadmica</title>
 
-    <!-- FONTAWESOME CDN LINK -->
-    <script
-      src="https://kit.fontawesome.com/623d2ea8a9.js"
-      crossorigin="anonymous"
-    ></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acadmica</title>
 
-    <!-- BOOTSTRAP CDN LINK GOES HERE -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
-      crossorigin="anonymous"
-    />
+  <!-- FONTAWESOME CDN LINK -->
+  <script src="https://kit.fontawesome.com/623d2ea8a9.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../../CSS/index.css" />
-  </head>
+  <!-- BOOTSTRAP CDN LINK GOES HERE -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
 
-  <body>
-    <!-- Navbar starts here -->
-    <nav id="nav" class="center p-4 w-100">
-      <div
-        class="nav-container w-100 d-flex align-items-center justify-content-between"
-      >
-        <a class="logo" href="../../../index.html"> @cadmica! </a>
+  <link rel="stylesheet" href="../../CSS/index.css" />
+</head>
 
-        <div class="navbar-links">
-          <ul class="center">
-            <li class="pl-3 pr-3">
-              <a href="../../../public/studyroom.html">Study Room</a>
+<body>
+  <!-- Navbar starts here -->
+  <nav id="nav" class="center p-4 w-100">
+    <div class="nav-container w-100 d-flex align-items-center justify-content-between">
+      <a class="logo" href="../../../index.html"> @cadmica! </a>
+
+      <div class="navbar-links">
+        <ul class="center">
+          <li class="pl-3 pr-3">
+            <a href="../../../public/studyroom.html">Study Room</a>
+          </li>
+
+          <li class="pl-3 pr-3">
+            <a href="https://discord.gg/PmgpTMzq">Discord Server</a>
+          </li>
+          <li class="pl-3 pr-3">
+            <a href="../../../public/503.html">Study Statistics</a>
+          </li>
+
+          <li class="pl-3 pr-3">
+            <a href="https://github.com/tier3guy/Acadmica">GitHub</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="btn-container center">
+        <a href="../../pages/subscribe.html" class="button-primary button-all">
+          Subscribe Us
+        </a>
+      </div>
+    </div>
+    <div class="form-check form-switch theme-toggle-button button-all">
+      <i class="theme-icon fa-solid fa-sun fa-moon"></i>
+    </div>
+  </nav>
+
+  <nav id="responsive-nav">
+    <div class="faq-box">
+      <div class="faq-row res-nav-row">
+        <button class="faq-btn">
+          <a class="logo" href="#"> @cadmica! </a>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="faq-content responsive-nav-content">
+          <ul class="nav-items-response">
+            <li><a href="public/studyroom.html">Study Room</a></li>
+            <li>
+              <a href="https://discord.gg/ZkHXnxhda7">Discord Server</a>
             </li>
-
-            <li class="pl-3 pr-3">
-              <a href="https://discord.gg/PmgpTMzq">Discord Server</a>
+            <li>
+              <a href="src/pages/Stats/stats.html">Study Statistics</a>
             </li>
-            <li class="pl-3 pr-3">
-              <a href="../../../public/503.html">Study Statistics</a>
-            </li>
-
-            <li class="pl-3 pr-3">
+            <li>
               <a href="https://github.com/tier3guy/Acadmica">GitHub</a>
+            </li>
+            <li>
+              <button class="theme-toggle-button2 button-primary button-all">
+                <svg class="icon" style="width: 24px; height: 24px" viewBox="0 0 24 24">
+                  <path fill="currentColor"
+                    d="M7.5,2C5.71,3.15 4.5,5.18 4.5,7.5C4.5,9.82 5.71,11.85 7.53,13C4.46,13 2,10.54 2,7.5A5.5,5.5 0 0,1 7.5,2M19.07,3.5L20.5,4.93L4.93,20.5L3.5,19.07L19.07,3.5M12.89,5.93L11.41,5L9.97,6L10.39,4.3L9,3.24L10.75,3.12L11.33,1.47L12,3.1L13.73,3.13L12.38,4.26L12.89,5.93M9.59,9.54L8.43,8.81L7.31,9.59L7.65,8.27L6.56,7.44L7.92,7.35L8.37,6.06L8.88,7.33L10.24,7.36L9.19,8.23L9.59,9.54M19,13.5A5.5,5.5 0 0,1 13.5,19C12.28,19 11.15,18.6 10.24,17.93L17.93,10.24C18.6,11.15 19,12.28 19,13.5M14.6,20.08L17.37,18.93L17.13,22.28L14.6,20.08M18.93,17.38L20.08,14.61L22.28,17.15L18.93,17.38M20.08,12.42L18.94,9.64L22.28,9.88L20.08,12.42M9.63,18.93L12.4,20.08L9.87,22.27L9.63,18.93Z" />
+                </svg>
+                Swap themes
+              </button>
             </li>
           </ul>
         </div>
-
-        <div class="btn-container center">
-          <a
-            href="../../pages/subscribe.html"
-            class="button-primary button-all"
-          >
-            Subscribe Us
-          </a>
-        </div>
       </div>
-      <div class="form-check form-switch theme-toggle-button button-all">
-        <i class="theme-icon fa-solid fa-sun fa-moon"></i>    
-      </div>
-    </nav>
+    </div>
+  </nav>
+  <!-- Navbar ends here -->
 
-    <nav id="responsive-nav">
-      <div class="faq-box">
-        <div class="faq-row res-nav-row">
-          <button class="faq-btn">
-            <a class="logo" href="#"> @cadmica! </a>
-            <i class="fa-solid fa-bars"></i>
-          </button>
-          <div class="faq-content responsive-nav-content">
-            <ul class="nav-items-response">
-              <li><a href="public/studyroom.html">Study Room</a></li>
-              <li>
-                <a href="https://discord.gg/ZkHXnxhda7">Discord Server</a>
-              </li>
-              <li>
-                <a href="src/pages/Stats/stats.html">Study Statistics</a>
-              </li>
-              <li>
-                <a href="https://github.com/tier3guy/Acadmica">GitHub</a>
-              </li>
-              <li>
-                <button
-                  class="theme-toggle-button2 button-primary button-all"
-                >
-                  <svg
-                    class="icon"
-                    style="width: 24px; height: 24px"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M7.5,2C5.71,3.15 4.5,5.18 4.5,7.5C4.5,9.82 5.71,11.85 7.53,13C4.46,13 2,10.54 2,7.5A5.5,5.5 0 0,1 7.5,2M19.07,3.5L20.5,4.93L4.93,20.5L3.5,19.07L19.07,3.5M12.89,5.93L11.41,5L9.97,6L10.39,4.3L9,3.24L10.75,3.12L11.33,1.47L12,3.1L13.73,3.13L12.38,4.26L12.89,5.93M9.59,9.54L8.43,8.81L7.31,9.59L7.65,8.27L6.56,7.44L7.92,7.35L8.37,6.06L8.88,7.33L10.24,7.36L9.19,8.23L9.59,9.54M19,13.5A5.5,5.5 0 0,1 13.5,19C12.28,19 11.15,18.6 10.24,17.93L17.93,10.24C18.6,11.15 19,12.28 19,13.5M14.6,20.08L17.37,18.93L17.13,22.28L14.6,20.08M18.93,17.38L20.08,14.61L22.28,17.15L18.93,17.38M20.08,12.42L18.94,9.64L22.28,9.88L20.08,12.42M9.63,18.93L12.4,20.08L9.87,22.27L9.63,18.93Z"
-                    />
-                  </svg>
-                  Swap themes
-                </button>
-              </li>
-            </ul>
+  <!-- Web Development Intro starts here -->
+
+  <div class="main-container">
+    <div class="text-container">
+      <h1>Learn</h1>
+      <h1>
+        <span class="intro-title">Web Development</span>
+      </h1>
+      <h1><span>&</span> Build your own version of Acadmica.</h1>
+
+      <div class="mt-4 icon-container">
+        Scroll down to explore the content<i class="fa-solid fa-arrow-down"></i>
+      </div>
+    </div>
+    <div class="image-container">
+      <img
+        src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80"
+        alt="image" class="img-responsive" />
+    </div>
+  </div>
+
+  <section class="intro mt-5">
+    <h2>Getting started with Web development</h2>
+    <p>
+      Web development refers to the work involved in creating a website for the Internet (World Wide Web) or an
+      Intranet(a private network). Web development can include anything from creating a single static page of plain text
+      to creating complex web applications, electronic businesses, and social network services. Web engineering, Web
+      design, Web content development, client liaison, client-side/server-side scripting, Web server and network
+      security configuration, and e-commerce development are some of the more comprehensive tasks to which Web
+      development commonly refers. "Web development" is commonly used among Web professionals to refer to the main
+      non-design aspects of building Web sites: writing markup and coding. Content management systems (CMS) may be used
+      in web development to make content changes easier and more accessible to those with basic technical skills.
+    </p>
+    <p>
+      Web development teams for larger organisations and businesses can consist of hundreds of people (Web developers)
+      and use standard methods such as Agile methodologies when developing Web sites. Smaller organisations may only
+      require a single permanent or contracting developer, as well as secondary assignments to related job positions
+      such as graphic designer or information systems technician. Web development may be a collaborative effort among
+      departments rather than the responsibility of a single department. Web developer specialisations are divided into
+      three categories: front-end developer, back-end developer, and full-stack developer. Front-end developers are in
+      charge of the behaviour and visuals that appear in the user's browser, whereas back-end developers work with the
+      servers. Since the commercialization of the Web, with Tim Berners-Lee developing the World Wide Web at CERN, the
+      industry has grown to become one of the most widely used technologies in history.
+    </p>
+  </section>
+  <br />
+
+  <h2 class="text-center m-4 resource">
+    Resources for learning Web Development
+  </h2>
+
+  <div class="video-container d-flex justify-content-around m-5">
+    <iframe src="https://www.youtube.com/embed/videoseries?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+    <iframe src="https://www.youtube.com/embed/Vq-bgH0yq6Y" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="video-container d-flex justify-content-around m-5">
+    <iframe src="https://www.youtube.com/embed/ZxKM3DCV2kE" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+  </div>
+
+  <!-- Web Development Intro ends here -->
+
+  <!-- Footer starts here -->
+  <section>
+    <footer class="footer_area section_padding_130_0">
+      <div class="container">
+        <div class="row">
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg-4 mt-5">
+            <div class="single-footer-widget section_padding_0_130">
+              <!-- Footer Logo-->
+              <div class="footer-logo mb-3"><a href="index.html">
+                  <h5>@cadmica!</h5>
+                </a></div>
+              <p>Help you to study more often
+                than before</p>
+              <!--Buy me-coffee-->
+              <div class="copywrite-text mb-5">
+                <a href="https://www.buymeacoffee.com/gavinash62D">
+                  <img class="img-buy-coffee mr-3"
+                    src="https://cloud-ibqw7grg5-hack-club-bot.vercel.app/0buymecoffeelogo.png">
+                  Help us grow more
+                </a>
+              </div>
+              <!-- Footer Social Area-->
+              <p class="footer-icon-contact mt-4">Contact us at -</p>
+              <div class="footer_social_area"><a href="https://www.facebook.com/people/Avinash-Gupta/100042540223986"
+                  data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><i
+                    class="fa fa-facebook"></i></a><a href="https://www.instagram.com/programmer_gupta/"
+                  data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><i
+                    class="fa fa-instagram"></i></a><a href="https://www.linkedin.com/in/avinash-gupta-3321041ba/"
+                  data-toggle="tooltip" data-placement="top" title="" data-original-title="linkedin"><i
+                    class="fa fa-linkedin"></i></a><a href="https://twitter.com/Avinash35925012" data-toggle="tooltip"
+                  data-placement="top" title="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></div>
+            </div>
           </div>
-        </div>
-      </div>
-    </nav>
-    <!-- Navbar ends here -->
 
-    <!-- Web Development Intro starts here -->
-
-    <div class="main-container">
-      <div class="text-container">
-        <h1>Learn</h1>
-        <h1>
-          <span class="intro-title">Web Development</span>
-        </h1>
-        <h1><span>&</span> Build your own version of Acadmica.</h1>
-
-        <div class="mt-4 icon-container">
-          Scroll down to explore the content<i
-            class="fa-solid fa-arrow-down"
-          ></i>
-        </div>
-      </div>
-      <div class="image-container">
-        <img
-          src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80"
-          alt="image"
-          class="img-responsive"
-        />
-      </div>
-    </div>
-
-    <section class="intro mt-5">
-      <h2>Getting started with Web development</h2>
-      <p>
-        Web development refers to the work involved in creating a website for the Internet (World Wide Web) or an Intranet(a private network). Web development can include anything from creating a single static page of plain text to creating complex web applications, electronic businesses, and social network services. Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development are some of the more comprehensive tasks to which Web development commonly refers. "Web development" is commonly used among Web professionals to refer to the main non-design aspects of building Web sites: writing markup and coding. Content management systems (CMS) may be used in web development to make content changes easier and more accessible to those with basic technical skills.
-      </p>
-      <p>
-        Web development teams for larger organisations and businesses can consist of hundreds of people (Web developers) and use standard methods such as Agile methodologies when developing Web sites. Smaller organisations may only require a single permanent or contracting developer, as well as secondary assignments to related job positions such as graphic designer or information systems technician. Web development may be a collaborative effort among departments rather than the responsibility of a single department. Web developer specialisations are divided into three categories: front-end developer, back-end developer, and full-stack developer. Front-end developers are in charge of the behaviour and visuals that appear in the user's browser, whereas back-end developers work with the servers. Since the commercialization of the Web, with Tim Berners-Lee developing the World Wide Web at CERN, the industry has grown to become one of the most widely used technologies in history.
-      </p>
-    </section>
-    <br />
-
-    <h2 class="text-center m-4 resource">
-      Resources for learning Web Development
-    </h2>
-
-    <div class="video-container d-flex justify-content-around m-5">
-      <iframe
-        src="https://www.youtube.com/embed/videoseries?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      >
-      </iframe>
-
-      <iframe
-        src="https://www.youtube.com/embed/Vq-bgH0yq6Y"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      >
-      </iframe>
-    </div>
-
-    <div class="video-container d-flex justify-content-around m-5">
-      <iframe
-        src="https://www.youtube.com/embed/ZxKM3DCV2kE"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      >
-      </iframe>
-    </div>
-
-    <!-- Web Development Intro ends here -->
-
-    <!-- Footer starts here -->
-    <section >
-      <footer class="footer_area section_padding_130_0">
-        <div class="container">
-          <div class="row">
-            <!-- Single Widget-->
-            <div class="col-12 col-sm-6 col-lg-4 mt-5">
-              <div class="single-footer-widget section_padding_0_130">
-                <!-- Footer Logo-->
-                <div class="footer-logo mb-3"><a href="index.html"><h5>@cadmica!</h5></a></div>
-                 <p>Help you to study more often
-                 than before</p>
-                <!--Buy me-coffee-->
-                <div class="copywrite-text mb-5">
-                    <a href="https://www.buymeacoffee.com/gavinash62D">
-                    <img class="img-buy-coffee mr-3" src="buyMeCoffeeLogo.png">
-                    Help us grow more
-                  </a>
-                </div>
-                <!-- Footer Social Area-->
-                <p class="footer-icon-contact mt-4">Contact us at -</p>
-                <div class="footer_social_area"><a href="https://www.facebook.com/people/Avinash-Gupta/100042540223986" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a><a href="https://www.instagram.com/programmer_gupta/" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><i class="fa fa-instagram"></i></a><a href="https://www.linkedin.com/in/avinash-gupta-3321041ba/" data-toggle="tooltip" data-placement="top" title="" data-original-title="linkedin"><i class="fa fa-linkedin"></i></a><a href="https://twitter.com/Avinash35925012" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></div>
-              </div>
-            </div>
-            
-            <!-- Single Widget-->
-            <div class="col-12 col-sm-6 col-lg">
-              <div class="single-footer-widget section_padding_0_130">
-                <!-- Widget Title-->
-                <h5 class="widget-title mt-5">Product</h5>
-                <!-- Footer Menu-->
-                <div class="footer_menu">
-                  <ul>
-                    <li><a href="public/studyroom.html">Study Room</a></li>
-                    <li><a href="https://discord.com/invite/ZkHXnxhda7">Discord Server</a></li>
-                    <li><a href="public/503.html">Study Statistics</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- Single Widget-->
-            <div class="col-12 col-sm-6 col-lg">
-              <div class="single-footer-widget section_padding_0_130">
-                <!-- Widget Title-->
-                <h5 class="widget-title mt-5">Support</h5>
-                <!-- Footer Menu-->
-                <div class="footer_menu">
-                  <ul>
-                    <li><a href="mailto:studentCommunityClub79@gmail.com">studentCommunityClub79@gmail.com</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- Single Widget-->
-            <div class="col-12 col-sm-6 col-lg">
-              <div class="single-footer-widget section_padding_0_130">
-              
-              </div>
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg">
+            <div class="single-footer-widget section_padding_0_130">
+              <!-- Widget Title-->
+              <h5 class="widget-title mt-5">Product</h5>
+              <!-- Footer Menu-->
+              <div class="footer_menu">
+                <ul>
+                  <li><a href="public/studyroom.html">Study Room</a></li>
+                  <li><a href="https://discord.com/invite/ZkHXnxhda7">Discord Server</a></li>
+                  <li><a href="public/503.html">Study Statistics</a></li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="text-center mt-5"><p>2022 @cadmica Inc. Copyright and All rights reserved</p> </div>
-        </div>
-       </footer>
-    </section>
-  
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg">
+            <div class="single-footer-widget section_padding_0_130">
+              <!-- Widget Title-->
+              <h5 class="widget-title mt-5">Support</h5>
+              <!-- Footer Menu-->
+              <div class="footer_menu">
+                <ul>
+                  <li><a href="mailto:studentCommunityClub79@gmail.com">studentCommunityClub79@gmail.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg">
+            <div class="single-footer-widget section_padding_0_130">
 
-    <script src="../../JS/main.js"></script>
-    <script src="../../JS/web_nav.js"></script>
-  </body>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <p>2022 @cadmica Inc. Copyright and All rights reserved</p>
+      </div>
+      </div>
+    </footer>
+  </section>
+
+
+  <script src="../../JS/main.js"></script>
+  <script src="../../JS/web_nav.js"></script>
+</body>
+
 </html>
