@@ -44,6 +44,9 @@
         </a>
       </div>
     </div>
+    <div class="form-check form-switch theme-toggle-button button-all">
+      <i class="theme-icon fa-solid fa-sun fa-moon"></i>    
+    </div>
   </nav>
 
   <nav id="responsive-nav">
@@ -59,6 +62,23 @@
             <li><a href="https://discord.gg/ZkHXnxhda7">Discord Server</a></li>
             <li><a href="src/pages/Stats/stats.html">Study Statistics</a></li>
             <li><a href="https://github.com/tier3guy/Acadmica">GitHub</a></li>
+            <li>
+              <button
+                class="theme-toggle-button2 button-primary button-all"
+              >
+                <svg
+                  class="icon"
+                  style="width: 24px; height: 24px"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M7.5,2C5.71,3.15 4.5,5.18 4.5,7.5C4.5,9.82 5.71,11.85 7.53,13C4.46,13 2,10.54 2,7.5A5.5,5.5 0 0,1 7.5,2M19.07,3.5L20.5,4.93L4.93,20.5L3.5,19.07L19.07,3.5M12.89,5.93L11.41,5L9.97,6L10.39,4.3L9,3.24L10.75,3.12L11.33,1.47L12,3.1L13.73,3.13L12.38,4.26L12.89,5.93M9.59,9.54L8.43,8.81L7.31,9.59L7.65,8.27L6.56,7.44L7.92,7.35L8.37,6.06L8.88,7.33L10.24,7.36L9.19,8.23L9.59,9.54M19,13.5A5.5,5.5 0 0,1 13.5,19C12.28,19 11.15,18.6 10.24,17.93L17.93,10.24C18.6,11.15 19,12.28 19,13.5M14.6,20.08L17.37,18.93L17.13,22.28L14.6,20.08M18.93,17.38L20.08,14.61L22.28,17.15L18.93,17.38M20.08,12.42L18.94,9.64L22.28,9.88L20.08,12.42M9.63,18.93L12.4,20.08L9.87,22.27L9.63,18.93Z"
+                  />
+                </svg>
+                Swap themes
+              </button>
+            </li>
           </ul>
         </div>
       </div>
@@ -67,7 +87,7 @@
   <!-- Navbar ends here -->
 
   <!-- Main hero page starts here -->
-  <div class="main-container mb-5 interview-container">
+  <div class="main-container  mb-5 interview-container">
     <div class="text-container">
       <h1>Get prepared for your <span class="title">"interview"</span></h1>
       <h1>now<span class="exclaimation">!</span></h1>
@@ -149,7 +169,7 @@
       <div class="faq-box">
         <div class="faq-row">
           <button class="faq-btn">
-            C
+            <span id="faq-quest">C</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content Programming-tutorial">
@@ -165,13 +185,13 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            C++
+            <span id="faq-quest">C++</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content Programming-tutorial">
             <p>
               <a href="https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb" target="_blank">C++
-                Proramming Tutorial</a>
+                programming Tutorial</a>
             </p>
             <p>
               <a href="https://drive.google.com/file/d/1quTFECzCUSXNjNmmJyUZ38t73_QCcMMY/view" target="_blank">Mastering
@@ -181,31 +201,31 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            Java
+            <span id="faq-quest">Java</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
 
           <div class="faq-content Programming-tutorial">
             <p>
-              <a href="https://www.youtube.com/watch?v=grEKMHGYyns" target="_blank">Java Proramming Tutorial</a>
+              <a href="https://www.youtube.com/watch?v=grEKMHGYyns" target="_blank">Java programming Tutorial</a>
             </p>
           </div>
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            JavaScript
+            <span id="faq-quest">JavaScript</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content Programming-tutorial">
             <p>
               <a href="https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP"
-                target="_blank">JavaScript Proramming Tutorial</a>
+                target="_blank">JavaScript programming Tutorial</a>
             </p>
           </div>
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            Python
+            <span id="faq-quest">Python</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content Programming-tutorial">
@@ -239,7 +259,7 @@
       <div class="faq-box">
         <div class="faq-row">
           <button class="faq-btn">
-            DSA in C
+            <span id="faq-quest">DSA in C</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -251,7 +271,7 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            DSA in C++
+            <span id="faq-quest"> DSA in C++</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -263,7 +283,7 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            DSA in Java
+            <span id="faq-quest">DSA in Java</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
 
@@ -276,7 +296,7 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            DSA in JavaScript
+            <span id="faq-quest"> DSA in JavaScript</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -288,7 +308,7 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            DSA in Python
+            <span id="faq-quest"> DSA in Python</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -319,21 +339,21 @@
       </p>
       <div class="faq-box">
         <div class="faq-row">
-          <a href="https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view" target="_blank">DSA Sheet by
-            Love Babbar-450 Questions</a>
+          <a href="https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view" target="_blank"><span id="faq-quest">DSA Sheet by
+            Love Babbar-450 Questions</span></a>
         </div>
         <div class="faq-row">
           <a href="https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/"
-            target="_blank">DSA Sheet by Striver-184 Questions</a>
+            target="_blank"><span id="faq-quest">DSA Sheet by Striver-184 Questions</span></a>
 
         </div>
         <div class="faq-row">
           <a href="https://docs.google.com/spreadsheets/d/1-wKcV99KtO91dXdPkwmXGTdtyxAfk1mbPXQg81R9sFE/edit#gid=0"
-            target="_blank">DSA Sheet by Fraz-250 Questions</a>
+            target="_blank"><span id="faq-quest">DSA Sheet by Fraz-250 Questions</span></a>
         </div>
         <div class="faq-row">
           <a href="https://docs.google.com/spreadsheets/d/1MGVBJ8HkRbCnU6EQASjJKCqQE8BWng4qgL0n3vCVOxE/edit?usp=sharing"
-            target="_blank">DSA Sheet by Arsh Goyal-280 Questions</a>
+            target="_blank"><span id="faq-quest">DSA Sheet by Arsh Goyal-280 Questions</span></a>
 
         </div>
       </div>
@@ -353,7 +373,7 @@
       <div class="faq-box">
         <div class="faq-row">
           <button class="faq-btn">
-            Computer Network (CN)
+            <span id="faq-quest"> Computer Network (CN)</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -369,7 +389,7 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            Database Management System (DBMS)
+            <span id="faq-quest"> Database Management System (DBMS)</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -384,7 +404,7 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            Operating System (OS)
+           <span id="faq-quest"> Operating System (OS)</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
 
@@ -400,7 +420,7 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            Design and Analysis of Algorithm ( DAA )
+           <span id="faq-quest"> Design and Analysis of Algorithm ( DAA )</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -415,7 +435,7 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            Software Engineering
+           <span id="faq-quest"> Software Engineering</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -535,18 +555,19 @@
         </p>
         <div class="faq-box">
           <div class="faq-row">
-            <a href="https://www.youtube.com/playlist?list=PLk7ptZcI9vmjLJMjTSV2FkSNFaDOV-6cr" target="_blank">Aptitude
-              Playlist ft. Unacademy</a>
+            
+            <a href="https://www.youtube.com/playlist?list=PLk7ptZcI9vmjLJMjTSV2FkSNFaDOV-6cr" target="_blank"><span id="faq-quest">Aptitude
+              Playlist ft. Unacademy</span></a>
           </div>
           <div class="faq-row">
-            <a href="https://www.indiabix.com/aptitude/questions-and-answers/" target="_blank">India Bix</a>
+            <a href="https://www.indiabix.com/aptitude/questions-and-answers/" target="_blank"><span id="faq-quest">India Bix</span></a>
           </div>
           <div class="faq-row">
-            <a href="https://www.geeksforgeeks.org/aptitude-gq/" target="_blank">GFG</a>
+            <a href="https://www.geeksforgeeks.org/aptitude-gq/" target="_blank"><span id="faq-quest">GFG</span></a>
           </div>
           <div class="faq-row">
             <a href="https://drive.google.com/file/d/1wHbqhqTLjzGunIf14dnIvhw0rOqW1mxm/view?usp=sharing"
-              target="_blank">Quantative aptitude by Arun Sharma</a>
+              target="_blank"><span id="faq-quest">Quantative aptitude by Arun Sharma</span></a>
           </div>
         </div>
       </section>
@@ -576,7 +597,7 @@
                 <!--Buy me-coffee-->
                 <div class="copywrite-text mb-5">
                   <a href="https://www.buymeacoffee.com/gavinash62D">
-                    <img class="img-buy-coffee mr-3" src="buyMeCoffeeLogo.png">
+                    <img class="img-buy-coffee mr-3" src="../../assets/buyMeCoffeeLogo.png">
                     Help us grow more
                   </a>
                 </div>
