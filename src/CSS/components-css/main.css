@@ -1,71 +1,70 @@
-.main-container{
+.main-container {
   width: 90vw;
-  min-height : 100vh;
+  min-height: fit-content;
   margin: 0 auto;
   position: relative;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   grid-row-end: auto;
+  justify-content: space-between;
 }
 
-.text-container{
+.text-container {
   margin-top: 10em;
   width: 50%;
-  position: absolute;
+  position: relative;
   left: 0;
   font-family: var(--font-barlow);
-  /* color : var(--dark-blue); */
-  color: var(--text-color4);
-  
+  color: var(--dark-blue);
 }
 
-.text-container .title{
-  /* color: var(--blue); */
-  color: var(--text-color3);
-  font-size: 3em;
+.text-container .title {
+  color: var(--blue);
+  font-size: 1em;
 }
 
-
-.text-container .exclaimation{
+.text-container .exclaimation {
   color: var(--blue);
 }
 
-
-.image-container{
-  width: 45%;
-  position: absolute;
+.image-container {
+  position: relative;
   right: 0;
-  margin-top: 10em;
 }
 
-.img-responsive{
+.img-responsive {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 18px;
 }
 
-
-.fa-discord{
+.fa-discord {
   font-size: 1.1em;
   color: var(--blue);
   padding-right: 12px;
 }
 
-.studyroom-container{
+.studyroom-container {
   width: 90%;
   min-height: 100vh;
   font-family: var(--font-barlow);
   padding-top: 10em;
 }
 
-.studyroom-container .main-container-studyroom .img-container{
+.studyroom-container .main-container-studyroom .img-container {
   position: relative;
   width: 50%;
-  height: 70vh;
+  height: auto;
 }
 
-.sr-img{
-  position: absolute;
+@media screen and (max-width: 710px) {
+  .img-container {
+    display: none;
+  }
+}
+
+.sr-img {
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.61) 0px 2px 5px 0px;
   width: 20em;
@@ -74,61 +73,82 @@
   transition: all 0s;
 }
 
-.acadmic{
+.acadmic {
   right: 20%;
   top: 0;
   z-index: 1;
 }
 
-.devdo{
+.devdo {
   z-index: 2;
   top: 25%;
   left: 0;
 }
 
-
-.dsa{
+.dsa {
   right: 0;
   bottom: 0;
   z-index: 3;
 }
 
-.text-container-studyroom{
+.text-container-studyroom {
   width: 40%;
-  
 }
-.text-container-studyroom h1{
+.text-container-studyroom h1 {
   font-size: 3.5em;
 }
-.text-container-studyroom span{
+.text-container-studyroom span {
   color: var(--blue);
 }
 
-.room-main{
-  font-size: 1.1em;
-  margin-top: 5em;
+@media screen and (max-width: 720px) {
+  .text-container-studyroom {
+    width: 100%;
+    text-align: center;
+    margin-top: -40%;
+    background-color: white;
+    height: 240px;
+  }
+  .text-container-studyroom h1 {
+    font-size: 2em;
+  }
+  .text-container-studyroom span {
+    color: var(--blue);
+  }
+}
+@media screen and (max-width: 720px) {
+  .room-main {
+    font-size: 1.1em;
+  }
 }
 
-.room-main span{
+@media screen and (min-width: 800px) {
+  .room-main {
+    font-size: 1.1em;
+    margin-top: 5em;
+  }
+}
+
+.room-main span {
   color: var(--blue);
 }
 
-.room-main h1{
+.room-main h1 {
   color: var(--dark-blue);
   padding-bottom: 12px;
   transition: all 0.1s;
   width: fit-content;
 }
 
-.room-main a h1:hover{
+.room-main a h1:hover {
   border-bottom: 2px dashed var(--blue);
 }
 
-.img-buy-coffee{
+.img-buy-coffee {
   width: 35px;
   height: 35px;
 }
-@media screen  and  (max-width:850px) {
+@media screen and (max-width: 850px) {
   .text-container .title {
     /* color: var(--blue); */
     font-size: 2em;
@@ -137,18 +157,37 @@
     min-height: 72vh;
   }
   .facilities-row {
-   
-    
     flex-direction: column;
+  }
+  .image-container {
+    position: relative;
+    left: 0;
+    display: block;
+  }
+  .text-container {
+    margin-top: 10em;
+    width: 100%;
+    /* position: absolute; */
+    /* left: 0; */
+    font-family: var(--font-barlow);
+    color: var(--dark-blue);
+    display: block;
+  }
 }
-.image-container {
-  width: 45vh;
-  position: absolute;
-  top: 50vh;
-  left: 0;
-  margin-top: 5em;
-  display: block;
+
+@media screen and (min-width: 721px) {
+  .bg-img {
+    display: none;
+  }
 }
+
+@media screen and (max-width: 720px) {
+  .bg-img {
+    width: 90%;
+    height: auto;
+  }
+}
+
 .text-container {
   margin-top: 10em;
   width: 100%;
@@ -157,4 +196,4 @@
   font-family: var(--font-barlow);
   /* color: var(--dark-blue); */
   display: block;
-}}
+}

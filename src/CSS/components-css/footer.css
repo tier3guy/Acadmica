@@ -6,7 +6,6 @@
     color: var(--text-color7);
 }
 
-
 .footer_area {
     position: relative;
     z-index: 1;
@@ -143,9 +142,12 @@
     border:1px solid var(--button-color);
     /* color:var(--button-color); */
 }
+
+
 .footer_social_area a i {
     line-height: 36px;
 }
+
 .footer_social_area a:hover,
 .footer_social_area a:focus {
     background-color: #0b1db4;

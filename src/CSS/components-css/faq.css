@@ -22,6 +22,7 @@
   /* color: var(--text-color2); */
   background: #0b1db4;
   color:var(--loading-bg);
+
 }
 
 .FAQ h1 {
@@ -77,6 +78,7 @@
 
 .fa-moon{
   color:var(--text-color2);
+
 }
 
 .faq-content>p{
@@ -105,5 +107,15 @@
     width: 92%;
     padding-left: 15px; 
     padding-right: 15px; 
+  }
+}
+@media screen and (max-width: 426px) {
+  .faq-content>p{
+    margin: 17px -65px 0px 63px;
+  }
+}
+@media screen and (max-width: 765px) {
+  .faq-content>p{
+    margin: 0px 0px 0px 0px;
   }
 }
