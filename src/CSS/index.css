@@ -240,8 +240,9 @@ a:hover {
 }
 
 .img-responsive {
-  width: 33em;
-  height: 29.5em;
+  margin-right: 1.5em;
+  width: 150%;
+  height: 100%;
 }
 
 .googleForm {
@@ -535,18 +536,9 @@ iframe:hover {
     font-size: 2em;
   }
 
-  .image-container img {
-    height: 18em;
-    width: auto;
-  }
-}
+ 
 
-@media (max-width: 980px) {
-  .image-container img {
-    height: 16em;
-    width: auto;
-  }
-}
+
 
 @media (max-width: 849px) {
   .image-container {
@@ -664,4 +656,11 @@ label {
 span#faq-quest {
   width: 80%;
   text-align: start;
+}
+.image-container{
+  max-width: 100%;  
+  height: auto; 
+}
+.imgfg{
+  max-width: 50%;
 }
