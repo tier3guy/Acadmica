@@ -187,3 +187,13 @@
     height: auto;
   }
 }
+
+.text-container {
+  margin-top: 10em;
+  width: 100%;
+  /* position: absolute; */
+  /* left: 0; */
+  font-family: var(--font-barlow);
+  /* color: var(--dark-blue); */
+  display: block;
+}
