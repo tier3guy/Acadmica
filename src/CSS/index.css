@@ -293,12 +293,17 @@ a:hover {
   color: #ffffff;
   font-weight: bold;
 }
-.feedback {
-  font-family: var(--font-barlow);
-  width: 90%;
-  margin: auto;
-  margin-top: 1em;
+.feedback-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
   text-align: center;
+  border: 2px solid   white;
+  padding: 2rem;
+}
+
+.feedback-col:hover{
+  box-shadow: rgba(88, 46, 240, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(71, 27, 230, 0.2) 15px 15px, rgba(59, 46, 240, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
 .feedback div.about{
@@ -683,4 +688,5 @@ span#faq-quest {
 }
 .imgfg{
   max-width: 50%;
+}
 }
