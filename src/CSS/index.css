@@ -59,6 +59,7 @@ body.dark {
   --box-shadow-1: rgba(255, 255, 255, 0.6);
   --box-shadow-2: rgba(0, 145, 255, 0.15);
   --bg-color: #595959;
+  --theme-icon-bg: var(--button-discord);
 
 }
 
@@ -66,7 +67,6 @@ body.dark {
 :root {
   --primary-color: #edf2fc;
   --secondary-color: #212121;
-  /* --background-color: white; */
 }
 
 .dark-mode {
@@ -129,6 +129,7 @@ html::-webkit-scrollbar-track {
   --box-shadow-1: rgba(60, 64, 67, 0.3);
   --box-shadow-2: rgba(60, 64, 67, 0.15);
   --bg-color: #b1b2ee;
+  --theme-icon-bg: #e4e4e4;
 
 
 
@@ -258,6 +259,14 @@ a:hover {
   height: 100%;
 }
 
+#text-three{
+  color: #4245f3;
+}
+
+.icon-container{
+  color: var(--dark-blue);
+}
+
 .googleForm {
   font-weight: bold;
 }
@@ -294,12 +303,17 @@ a:hover {
   color: #ffffff;
   font-weight: bold;
 }
-.feedback {
-  font-family: var(--font-barlow);
-  width: 90%;
-  margin: auto;
-  margin-top: 1em;
+.feedback-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
   text-align: center;
+  border: 2px solid   white;
+  padding: 2rem;
+}
+
+.feedback-col:hover{
+  box-shadow: rgba(88, 46, 240, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(71, 27, 230, 0.2) 15px 15px, rgba(59, 46, 240, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
 .feedback div.about{
@@ -509,7 +523,7 @@ iframe:hover {
 
 /* new  */
 .theme-toggle-button {
-  background-color: var(--button-discord);
+  background-color: var(--theme-icon-bg);
   color: var(--black);
   cursor: pointer;
   display: flex;
@@ -684,4 +698,5 @@ span#faq-quest {
 }
 .imgfg{
   max-width: 50%;
+}
 }

@@ -19,29 +19,37 @@
   <link rel="stylesheet" href="../../CSS/index.css" />
 </head>
 
-<body>
+<body class="dark">
   <!-- Navbar starts here -->
   <nav id="nav" class="center p-4 w-100">
     <div class="nav-container w-100 d-flex align-items-center justify-content-between">
       <a class="logo" href="../../../index.html"> @cadmica! </a>
 
       <div class="navbar-links">
-        <ul class="center">
+        <ul class="space-between">
           <li class="pl-3 pr-3">
-            <a href="../../../public/studyroom.html">Study Room</a>
+            <a class="nav-items-a" href="../../../public/studyroom.html">Study Room</a>
           </li>
           <li class="pl-3 pr-3">
-            <a href="https://discord.gg/ZkHXnxhda7">Discord Server</a>
+            <a class="nav-items-a" href="https://discord.gg/ZkHXnxhda7">Discord Server</a>
           </li>
-          <li class="pl-3 pr-3"><a href="../../../public/503.html">Study Statistics</a></li>
-          <li class="pl-3 pr-3"><a href="https://github.com/tier3guy/Acadmica">GitHub</a></li>
+          <li class="pl-3 pr-3">
+            <a class="nav-items-a" href="../../../public/503.html">Study Statistics</a>
+          </li>
+          <li class="pl-3 pr-3">
+            <a class="nav-items-a" href="https://github.com/tier3guy/Acadmica">GitHub</a>
+          </li>
         </ul>
       </div>
-
-      <div class="btn-container center">
-        <a href="../../pages/subscribe.html" class="button-primary button-all">
-          Subscribe Us
-        </a>
+      <div class="d-flex">
+        <div class="btn-container center">
+          <a href="../../pages/subscribe.html" class="button-primary button-all">
+            Subscribe Us
+          </a>
+        </div>
+        <div class="form-check form-switch theme-toggle-button button-all">
+          <i class="theme-icon fa-solid fa-sun"></i>    
+        </div>
       </div>
     </div>
     <div class="form-check form-switch theme-toggle-button button-all">
@@ -289,7 +297,7 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            <span id="faq-quest"> DSA in C++</span>
+            <span id="faq-quest">DSA in C++</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -316,7 +324,8 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            <span id="faq-quest"> DSA in JavaScript</span>
+
+            <span id="faq-quest">DSA in JavaScript</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -329,7 +338,8 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            <span id="faq-quest"> DSA in Python</span>
+            <span id="faq-quest">DSA in Python</span>
+
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -342,14 +352,13 @@
             </p>
           </div>
         </div>
+        <p class="heading">More for DSA</p>
+        <p class="sub-heading"><a href="https://drive.google.com/file/d/1ce8ABTgL-FOilsKiJlgucOhAHJvA0Op6/view"
+            target="_blank">Grooking Algorithms | a fun book to learn algorithms</a></p>
+        <p class="sub-heading"><a
+            href="https://drive.google.com/file/d/0B48k2jhdQ5P2aVlmMFB1UUJLczA/view?resourcekey=0-7DD5ct5tS4_z2bJ-1HZUZQ"
+            target="_blank">DSA Handbook by 'Granville Barnett'</a></p>
       </div>
-
-      <p class="heading">More for DSA</p>
-      <p class="sub-heading"><a href="https://drive.google.com/file/d/1ce8ABTgL-FOilsKiJlgucOhAHJvA0Op6/view"
-          target="_blank">Grooking Algorithms | a fun book to learn algorithms</a></p>
-      <p class="sub-heading"><a
-          href="https://drive.google.com/file/d/0B48k2jhdQ5P2aVlmMFB1UUJLczA/view?resourcekey=0-7DD5ct5tS4_z2bJ-1HZUZQ"
-          target="_blank">DSA Handbook by 'Granville Barnett'</a></p>
 
     </section>
 
@@ -364,21 +373,21 @@
       </p>
       <div class="faq-box">
         <div class="faq-row">
-          <a href="https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view" target="_blank"><span id="faq-quest">DSA Sheet by
-            Love Babbar-450 Questions</span></a>
+          <a id="faq-quest" href="https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view" target="_blank">DSA Sheet by
+            Love Babbar-450 Questions</a>
         </div>
         <div class="faq-row">
-          <a href="https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/"
-            target="_blank"><span id="faq-quest">DSA Sheet by Striver-184 Questions</span></a>
+          <a id="faq-quest" href="https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/"
+            target="_blank">DSA Sheet by Striver-184 Questions</a>
 
         </div>
         <div class="faq-row">
-          <a href="https://docs.google.com/spreadsheets/d/1-wKcV99KtO91dXdPkwmXGTdtyxAfk1mbPXQg81R9sFE/edit#gid=0"
-            target="_blank"><span id="faq-quest">DSA Sheet by Fraz-250 Questions</span></a>
+          <a id="faq-quest" href="https://docs.google.com/spreadsheets/d/1-wKcV99KtO91dXdPkwmXGTdtyxAfk1mbPXQg81R9sFE/edit#gid=0"
+            target="_blank">DSA Sheet by Fraz-250 Questions</a>
         </div>
         <div class="faq-row">
-          <a href="https://docs.google.com/spreadsheets/d/1MGVBJ8HkRbCnU6EQASjJKCqQE8BWng4qgL0n3vCVOxE/edit?usp=sharing"
-            target="_blank"><span id="faq-quest">DSA Sheet by Arsh Goyal-280 Questions</span></a>
+          <a id="faq-quest" href="https://docs.google.com/spreadsheets/d/1MGVBJ8HkRbCnU6EQASjJKCqQE8BWng4qgL0n3vCVOxE/edit?usp=sharing"
+            target="_blank">DSA Sheet by Arsh Goyal-280 Questions</a>
 
         </div>
       </div>
@@ -398,7 +407,7 @@
       <div class="faq-box">
         <div class="faq-row">
           <button class="faq-btn">
-            <span id="faq-quest"> Computer Network (CN)</span>
+            <span id="faq-quest">Computer Network (CN)</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -414,7 +423,9 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-            <span id="faq-quest"> Database Management System (DBMS)</span>
+
+            <span id="faq-quest">Database Management System (DBMS)</span>
+
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -431,7 +442,9 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-           <span id="faq-quest"> Operating System (OS)</span>
+
+            <span id="faq-quest">Operating System (OS)</span>
+
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
 
@@ -449,7 +462,8 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-           <span id="faq-quest"> Design and Analysis of Algorithm ( DAA )</span>
+
+            <span id="faq-quest">Design and Analysis of Algorithm (DAA)</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -466,7 +480,8 @@
         </div>
         <div class="faq-row">
           <button class="faq-btn">
-           <span id="faq-quest"> Software Engineering</span>
+
+            <span id="faq-quest">Software Engineering</span>
             <i class="fa-solid fa-plus faq-icon"></i>
           </button>
           <div class="faq-content">
@@ -500,7 +515,7 @@
     </section>
 
     <!-- PROJECTS AND RESUME SECTIONS -->
-    <section>
+    <section class="dsa-and-comp-funds">
 
       <h1 class="text-center mt-5">
         Now you are done with <span>DSA</span> & <span>Computer fundamentals</span>
@@ -583,23 +598,23 @@
 
       <section class="FAQ" id="main-faq">
         <p style="margin-top: 3px;">
-        <h3 style="color: #081b61">Resources to learn Aptitude</h3>
+        <h3>Resources to learn <span>Aptitude</span></h3>
         </p>
         <div class="faq-box">
           <div class="faq-row">
-            
-            <a href="https://www.youtube.com/playlist?list=PLk7ptZcI9vmjLJMjTSV2FkSNFaDOV-6cr" target="_blank"><span id="faq-quest">Aptitude
-              Playlist ft. Unacademy</span></a>
+
+            <a id="faq-quest" href="https://www.youtube.com/playlist?list=PLk7ptZcI9vmjLJMjTSV2FkSNFaDOV-6cr" target="_blank">Aptitude
+              Playlist ft. Unacademy</a>
           </div>
           <div class="faq-row">
-            <a href="https://www.indiabix.com/aptitude/questions-and-answers/" target="_blank"><span id="faq-quest">India Bix</span></a>
+            <a id="faq-quest" href="https://www.indiabix.com/aptitude/questions-and-answers/" target="_blank">India Bix</a>
           </div>
           <div class="faq-row">
-            <a href="https://www.geeksforgeeks.org/aptitude-gq/" target="_blank"><span id="faq-quest">GFG</span></a>
+            <a id="faq-quest" href="https://www.geeksforgeeks.org/aptitude-gq/" target="_blank">GFG</a>
           </div>
           <div class="faq-row">
-            <a href="https://drive.google.com/file/d/1wHbqhqTLjzGunIf14dnIvhw0rOqW1mxm/view?usp=sharing"
-              target="_blank"><span id="faq-quest">Quantative aptitude by Arun Sharma</span></a>
+            <a id="faq-quest" href="https://drive.google.com/file/d/1wHbqhqTLjzGunIf14dnIvhw0rOqW1mxm/view?usp=sharing"
+              target="_blank">Quantative aptitude by Arun Sharma</a>
           </div>
         </div>
       </section>
@@ -607,8 +622,13 @@
     </section>
 
     <br /><br />
+<<<<<<< HEAD
     <h1 class="text-center"><strong><span>Congratulations!</span></strong> you are interview ready now.</h1>
     <h5 class="text-center"><a href="https://www.buymeacoffee.com/gavinash62D">If you have liked our work please do help
+=======
+    <h1 class="text-center"><span>Congratulations!</span> you are interview ready now.</h1>
+    <h5 class="text-center"><a id="donation" href="https://www.buymeacoffee.com/gavinash62D">If you have liked our work please do help
+>>>>>>> 7cd6f6836be1e250e2c35761efd72459853a6bbf
         us by donating $1.</a></h5>
     <br /><br />
 
