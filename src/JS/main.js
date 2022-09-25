@@ -12,3 +12,6 @@ document.querySelector('.theme-toggle-button').addEventListener('click',() =>{
   document.querySelector('.theme-icon').classList.toggle("fa-moon");
 })
 
+document.querySelector('.theme-toggle-button2').addEventListener('click',() =>{
+  document.body.classList.toggle('dark')
+})

@@ -127,6 +127,7 @@
     z-index: 1;
 }
 .footer_social_area a {
+    overflow-x: inherit;
     border-radius: 50%;
     height: 40px;
     text-align: center;
@@ -137,6 +138,9 @@
     -webkit-box-shadow: none;
     box-shadow: none;
     margin-right: 10px;
+    background-color: transparent;
+    border:1px solid var(--button-color);
+    /* color:var(--button-color); */
 }
 
 
@@ -146,11 +150,8 @@
 
 .footer_social_area a:hover,
 .footer_social_area a:focus {
-    /* color: white; */
-    color: var(--black);
-    /* color: var(--navbar-color); */
-    background-color: var(--button-discord);
-    transition-duration: .5s;
+    background-color: #0b1db4;
+    color: #ffffff;
 }
 
 @-webkit-keyframes bi-cycle {
