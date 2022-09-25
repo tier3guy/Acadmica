@@ -119,3 +119,10 @@
     margin: 0px 0px 0px 0px;
   }
 }
+@media screen and (max-width:342px) {
+  .FAQ .acad {
+    font-weight: 450;
+    color: var(--text-color3);
+    font-size: 2.9rem;
+  }
+}
