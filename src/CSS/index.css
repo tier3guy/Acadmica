@@ -286,6 +286,7 @@ a:hover {
 }
 
 .footer-divider {
+  border-radius: 50px;
   margin: 0 auto;
 }
 
@@ -556,7 +557,7 @@ iframe:hover {
     font-size: 2em;
   }
 
- 
+}
 
 
 
