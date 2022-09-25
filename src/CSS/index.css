@@ -59,6 +59,7 @@ body.dark {
   --box-shadow-1: rgba(255, 255, 255, 0.6);
   --box-shadow-2: rgba(0, 145, 255, 0.15);
   --bg-color: #595959;
+  --theme-icon-bg: var(--button-discord);
 
 }
 
@@ -66,7 +67,6 @@ body.dark {
 :root {
   --primary-color: #edf2fc;
   --secondary-color: #212121;
-  /* --background-color: white; */
 }
 
 .dark-mode {
@@ -129,6 +129,7 @@ html::-webkit-scrollbar-track {
   --box-shadow-1: rgba(60, 64, 67, 0.3);
   --box-shadow-2: rgba(60, 64, 67, 0.15);
   --bg-color: #b1b2ee;
+  --theme-icon-bg: #e4e4e4;
 
 
 
@@ -256,6 +257,14 @@ a:hover {
   margin-right: 1.5em;
   width: 150%;
   height: 100%;
+}
+
+#text-three{
+  color: #4245f3;
+}
+
+.icon-container{
+  color: var(--dark-blue);
 }
 
 .googleForm {
@@ -508,7 +517,7 @@ iframe:hover {
 
 /* new  */
 .theme-toggle-button {
-  background-color: var(--button-discord);
+  background-color: var(--theme-icon-bg);
   color: var(--black);
   cursor: pointer;
   display: flex;
