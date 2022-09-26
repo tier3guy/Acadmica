@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/CSS/index.css">
+    <title>Acadmica</title>
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="../../assets/favicon.png"
+      type="image/png"
+      sizes="32x32"
+    />
+
 
 <head>
   <meta charset="UTF-8" />
@@ -67,10 +81,63 @@
             <li><a href="https://github.com/tier3guy/Acadmica">GitHub</a></li>
           </ul>
         </div>
+        <div class="btn-container center">
+          <a
+            href="../../pages/subscribe.html"
+            class="button-primary button-all"
+          >
+            Subscribe Us
+          </a>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!-- Navbar ends here -->
+      <div class="form-check form-switch theme-toggle-button button-all">
+        <i class="theme-icon fa-solid fa-sun fa-moon"></i>    
+      </div>
+    </nav>
+
+    <nav id="responsive-nav">
+      <div class="faq-box">
+        <div class="faq-row res-nav-row">
+          <button class="faq-btn">
+            <a class="logo" href="#"> @cadmica! </a>
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="faq-content responsive-nav-content">
+            <ul class="nav-items-response">
+              <li><a href="public/studyroom.html">Study Room</a></li>
+              <li>
+                <a href="https://discord.gg/ZkHXnxhda7">Discord Server</a>
+              </li>
+              <li>
+                <a href="src/pages/Stats/stats.html">Study Statistics</a>
+              </li>
+              <li>
+                <a href="https://github.com/tier3guy/Acadmica">GitHub</a>
+              </li>
+              <li>
+                <button
+                  class="theme-toggle-button2 button-primary button-all"
+                >
+                  <svg
+                    class="icon"
+                    style="width: 24px; height: 24px"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M7.5,2C5.71,3.15 4.5,5.18 4.5,7.5C4.5,9.82 5.71,11.85 7.53,13C4.46,13 2,10.54 2,7.5A5.5,5.5 0 0,1 7.5,2M19.07,3.5L20.5,4.93L4.93,20.5L3.5,19.07L19.07,3.5M12.89,5.93L11.41,5L9.97,6L10.39,4.3L9,3.24L10.75,3.12L11.33,1.47L12,3.1L13.73,3.13L12.38,4.26L12.89,5.93M9.59,9.54L8.43,8.81L7.31,9.59L7.65,8.27L6.56,7.44L7.92,7.35L8.37,6.06L8.88,7.33L10.24,7.36L9.19,8.23L9.59,9.54M19,13.5A5.5,5.5 0 0,1 13.5,19C12.28,19 11.15,18.6 10.24,17.93L17.93,10.24C18.6,11.15 19,12.28 19,13.5M14.6,20.08L17.37,18.93L17.13,22.28L14.6,20.08M18.93,17.38L20.08,14.61L22.28,17.15L18.93,17.38M20.08,12.42L18.94,9.64L22.28,9.88L20.08,12.42M9.63,18.93L12.4,20.08L9.87,22.27L9.63,18.93Z"
+                    />
+                  </svg>
+                  Swap themes
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar ends here -->
+
 
   <!-- Android Intro starts here -->
 
@@ -167,8 +234,100 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
   </div>
+    <section class="FAQ">
 
-  <!-- Android Intro ends here -->
+      <h1 class="text-center mt-5">
+        Top 5 programming languages for <span>Android Development</span>
+      </h1>
+
+      <p>
+        Do you know how often you check your smartphone in a day? No? Well, according to several standard reports, 
+        that’s an astounding 100+ times a day (At least for us millennials…The rest of the population is a little saner). 
+        And the reason we are so addicted to our phones is the overwhelming sensory experience they provide in our daily lives. 
+        How so, you ask? Facebook, Instagram, Twitter, YouTube, WhatsApp (Need I go on?!!) 
+        So in a nutshell, smartphone apps are an integral part of our daily lives. 
+        They can be used to create connections, obtain information, or just have fun! And while creating a smartphone app 
+        is also fun, it requires a little more guidance, specifically in choosing the right programming language.
+      </p>
+
+      <div class="faq-box">
+        <div class="faq-row">
+          <button class="faq-btn">
+            <span id="faq-quest">Java</span>
+            <i class="fa-solid fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-content">
+            <p>
+              Java is a complicated language for a beginner to use as it contains complex topics like constructors, 
+              null pointer exceptions, concurrency, checked exceptions, etc. Also, The Android Software Development Kit (SDK) increases 
+              the complexity to a new level! <br>
+              <a href="https://youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q" target="_blank"><i class="fa fa-arrow-right"></i> Java Tutorials
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="faq-row">
+          <button class="faq-btn">
+            <span id="faq-quest">Kotlin</span>
+            <i class="fa-solid fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-content">
+            <p>
+              Kotlin is a cross-platform programming language that may be used as an alternative to Java for Android App 
+              Development. It has also introduced as a secondary “official” Java language in 2017. Kotlin can interoperate 
+              with Java and it runs on the Java Virtual Machine. <br>
+              <a href="https://youtube.com/playlist?list=PLlxmoA0rQ-LwgK1JsnMsakYNACYGa1cjR" target="_blank"><i class="fa fa-arrow-right"></i> Kotlin Tutorials</a>
+            </p>
+          </div>
+        </div>
+        <div class="faq-row">
+          <button class="faq-btn">
+            <span id="faq-quest">C++</span>
+            <i class="fa-solid fa-plus faq-icon"></i>
+          </button>
+
+          <div class="faq-content">
+            <p>
+              C++ is useful for Android App Development in some cases, it is much more difficult to set up and is much less flexible. 
+              It may also lead to more bugs because of the increased complexity. So, it is better to use Java as compared to C++ as 
+              it does not provide enough gain to offset the efforts required. <br>
+              <a href="https://youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL" target="_blank"><i class="fa fa-arrow-right"></i> C++ Tutorials</a>
+            </p>
+          </div>
+        </div>
+        <div class="faq-row">
+          <button class="faq-btn">
+            <span id="faq-quest">C#</span>
+            <i class="fa-solid fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-content">
+            <p>
+              C# is quite similar to Java and so it is ideal for Android App Development. Like Java, C# also implements garbage collection
+               so there are fewer chances of memory leaks. And C# also has a cleaner and simpler syntax than Java which makes coding 
+               with it comparatively easier. <br>
+              <a href="https://youtu.be/GhQdlIFylQ8" target="_blank"><i class="fa fa-arrow-right"></i> C# Tutorials</a>
+            </p>
+          </div>
+        </div>
+        <div class="faq-row">
+          <button class="faq-btn">
+            <span id="faq-quest">Python</span>
+            <i class="fa-solid fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-content">
+            <p>
+              Python can be used for Android App Development even though Android doesn’t support native Python development. 
+              This can be done using various tools that convert the Python apps into Android Packages that can run on Android devices. <br>
+              <a href="https://youtube.com/playlist?list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME"><i class="fa fa-arrow-right"></i> Python Tutorials</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Android Intro ends here -->
+
 
   <!-- Footer starts here -->
   <section>
@@ -186,9 +345,11 @@
                 than before</p>
               <!--Buy me-coffee-->
               <div class="copywrite-text mb-5">
+
                 <a href="https://www.buymeacoffee.com/gavinash62D">
                   <img class="img-buy-coffee mr-3"
                     src="https://cloud-ibqw7grg5-hack-club-bot.vercel.app/0buymecoffeelogo.png">
+
                   Help us grow more
                 </a>
               </div>
@@ -249,7 +410,11 @@
   </section>
 
 
-  <script src="../../JS/main.js"></script>
-</body>
 
+    <script src="../../JS/main.js"></script>
+    <script src="../../JS/main_nav.js"></script>
+    <script src="/src/JS/main_res_nav.js"></script>
+    <script src="../../JS/faq.js"></script>
+  </body>
 </html>
+

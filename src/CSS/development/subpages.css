@@ -1,21 +1,28 @@
+
 .intro-title {
     color: var(--blue);
+    
     font-family: var(--font-barlow);
-    font-size: 80px;
+    font-size: 100px;
+    font-weight: bold;
+    font-stretch: wider;
 }
 
 .intro {
     font-family: var(--font-barlow);
     width: 90%;
     margin: auto;
-    text-align: center;
+    
+    text-align: left;
     padding-top: 10px;
 }
 
+
 .intro h2 {
     font-size: 2.5em;
+    text-align: center;
     font-family: var(--font-barlow);
-    color: var(--dark-blue);
+    color: var(--font-barlow);
 }
 
 .intro p {

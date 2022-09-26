@@ -13,7 +13,8 @@
   padding: 5px 20px;
   padding-bottom: 15px;
   border-radius: 20px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  box-shadow: var(--box-shadow-1) 0px 1px 2px 0px, var(--box-shadow-2) 0px 1px 3px 1px;
   font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
   margin-top: 2em;
 }
@@ -21,7 +22,8 @@
 .facilities-row .mt-1 {
   background: #4245f3;
   border-radius: 3px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  box-shadow: var(--box-shadow-1) 0px 1px 2px 0px, var(--box-shadow-2) 0px 1px 3px 1px;
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
@@ -45,7 +47,7 @@
 
 .facilities p {
   margin-top: 3em;
-  color: var(--text-color);
+  color: var(--text-color5);
   font-family: var(--font-roboto);
 }
 
