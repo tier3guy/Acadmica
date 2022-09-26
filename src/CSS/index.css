@@ -683,11 +683,6 @@ label {
 .definition {
   font-size: 20px;
 }
-
-
-
-
-
 span#faq-quest {
   width: 80%;
   text-align: start;
@@ -698,5 +693,4 @@ span#faq-quest {
 }
 .imgfg{
   max-width: 50%;
-}
 }
