@@ -31,7 +31,10 @@
 
     <link rel="stylesheet" href="../src/CSS/index.css" />
   </head>
-  <body class="dark">
+  <body class="dark" onload="myfunction()">
+    <div id="load">
+        <div style="background-color: white; height: 25vh; width: 100%; position: relative; top: -70px;"></div>
+      </div>
     <!-- Navbar starts here -->
     <nav id="nav" class="center p-4 w-100">
       <div
@@ -304,5 +307,13 @@ Further within these three are many more sub-categories, such as academics, whic
       integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
       crossorigin="anonymous"
     ></script>
+    <script>
+      var preloader = document.getElementById('load');
+      var scroll = document.getElementById('main');
+      function myfunction(){
+          preloader.style.display='none';
+          scroll.style.overflow='scroll';
+      }
+  </script>
   </body>
 </html>

@@ -26,7 +26,11 @@
 
     <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
   </head>
-  <body>
+  <body onload="myfunction()">
+    <div id="load">
+        <div style="background-color: white; height: 25vh; width: 100%; position: relative; top: -70px;"></div>
+      </div>
+  
     <!-- Navbar starts here -->
     <nav id="nav" class="center p-4 w-100">
       <div
@@ -113,5 +117,13 @@
     </div>
 
     <script src="../JS/fb.js"></script>
+    <script>
+      var preloader = document.getElementById('load');
+      var scroll = document.getElementById('main');
+      function myfunction(){
+          preloader.style.display='none';
+          scroll.style.overflow='scroll';
+      }
+  </script>
   </body>
 </html>
