@@ -295,6 +295,7 @@ a:hover {
 }
 
 .footer-divider {
+  border-radius: 50px;
   margin: 0 auto;
 }
 
@@ -570,7 +571,7 @@ iframe:hover {
     font-size: 2em;
   }
 
- 
+}
 
 
 
@@ -682,11 +683,6 @@ label {
 .definition {
   font-size: 20px;
 }
-
-
-
-
-
 span#faq-quest {
   width: 80%;
   text-align: start;
@@ -698,12 +694,4 @@ span#faq-quest {
 .imgfg{
   max-width: 50%;
 }
-}
-@media screen and (max-width:701px) {
-  .feedback-row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-  }
-}
+

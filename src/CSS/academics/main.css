@@ -71,7 +71,7 @@
   background: rgba(92, 92, 255, 0.5);
   border: 1px solid var(--blue);
   width: 150px;
-  border-radius: 15px;
+  border-radius:0px;
   margin: 0px 1em 0px 1em;
   color: rgb(65, 65, 65);
   transition: all 0.2s;
@@ -88,7 +88,7 @@
   margin: auto;
   margin-top: 2em;
   font-size: 1.1em !important;
-  padding-bottom: 12px !important;
+  padding-bottom: 1px !important;
 }
 .btn-all{
   margin: 5px;
