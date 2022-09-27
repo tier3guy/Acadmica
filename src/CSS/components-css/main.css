@@ -32,6 +32,9 @@
   right: 0;
 }
 
+#two_btn{
+  margin-bottom:25px;
+}
 .img-responsive {
   width: 100%;
   height: 100%;

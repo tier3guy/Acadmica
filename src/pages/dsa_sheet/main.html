@@ -1,198 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Acadmica</title>
-    <!-- Favicon -->
-    <link
-      rel="icon"
-      href="../../assets/favicon.png"
-      type="image/png"
-      sizes="32x32"
-    />
 
-    <!-- FONTAWESOME CDN LINK -->
-    <script
-      src="https://kit.fontawesome.com/623d2ea8a9.js"
-      crossorigin="anonymous"
-    ></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acadmica</title>
+  <!-- Favicon -->
+  <link rel="icon" href="../../assets/favicon.png" type="image/png" sizes="32x32" />
 
-    <!-- BOOTSTRAP CDN LINK GOES HERE -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
-      crossorigin="anonymous"
-    />
+  <!-- FONTAWESOME CDN LINK -->
+  <script src="https://kit.fontawesome.com/623d2ea8a9.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../../CSS/index.css" />
-  </head>
-  <body>
-    <!-- Navbar starts here -->
-    <nav id="nav" class="center p-4 w-100">
-      <div
-        class="nav-container w-100 d-flex align-items-center justify-content-between"
-      >
-        <a class="logo" href="../../../index.html"> @cadmica! </a>
+  <!-- BOOTSTRAP CDN LINK GOES HERE -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
 
-        <div class="navbar-links">
-          <ul class="center">
-            <li class="pl-3 pr-3">
-              <a href="../../../index.html"> < Home /> </a>
+  <link rel="stylesheet" href="../../CSS/index.css" />
+</head>
+
+<body>
+  <!-- Navbar starts here -->
+  <nav id="nav" class="center p-4 w-100">
+    <div class="nav-container w-100 d-flex align-items-center justify-content-between">
+      <a class="logo" href="../../../index.html"> @cadmica! </a>
+
+      <div class="navbar-links">
+        <ul class="center">
+          <li class="pl-3 pr-3">
+            <a href="../../../index.html">
+              < Home />
+            </a>
+          </li>
+          <li class="pl-3 pr-3">
+            <a href="../../../public/studyroom.html">Study Room</a>
+          </li>
+          <li class="pl-3 pr-3">
+            <a href="https://discord.gg/PmgpTMzq">Discord Server</a>
+          </li>
+          <li class="pl-3 pr-3">
+            <a href="../Stats/stats.html">Study Statistics</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="btn-container center">
+        <a href="../../pages/subscribe.html" class="button-primary button-all">
+          Subscribe Us
+        </a>
+      </div>
+    </div>
+  </nav>
+  <nav id="responsive-nav">
+    <div class="faq-box">
+      <div class="faq-row res-nav-row">
+        <button class="faq-btn">
+          <a class="logo" href="#"> @cadmica! </a>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="faq-content responsive-nav-content">
+          <ul class="nav-items-response">
+            <li><a href="public/studyroom.html">Study Room</a></li>
+            <li>
+              <a href="https://discord.gg/ZkHXnxhda7">Discord Server</a>
             </li>
-            <li class="pl-3 pr-3">
-              <a href="../../../public/studyroom.html">Study Room</a>
-            </li>
-            <li class="pl-3 pr-3">
-              <a href="https://discord.gg/PmgpTMzq">Discord Server</a>
-            </li>
-            <li class="pl-3 pr-3">
-              <a href="../Stats/stats.html">Study Statistics</a>
-            </li>
+            <li><a href="src/pages/Stats/stats.html">Study Statistics</a></li>
+            <li><a href="https://github.com/tier3guy/Acadmica">GitHub</a></li>
           </ul>
         </div>
-
-        <div class="btn-container center">
-          <a
-            href="../../pages/subscribe.html"
-            class="button-primary button-all"
-          >
-            Subscribe Us
-          </a>
-        </div>
       </div>
-    </nav>
-    <nav id="responsive-nav">
-      <div class="faq-box">
-        <div class="faq-row res-nav-row">
-          <button class="faq-btn">
-            <a class="logo" href="#"> @cadmica! </a>
-            <i class="fa-solid fa-bars"></i>
-          </button>
-          <div class="faq-content responsive-nav-content">
-            <ul class="nav-items-response">
-              <li><a href="public/studyroom.html">Study Room</a></li>
-              <li>
-                <a href="https://discord.gg/ZkHXnxhda7">Discord Server</a>
-              </li>
-              <li><a href="src/pages/Stats/stats.html">Study Statistics</a></li>
-              <li><a href="https://github.com/tier3guy/Acadmica">GitHub</a></li>
-            </ul>
+    </div>
+  </nav>
+  <!-- Navbar ends here -->
+
+  <!-- DSA SHEETS SECTION START HERE -->
+  <section class="FAQ" id="main-faq">
+    <h1>Popular DSA Sheets</h1>
+    <p class="p-3">
+      Prepare for DSA interview rounds at the top companies. <br />
+      A sheet that covers almost every concept of Data Structures and
+      Algorithms.
+    </p>
+    <div class="faq-box">
+      <div class="faq-row">
+        <a href="https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view" target="_blank">DSA Sheet by
+          Love Babbar-450 Questions</a>
+      </div>
+      <div class="faq-row">
+        <a href="https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/"
+          target="_blank">DSA Sheet by Striver-184 Questions</a>
+      </div>
+      <div class="faq-row">
+        <a href="https://docs.google.com/spreadsheets/d/1-wKcV99KtO91dXdPkwmXGTdtyxAfk1mbPXQg81R9sFE/edit#gid=0"
+          target="_blank">DSA Sheet by Fraz-250 Questions</a>
+      </div>
+      <div class="faq-row">
+        <a href="https://docs.google.com/spreadsheets/d/1MGVBJ8HkRbCnU6EQASjJKCqQE8BWng4qgL0n3vCVOxE/edit?usp=sharing"
+          target="_blank">DSA Sheet by Arsh Goyal-280 Questions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer starts here -->
+  <section>
+    <footer class="footer_area section_padding_130_0">
+      <div class="container">
+        <div class="row">
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg-4 mt-5">
+            <div class="single-footer-widget section_padding_0_130">
+              <!-- Footer Logo-->
+              <div class="footer-logo mb-3"><a href="index.html">
+                  <h5>@cadmica!</h5>
+                </a></div>
+              <p>Help you to study more often
+                than before</p>
+              <!--Buy me-coffee-->
+              <div class="copywrite-text mb-5">
+                <a href="https://www.buymeacoffee.com/gavinash62D">
+                  <img class="img-buy-coffee mr-3"
+                    src="https://cloud-ibqw7grg5-hack-club-bot.vercel.app/0buymecoffeelogo.png">
+                  Help us grow more
+                </a>
+              </div>
+              <!-- Footer Social Area-->
+              <p class="footer-icon-contact mt-4">Contact us at -</p>
+              <div class="footer_social_area"><a href="https://www.facebook.com/people/Avinash-Gupta/100042540223986"
+                  data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><i
+                    class="fa fa-facebook"></i></a><a href="https://www.instagram.com/programmer_gupta/"
+                  data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><i
+                    class="fa fa-instagram"></i></a><a href="https://www.linkedin.com/in/avinash-gupta-3321041ba/"
+                  data-toggle="tooltip" data-placement="top" title="" data-original-title="linkedin"><i
+                    class="fa fa-linkedin"></i></a><a href="https://twitter.com/Avinash35925012" data-toggle="tooltip"
+                  data-placement="top" title="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></div>
+            </div>
           </div>
-        </div>
-      </div>
-    </nav>
-    <!-- Navbar ends here -->
 
-    <!-- DSA SHEETS SECTION START HERE -->
-    <section class="FAQ" id="main-faq">
-      <h1>Popular DSA Sheets</h1>
-      <p class="p-3">
-        Prepare for DSA interview rounds at the top companies. <br />
-        A sheet that covers almost every concept of Data Structures and
-        Algorithms.
-      </p>
-      <div class="faq-box">
-        <div class="faq-row">
-          <a
-            href="https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view"
-            target="_blank"
-            >DSA Sheet by Love Babbar-450 Questions</a
-          >
-        </div>
-        <div class="faq-row">
-          <a
-            href="https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/"
-            target="_blank"
-            >DSA Sheet by Striver-184 Questions</a
-          >
-        </div>
-        <div class="faq-row">
-          <a
-            href="https://docs.google.com/spreadsheets/d/1-wKcV99KtO91dXdPkwmXGTdtyxAfk1mbPXQg81R9sFE/edit#gid=0"
-            target="_blank"
-            >DSA Sheet by Fraz-250 Questions</a
-          >
-        </div>
-        <div class="faq-row">
-          <a
-            href="https://docs.google.com/spreadsheets/d/1MGVBJ8HkRbCnU6EQASjJKCqQE8BWng4qgL0n3vCVOxE/edit?usp=sharing"
-            target="_blank"
-            >DSA Sheet by Arsh Goyal-280 Questions</a
-          >
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer starts here -->
-    <section >
-      <footer class="footer_area section_padding_130_0">
-        <div class="container">
-          <div class="row">
-            <!-- Single Widget-->
-            <div class="col-12 col-sm-6 col-lg-4 mt-5">
-              <div class="single-footer-widget section_padding_0_130">
-                <!-- Footer Logo-->
-                <div class="footer-logo mb-3"><a href="index.html"><h5>@cadmica!</h5></a></div>
-                 <p>Help you to study more often
-                 than before</p>
-                <!--Buy me-coffee-->
-                <div class="copywrite-text mb-5">
-                    <a href="https://www.buymeacoffee.com/gavinash62D">
-                    <img class="img-buy-coffee mr-3" src="buyMeCoffeeLogo.png">
-                    Help us grow more
-                  </a>
-                </div>
-                <!-- Footer Social Area-->
-                <p class="footer-icon-contact mt-4">Contact us at -</p>
-                <div class="footer_social_area"><a href="https://www.facebook.com/people/Avinash-Gupta/100042540223986" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a><a href="https://www.instagram.com/programmer_gupta/" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><i class="fa fa-instagram"></i></a><a href="https://www.linkedin.com/in/avinash-gupta-3321041ba/" data-toggle="tooltip" data-placement="top" title="" data-original-title="linkedin"><i class="fa fa-linkedin"></i></a><a href="https://twitter.com/Avinash35925012" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></div>
-              </div>
-            </div>
-            
-            <!-- Single Widget-->
-            <div class="col-12 col-sm-6 col-lg">
-              <div class="single-footer-widget section_padding_0_130">
-                <!-- Widget Title-->
-                <h5 class="widget-title mt-5">Product</h5>
-                <!-- Footer Menu-->
-                <div class="footer_menu">
-                  <ul>
-                    <li><a href="public/studyroom.html">Study Room</a></li>
-                    <li><a href="https://discord.com/invite/ZkHXnxhda7">Discord Server</a></li>
-                    <li><a href="public/503.html">Study Statistics</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- Single Widget-->
-            <div class="col-12 col-sm-6 col-lg">
-              <div class="single-footer-widget section_padding_0_130">
-                <!-- Widget Title-->
-                <h5 class="widget-title mt-5">Support</h5>
-                <!-- Footer Menu-->
-                <div class="footer_menu">
-                  <ul>
-                    <li><a href="mailto:studentCommunityClub79@gmail.com">studentCommunityClub79@gmail.com</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- Single Widget-->
-            <div class="col-12 col-sm-6 col-lg">
-              <div class="single-footer-widget section_padding_0_130">
-              
-              </div>
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg">
+            <div class="single-footer-widget section_padding_0_130">
+              <!-- Widget Title-->
+              <h5 class="widget-title mt-5">Product</h5>
+              <!-- Footer Menu-->
+              <div class="footer_menu">
+                <ul>
+                  <li><a href="public/studyroom.html">Study Room</a></li>
+                  <li><a href="https://discord.com/invite/ZkHXnxhda7">Discord Server</a></li>
+                  <li><a href="public/503.html">Study Statistics</a></li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="text-center mt-5"><p>2022 @cadmica Inc. Copyright and All rights reserved</p> </div>
-        </div>
-       </footer>
-    </section>
-  
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg">
+            <div class="single-footer-widget section_padding_0_130">
+              <!-- Widget Title-->
+              <h5 class="widget-title mt-5">Support</h5>
+              <!-- Footer Menu-->
+              <div class="footer_menu">
+                <ul>
+                  <li><a href="mailto:studentCommunityClub79@gmail.com">studentCommunityClub79@gmail.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg">
+            <div class="single-footer-widget section_padding_0_130">
 
-    <!-- footer ends here -->
-  </body>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <p>2022 @cadmica Inc. Copyright and All rights reserved</p>
+      </div>
+      </div>
+    </footer>
+  </section>
+
+
+  <!-- footer ends here -->
+</body>
+
 </html>
