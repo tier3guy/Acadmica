@@ -27,3 +27,14 @@ searchbar.childNodes[5].addEventListener('click', (event) => {
     alert('Sorry not available')
   }
 })
+
+const nav_search=document.getElementById("nav-view-search-item")
+
+nav_search.childNodes[5].addEventListener('click', (event) => {
+  event.preventDefault();
+  var navsearchTerm = nav_search.childNodes[3].value
+  window.find(navsearchTerm)
+  if (!window.find(navsearchTerm)) {
+    alert('Sorry not available')
+  }
+})
