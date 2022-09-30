@@ -19,7 +19,10 @@
     <link rel="stylesheet" href="../../CSS/index.css" />
 </head>
 
-<body>
+<body onload="myfunction()">
+    <div id="load">
+        <div style="background-color: white; height: 25vh; width: 100%; position: relative; top: -70px;"></div>
+      </div>
     <!-- Navbar starts here -->
     <nav id="nav" class="center p-4 w-100">
         <div class="nav-container w-100 d-flex align-items-center justify-content-between">
@@ -611,6 +614,14 @@
             let cont = document.getElementById("sem8");
             cont.scrollIntoView({ behavior: "smooth" });
         });
+    </script>
+    <script>
+        var preloader = document.getElementById('load');
+        var scroll = document.getElementById('main');
+        function myfunction(){
+            preloader.style.display='none';
+            scroll.style.overflow='scroll';
+        }
     </script>
 </body>
 
