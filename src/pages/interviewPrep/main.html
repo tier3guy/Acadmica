@@ -19,7 +19,11 @@
   <link rel="stylesheet" href="../../CSS/index.css" />
 </head>
 
-<body class="dark">
+<body class="dark" onload="myfunction()">
+  <div id="load">
+      <div style="background-color: white; height: 25vh; width: 100%; position: relative; top: -70px;"></div>
+    </div>
+
   <!-- Navbar starts here -->
   <nav id="nav" class="center p-4 w-100">
     <div class="nav-container w-100 d-flex align-items-center justify-content-between">
@@ -42,6 +46,12 @@
         </ul>
       </div>
       <div class="d-flex">
+        <form id="search-item">
+          <label for="search">Search:</label>
+          <input type="text" name="search" id="search">
+          <button name="search_btn">Search</button>
+          <button name="reset" type="reset">Reset</button>
+        </form>
         <div class="btn-container center">
           <a href="../../pages/subscribe.html" class="button-primary button-all">
             Subscribe Us
@@ -87,6 +97,12 @@
                 Swap themes
               </button>
             </li>
+            <li><form id="nav-view-search-item">
+              <label for="search">Search:</label>
+              <input type="text" name="search" id="search">
+              <button name="search_btn">Search</button>
+              <button name="reset" type="reset">Reset</button>
+            </form></li>
           </ul>
         </div>
       </div>
@@ -113,7 +129,7 @@
   <!-- Main hero page ends here -->
 
   <!-- Explore tracks section -->
-  <section class="tracks-section">
+  <section class="tracks-section" id="full-text">
     <h1 class="text-center">The first question</h1>
     <h1 class="text-center"><span>Which language</span> to start with?</h1>
 
@@ -697,6 +713,14 @@
 
     <script src="../../JS/main.js"></script>
     <script src="../../JS/faq.js"></script>
+    <script>
+      var preloader = document.getElementById('load');
+      var scroll = document.getElementById('main');
+      function myfunction(){
+          preloader.style.display='none';
+          scroll.style.overflow='scroll';
+      }
+  </script>
 </body>
 
 </html>

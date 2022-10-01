@@ -17,7 +17,11 @@
         <link rel="icon" href="../src/assets/favicon.png" type="image/png" sizes="32X32">
 
     </head>
-    <body>
+    <body onload="myfunction()">
+        <div id="load">
+            <div style="background-color: white; height: 25vh; width: 100%; position: relative; top: -70px;"></div>
+          </div>
+      
         <div id="not_found">
             <div class="not_found">
                 <div class="not_found_404">
@@ -36,5 +40,13 @@
             </div>
         </div>
         </div>
+        <script>
+            var preloader = document.getElementById('load');
+            var scroll = document.getElementById('main');
+            function myfunction(){
+                preloader.style.display='none';
+                scroll.style.overflow='scroll';
+            }
+        </script>
     </body>
 </html>

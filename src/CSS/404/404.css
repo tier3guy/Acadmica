@@ -13,7 +13,14 @@
     --color-light: #f2f2f3;
     --color-light-varient: #d1d0d1;
 }
-
+#load{
+	margin: auto;
+    width: 100%;
+    height: -webkit-fill-available;
+    position: fixed;
+    background: #fff url(/src/assets/spin.gif) no-repeat center;
+    z-index: 9999999;
+}
 #not_found {
     position: relative;
     height: 100vh;
