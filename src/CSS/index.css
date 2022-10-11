@@ -702,4 +702,20 @@ span#faq-quest {
 .imgfg{
   max-width: 50%;
 }
+.neonText{
+    color: rgb(36, 98, 173);
+    text-shadow: 0 0 2px #fff, 0 0 10px #4842fd, 0 0 1px #fff, 0 0 2px rgb(51 161 241), 0 0 2px rgb(51 161 241), 0 0 2px rgb(51 161 241), 0 0 10px rgb(51 161 241), 0 0 11px rgb(51 161 241);
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding: 0.36em;
+    box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #0b1db4, 0 0 0.2rem #4245f3, 0 0 1rem #fff5c1, inset 0 0 1.3rem #272aff;
+    animation: pulsate 1.5s infinite alternate;
+  }
+  .acadLogo{
+    text-shadow: 0 0 5px blue !important;
+
+  }
+
+}
 
