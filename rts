@@ -1,0 +1,2449 @@
+[33mcommit 743d24353dce2b684f4c446a5af928ea47049bc5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Rajat Khanduri <rajatkhanduri290102@gmail.com>
+Date:   Mon Oct 10 22:12:24 2022 +0530
+
+    second initial commit
+
+[33mcommit 9caeac653faf65cd90cf139b4c0aa08ba2c1d5f0[m
+Author: Rajat Khanduri <38693805+wthrajat@users.noreply.github.com>
+Date:   Mon Oct 10 15:30:51 2022 +0530
+
+    fixed typo "ypu" to "you"
+
+[33mcommit 29d9504ceff1292c538dbe4dd8f7443c85410902[m
+Merge: f15e4ef 2d7a20b
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Oct 2 06:06:18 2022 +0530
+
+    Merge pull request #203 from Kirankp25/master
+    
+     To update bug(issue #193)
+
+[33mcommit 2d7a20b2da5f501dfad27b4e38ccf985e679f61c[m
+Merge: 023fcc8 f15e4ef
+Author: Kiran Patil <87818185+Kirankp25@users.noreply.github.com>
+Date:   Sat Oct 1 12:22:40 2022 +0530
+
+    Merge branch 'tier3guy:master' into master
+
+[33mcommit 023fcc8a82901a751c8db63a81c874d5a1af73ae[m
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Sat Oct 1 12:19:00 2022 +0530
+
+    update
+
+[33mcommit f15e4ef03f7306b2ed82e67430770ce3916ed2ea[m
+Merge: 8ff19c7 69c72f5
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sat Oct 1 11:52:51 2022 +0530
+
+    Merge pull request #201 from Kirankp25/master
+    
+    To  Update  Bug at Footer section( Issue #146)
+
+[33mcommit 8ff19c7a67c6f15dbaf19c70a46f7b3f6b6cbf3c[m
+Merge: f42cc4d 6d77b20
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sat Oct 1 11:52:30 2022 +0530
+
+    Merge pull request #202 from thecodermaniac/AritraPr
+    
+    Aritra pr--- solving issue #57
+
+[33mcommit f42cc4deb67b9252ed4d26d343fa12bb2355973b[m
+Merge: 1906208 1d0bacc
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Fri Sep 30 11:44:57 2022 +0530
+
+    Merge pull request #199 from Anubhavgupta14/br
+
+[33mcommit 6d77b2046077ffd7dda548e4eeb7748d58a9bc33[m
+Author: Aritra Mondal <sasuke.aritra.sa@gmail.com>
+Date:   Thu Sep 29 23:37:09 2022 +0530
+
+    search added for mobile view
+
+[33mcommit ac3f2174ccaf3398de48ee709f70c5b3bd48ba2e[m
+Author: Aritra Mondal <sasuke.aritra.sa@gmail.com>
+Date:   Thu Sep 29 23:30:10 2022 +0530
+
+    search bar functionality added in interview page
+
+[33mcommit 69c72f5913ad2fb8d1e52e443c1c7df4e16e4619[m
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Wed Sep 28 17:10:55 2022 +0530
+
+    update
+
+[33mcommit 4fbeed0c35f32697526c6a5a8d3257a2e6ea7888[m
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Wed Sep 28 07:28:44 2022 +0530
+
+    update
+
+[33mcommit 1d0bacc85b1f97ae46a7eace8df5fc86ef24f9b8[m
+Author: Anubhavgupta14 <anubhavgu2002@gmail.com>
+Date:   Wed Sep 28 01:42:23 2022 +0530
+
+    Pre-Loader has been added in all the Pages of the Site
+
+[33mcommit 1906208d9ce35cb250dcd19d55f40746fb1615a3[m
+Merge: bbc897c 672837b
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Tue Sep 27 19:29:07 2022 +0530
+
+    Merge pull request #191 from Kirankp25/master
+
+[33mcommit 672837bbca9f94a1baf290c97f04f473196285f5[m
+Merge: 953ad02 bbc897c
+Author: Kiran Patil <87818185+Kirankp25@users.noreply.github.com>
+Date:   Tue Sep 27 19:28:11 2022 +0530
+
+    Merge branch 'master' into master
+
+[33mcommit bbc897c9c31ee8824a5f541c686d07df7ff79fa3[m
+Merge: 087132e 57ecc37
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Tue Sep 27 19:05:21 2022 +0530
+
+    Merge pull request #192 from Anubhavgupta14/N
+
+[33mcommit 953ad025b65f5c19df05cee7d9310453e66a0699[m
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Tue Sep 27 15:30:56 2022 +0530
+
+    update
+
+[33mcommit 087132e72b8b4ae18060486186c3997a004f5ec6[m
+Merge: 52b81a3 44c1025
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Tue Sep 27 07:31:39 2022 +0530
+
+    Merge pull request #178 from fykaa/master
+    
+    Fixed issue#177 with the buy me a coffee logo
+
+[33mcommit 44c10258da42678f10a7c313e311022494a137bc[m
+Merge: 0d3dc6f 52b81a3
+Author: Fyka Ansari <97490463+fykaa@users.noreply.github.com>
+Date:   Tue Sep 27 03:46:17 2022 +0530
+
+    Merge branch 'master' into master
+
+[33mcommit f3bb3fc94c83ff5a0049241af1327872bf5cc403[m
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Mon Sep 26 12:02:56 2022 +0530
+
+    update
+
+[33mcommit 57ecc370977932f1aa97773ed027fdaa81ce76d2[m
+Author: Anubhavgupta14 <anubhavgu2002@gmail.com>
+Date:   Mon Sep 26 02:18:19 2022 +0530
+
+    Main Page is not Fixed, UI and responsiveness improved
+
+[33mcommit 0fd30cf04a1e460965f647fa47b1b4cd726bcac4[m
+Merge: 9bc10d8 52b81a3
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Mon Sep 26 01:51:23 2022 +0530
+
+    Merge branch 'master' of https://github.com/Kirankp25/Acadmica
+
+[33mcommit 9bc10d8a3785c3b2147a2134101b91ba8758a01c[m
+Merge: 8a8ba94 7cd6f68
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Mon Sep 26 01:49:45 2022 +0530
+
+    update
+
+[33mcommit 8a8ba9447821b5160fc5e49eb5da9ccb8f280d5f[m
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Mon Sep 26 01:46:52 2022 +0530
+
+    update
+
+[33mcommit 52b81a3cd3effa63749701f69c2b42b3af24a6b2[m
+Merge: 7cd6f68 834c49d
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Sun Sep 25 21:39:25 2022 +0530
+
+    Merge pull request #186 from Anubhavgupta14/new_br
+
+[33mcommit 834c49d2230734ee5b5fd068ea6c2a53acc2f9e1[m
+Author: Anubhavgupta14 <anubhavgu2002@gmail.com>
+Date:   Sun Sep 25 15:41:42 2022 +0530
+
+    Update pulled code and resolve conflicts
+
+[33mcommit 3385243dd49ec84b8430dc8e4837e894ed28e399[m
+Merge: 7bf9ac7 7cd6f68
+Author: Anubhavgupta14 <anubhavgu2002@gmail.com>
+Date:   Sun Sep 25 15:40:40 2022 +0530
+
+    Merge branch 'master' of https://github.com/Anubhavgupta14/Acadmica into new_br
+
+[33mcommit 7cd6f6836be1e250e2c35761efd72459853a6bbf[m
+Merge: 934a859 6a4ef5e
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Sep 25 13:32:50 2022 +0530
+
+    Merge pull request #189 from ShravaniAK/feeedback
+    
+    added border and hover effect to feedback section
+
+[33mcommit 934a8595322ab403191219f9faf9b84d72b2113f[m
+Merge: 5ed3f23 73dc44e
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Sep 25 13:32:41 2022 +0530
+
+    Merge pull request #188 from Kirankp25/master
+    
+    Fixed the image error (issue #183)
+
+[33mcommit 5ed3f23d079465354cab6e0e6dc6ce2b462af3f1[m
+Merge: 448e057 6e5861a
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Sep 25 13:31:22 2022 +0530
+
+    Merge pull request #175 from ganesh-utla/master
+    
+    Fixed #167 and #168: Added Dark Mode to the Pages and relevant info in development pages
+
+[33mcommit 6e5861a8c9fedfb686bb5be1661f09956854b304[m
+Merge: e2e4d57 448e057
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Sep 25 13:31:15 2022 +0530
+
+    Merge branch 'master' into master
+
+[33mcommit 6a4ef5ee4270817a0639e5591ad85790d5def5ff[m
+Author: shravanikaware <shravanikaware12@gmail.com>
+Date:   Sat Sep 24 20:53:06 2022 +0530
+
+    added border and hover effect to feedback section
+
+[33mcommit 73dc44ecb34c451e50368e6097f2b2a2075274c8[m
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Sat Sep 24 15:57:04 2022 +0530
+
+    update
+
+[33mcommit 9b981596f455ce42b900ec820ec88d1390d0d344[m
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Sat Sep 24 15:45:15 2022 +0530
+
+    update
+
+[33mcommit 7bf9ac7efc810c306cb4c84f9c59c4b78d09d974[m
+Author: Anubhavgupta14 <anubhavgu2002@gmail.com>
+Date:   Sat Sep 24 01:29:16 2022 +0530
+
+    Nav. Bar is fixed in all subpages of development and fixed dark mode
+
+[33mcommit 448e0571508db5be1f4f9bcc6b3464b5f668f920[m
+Merge: 8582d07 b62f73e
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Sep 23 19:56:29 2022 +0530
+
+    Merge pull request #159 from ArunaAT/master
+    
+    background changes
+
+[33mcommit b62f73e119299afac5810a9f002f74746600ca7b[m
+Merge: 2b0515e 8582d07
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Sep 23 19:56:20 2022 +0530
+
+    Merge branch 'master' into master
+
+[33mcommit 8582d077b27a95b12de18a7fea90ccf9523f27f0[m
+Merge: a5c556a 36c39d4
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Sep 23 19:53:05 2022 +0530
+
+    Merge pull request #154 from Kirankp25/master
+    
+    UI update(issue #151)
+
+[33mcommit a5c556a97e82658392239fe699a8b1b3757ff098[m
+Merge: 4efdf65 5dd7ed2
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Sep 23 19:52:42 2022 +0530
+
+    Merge pull request #139 from Ashish4321-hub/work
+    
+    some changes
+
+[33mcommit 5dd7ed2f5dfcd756332b78125f94284016c9784a[m
+Merge: 6c03488 4efdf65
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Sep 23 19:52:34 2022 +0530
+
+    Merge branch 'master' into work
+
+[33mcommit 4efdf65246ea936ce69edaaec5451fddec6cf50f[m
+Merge: a7cdd4b 4540ec2
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Sep 23 19:50:16 2022 +0530
+
+    Merge pull request #181 from Arun9739/OOPS-add
+    
+    Adding OOPS section under CS Fundamentals in Interview Preparation
+
+[33mcommit a7cdd4b0f125280eb2735fafdb77ad118af28366[m
+Merge: 01963ee 7214277
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Sep 23 19:49:58 2022 +0530
+
+    Merge pull request #182 from Anubhavgupta14/newb
+    
+    Improved Video Alignment and responsiveness and added video in CS Fundamentals
+
+[33mcommit 72142770ec25afa87b7cf58a0c12afea0740da7f[m
+Author: Anubhavgupta14 <anubhavgu2002@gmail.com>
+Date:   Fri Sep 23 01:40:28 2022 +0530
+
+    Improved Video Alignment and responsiveness and added video in CS Fundamental
+
+[33mcommit 4540ec2ae38846e4aad46271ea3f86c09535cf4c[m
+Merge: 3c1d013 01963ee
+Author: Arun G Nayak <84305637+Arun9739@users.noreply.github.com>
+Date:   Thu Sep 22 21:21:38 2022 +0530
+
+    Merge branch 'tier3guy:master' into OOPS-add
+
+[33mcommit 3c1d013db03e4b76a8699962a598a880dd1d30b0[m
+Author: Arun G Nayak <nayakarun02@gmail.com>
+Date:   Thu Sep 22 21:19:46 2022 +0530
+
+    Update Interview Prep
+
+[33mcommit b63e18f205cc400332ef8fc542993d5b72b4e804[m
+Author: Anubhavgupta14 <anubhavgu2002@gmail.com>
+Date:   Thu Sep 22 19:54:15 2022 +0530
+
+    Video(iframe) is added in each language and DSA section and Fixed sun-moon symbol issue
+
+[33mcommit 01963eed093241fbc53fd93c01e55d46dee1b034[m
+Merge: dece570 d83013c
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Thu Sep 22 18:53:30 2022 +0530
+
+    Merge pull request #173 from NageshMandal/master
+    
+    Added Favicons
+
+[33mcommit dece5709099dfd8cc26218920dddad356622c799[m
+Merge: 268c602 f0663ca
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Thu Sep 22 18:53:16 2022 +0530
+
+    Merge pull request #176 from thecodermaniac/AritraPr
+    
+    swap theme added in interview page and fixed in development and acade…
+
+[33mcommit 268c602f652b68a3839d5bb6cca4ec9561c00211[m
+Merge: de5b850 5bfd519
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Thu Sep 22 18:51:11 2022 +0530
+
+    Merge pull request #179 from ShravaniAK/dev-branch
+    
+    added space and double quotes to the word Project in development part
+
+[33mcommit 5bfd51968a50430b860c59a29ecf1c1167ba90de[m
+Author: shravanikaware <shravanikaware12@gmail.com>
+Date:   Thu Sep 22 18:37:37 2022 +0530
+
+    added space and double quotes to the word Project in development part
+
+[33mcommit 0d3dc6fabf99d1da922a46e95fac49d00475277c[m
+Author: Faeka <faeka6@gmail.com>
+Date:   Wed Sep 21 03:07:39 2022 +0530
+
+    Fixed issue#174 with the buy me a coffee logo
+
+[33mcommit e2e4d5744e9290eb44e8c61b46952ac193eedb7e[m
+Merge: c15ca3b de5b850
+Author: Ganesh Utla <87692393+ganesh-utla@users.noreply.github.com>
+Date:   Tue Sep 20 08:51:28 2022 +0530
+
+    Merge branch 'tier3guy:master' into master
+
+[33mcommit f0663ca48f5b0ccb977cf713d3cd1498f0ba282a[m
+Author: Aritra Mondal <sasuke.aritra.sa@gmail.com>
+Date:   Tue Sep 20 00:47:56 2022 +0530
+
+    swap theme added in interview page and fixed in development and academics
+
+[33mcommit c15ca3b9f028a7a9d25fffbcd3cc34197e2701b9[m
+Author: Ganesh Utla <ganeshutla888@gmail.com>
+Date:   Mon Sep 19 21:58:28 2022 +0530
+
+    Added Relevant content in Android,Web and ML pages
+
+[33mcommit d59f5815946d6c310c36d97ec684c3616f3215d7[m
+Author: Ganesh Utla <ganeshutla888@gmail.com>
+Date:   Mon Sep 19 20:05:12 2022 +0530
+
+    Added Dark Mode to the Pages
+
+[33mcommit d83013c4e4e248f847935d1d25e458d39a9fc11c[m
+Author: NageshMandal <106006006+NageshMandal@users.noreply.github.com>
+Date:   Sun Sep 18 14:32:27 2022 +0530
+
+    Added Favicons
+    
+    Added Favicons In android.html blockchain.html devops.html ml.html web.html
+
+[33mcommit de5b8504435e02d73f1de8973e2aead00e42e0b4[m
+Merge: 19dfa0d 1965f7e
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Sun Sep 18 13:28:47 2022 +0530
+
+    Merge pull request #170 from Prahmodh-R/master
+
+[33mcommit 1965f7e0a2b7060dcc2e50904a2c64c0c66bdb86[m
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Sun Sep 18 13:26:03 2022 +0530
+
+    Update index.html
+
+[33mcommit 1806c5dd6d90cd47e9ba79f5ec27a8344c4b80c5[m
+Author: Prahmodh R <89332177+Prahmodh-R@users.noreply.github.com>
+Date:   Sun Sep 18 12:51:21 2022 +0530
+
+    updated index.html
+
+[33mcommit c8350b115e596078752fcc55addd6ec25304c807[m
+Author: Prahmodh R <89332177+Prahmodh-R@users.noreply.github.com>
+Date:   Sat Sep 17 18:42:54 2022 +0530
+
+    Updated index.css
+
+[33mcommit 42c49dcc5333b85f4bfe71246709b86513a65cd6[m
+Author: Prahmodh R <89332177+Prahmodh-R@users.noreply.github.com>
+Date:   Sat Sep 17 18:38:50 2022 +0530
+
+    Updated index.html with the feedback section
+
+[33mcommit 36c39d4479795cc66a12cabffb3fde64ea0cfca1[m
+Merge: ff1379a 19dfa0d
+Author: Kiran Patil <87818185+Kirankp25@users.noreply.github.com>
+Date:   Fri Sep 16 16:15:45 2022 +0530
+
+    Merge branch 'tier3guy:master' into master
+
+[33mcommit 19dfa0de5d0eefd84b8e58452d9dde0702e53273[m
+Merge: 4baa83c 331e1cd
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Thu Sep 15 18:37:30 2022 +0530
+
+    Merge pull request #163 from fykaa/master
+
+[33mcommit 331e1cd94e17975c40a528ffc815b0c637ed49df[m
+Author: Fyka Ansari <97490463+fykaa@users.noreply.github.com>
+Date:   Thu Sep 15 18:21:09 2022 +0530
+
+    Delete settings.json
+
+[33mcommit 30405a7ad63ddc8207e03010c98e00f1854c67e2[m
+Author: Fyka Ansari <97490463+fykaa@users.noreply.github.com>
+Date:   Thu Sep 15 18:20:34 2022 +0530
+
+    Update settings.json
+
+[33mcommit 4baa83cf0b43cdb8d84f06ee640a700c869374f8[m
+Merge: 4db545f 49c838f
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Thu Sep 15 14:21:49 2022 +0530
+
+    Merge pull request #157 from thecodermaniac/AritraPr
+
+[33mcommit 49c838f8ac0085f03a6a1847393e01f64cb71c48[m
+Merge: fc47494 4db545f
+Author: Aritra Mondal <79108244+thecodermaniac@users.noreply.github.com>
+Date:   Thu Sep 15 10:37:20 2022 +0530
+
+    Merge branch 'master' into AritraPr
+
+[33mcommit 5489caecc1bcdb7b89db39314fba4c69796b1644[m
+Author: Faeka <faeka6@gmail.com>
+Date:   Thu Sep 15 03:37:02 2022 +0530
+
+    Modified content to various UG pages
+
+[33mcommit 4db545fa7127adb4f13fdf37afdd5b57fe4d05ac[m
+Merge: 1669199 3c25f9b
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Wed Sep 14 15:26:11 2022 +0530
+
+    Merge pull request #158 from prjailani/typo
+
+[33mcommit 1669199b73b614865fe0e1ef0ab71b063e4d6fb5[m
+Merge: f2febd0 88263fe
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Wed Sep 14 12:48:24 2022 +0530
+
+    Merge pull request #161 from fykaa/master
+
+[33mcommit 88263fedf7135597ebca44116a363b970fcc8392[m
+Author: Faeka <faeka6@gmail.com>
+Date:   Wed Sep 14 04:20:25 2022 +0530
+
+    Footer, About, Index CSS improved
+
+[33mcommit 3c25f9b430dac8e40f6858d4af0fe0de3b4820d9[m
+Merge: ae268ed f2febd0
+Author: Abdul Kader Jailani P R <jailanijailani968@gmail.com>
+Date:   Sun Sep 11 17:03:41 2022 +0530
+
+    Merge branch 'tier3guy:master' into typo
+
+[33mcommit ae268ed8d03710eea333affd940a4db47a2e7ebf[m
+Author: Abdul Kader Jailani P R <jailanijailani968@gmail.com>
+Date:   Sun Sep 11 17:02:02 2022 +0530
+
+    Fixed Typos and Grammatical mistakes
+
+[33mcommit f2febd018179b67579a11878efbd2ea9a30677a1[m
+Merge: c10f6a7 52dde74
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Fri Sep 9 17:47:24 2022 +0530
+
+    Merge pull request #156 from Prahmodh-R/master
+
+[33mcommit fc47494d7ff2a31971c330441e4a44cc860a844d[m
+Author: Aritra Mondal <sasuke.aritra.sa@gmail.com>
+Date:   Fri Sep 9 16:29:40 2022 +0530
+
+    hover fixed image placement fixed bugs of text fixed
+
+[33mcommit 52dde7480c035f161f5aac4432015e9e6d1ea933[m
+Author: Prahmodh R <89332177+Prahmodh-R@users.noreply.github.com>
+Date:   Thu Sep 8 11:35:42 2022 +0530
+
+    Updated index.css
+
+[33mcommit a5ee3dfff79753c4faf592109d10ce75e40f7a1c[m
+Author: Prahmodh R <89332177+Prahmodh-R@users.noreply.github.com>
+Date:   Thu Sep 8 11:34:03 2022 +0530
+
+    updated blockchain.html
+
+[33mcommit 2b0515ebb97acbdeb1fd4b2667cea3d999ca5cfb[m
+Author: ArunaAT <muktatammadwar@gmail.com>
+Date:   Tue Sep 6 00:50:23 2022 -0700
+
+    background changes
+
+[33mcommit da047b9095e67519633bafddc2beecfa1eeb30ee[m
+Author: Aritra Mondal <sasuke.aritra.sa@gmail.com>
+Date:   Sat Sep 3 20:55:20 2022 +0530
+
+    issue 110 fixed
+
+[33mcommit ff1379a3c5955707e137bf5fb7c1efe9308eac19[m
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Sat Sep 3 19:08:20 2022 +0530
+
+    update
+
+[33mcommit ed3d093f00516e1a215bd69a2cdb1162972b7ee9[m
+Merge: 8d11d2b 2895e82
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Sat Sep 3 18:46:23 2022 +0530
+
+    Merge branch 'master' of https://github.com/Kirankp25/Acadmica
+
+[33mcommit 8d11d2bd60d309af3ee61b5aa8bcbbaf9e3d896d[m
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Sat Sep 3 18:45:56 2022 +0530
+
+    update
+
+[33mcommit 2895e82cf0d54686c5c617178e701551757b9caf[m
+Merge: 8f0ada5 c10f6a7
+Author: Kiran Patil <87818185+Kirankp25@users.noreply.github.com>
+Date:   Sat Sep 3 17:04:43 2022 +0530
+
+    Merge branch 'tier3guy:master' into master
+
+[33mcommit c10f6a7c4c8b452af9170835783991919c6a5e15[m
+Merge: 095af16 164da01
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Wed Aug 31 23:10:19 2022 +0530
+
+    Merge pull request #153 from ganesh-utla/master
+
+[33mcommit 164da01c752829da2056c4be0196d7882c0e5013[m
+Merge: 216e706 095af16
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Wed Aug 31 23:08:41 2022 +0530
+
+    Merge branch 'master' into master
+
+[33mcommit 216e7064ed99b1c6f5207554b5a4b4246f6f3c62[m
+Author: Ganesh Utla <ganeshutla888@gmail.com>
+Date:   Wed Aug 31 17:36:54 2022 +0530
+
+    updated the font-colors of home page
+
+[33mcommit 8f0ada5aaa6fdf8f41b60c3be290ce429a93605f[m
+Merge: 81de5e2 095af16
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Tue Aug 30 23:54:10 2022 +0530
+
+    Merge branch 'master' of https://github.com/Kirankp25/Acadmica
+
+[33mcommit 81de5e217bc60ac0176be40ff3a17255d5380aa2[m
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Tue Aug 30 23:53:50 2022 +0530
+
+    update
+
+[33mcommit 095af166b60c9dfc265205ddbc6a086327b08c17[m
+Merge: d6f6b00 cc7faef
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Tue Aug 30 13:27:20 2022 +0530
+
+    Merge pull request #143 from Aman-Singh-Kushwaha/master
+    
+    Documentation in interview Page ( Issue #97)
+
+[33mcommit d6f6b0046b8c3e2d1ee128dc691e9f5e1159d14b[m
+Merge: d6578ac b104523
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Tue Aug 30 13:26:36 2022 +0530
+
+    Merge pull request #145 from Kirankp25/master
+    
+    text and ui update(issue #84)
+
+[33mcommit b1045231985e3ce993004b60285a3dfccaec112e[m
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Mon Aug 29 00:46:45 2022 +0530
+
+    update
+
+[33mcommit 5bfed126ba42cecab7d4fe42fc3ae55d34424618[m
+Author: Kirankp <jnvkirankp25522@gmail.com>
+Date:   Sun Aug 28 02:17:24 2022 +0530
+
+    text and ui update
+
+[33mcommit cc7faef5a2e425840473b4adb762bfe06690a7cb[m
+Author: Aman Singh Kushwaha <as8962703520.gmail.com>
+Date:   Fri Aug 26 22:26:24 2022 +0530
+
+    Formated Document & Indentation
+
+[33mcommit b906349b28a6aef2f362bb75d319a360b6a75f73[m
+Merge: aaaf857 d6578ac
+Author: Aman Singh Kushwaha <as8962703520.gmail.com>
+Date:   Fri Aug 26 22:17:00 2022 +0530
+
+    Merge branch 'master' of https://github.com/Aman-Singh-Kushwaha/Acadmica
+
+[33mcommit aaaf857d08dbbe3deffbfedcf2262824e15fc939[m
+Author: Aman Singh Kushwaha <as8962703520.gmail.com>
+Date:   Fri Aug 26 22:09:40 2022 +0530
+
+    Added First pargraph and improved grammer
+
+[33mcommit ff8672aedb1245a4503713e19d081200e286b558[m
+Author: Aman Singh Kushwaha <as8962703520.gmail.com>
+Date:   Fri Aug 26 22:06:00 2022 +0530
+
+    Edited first paragraph
+
+[33mcommit d6578acf67b3673c23d5dd133f386b4b5b54f20b[m
+Merge: 58e9ca3 1396089
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Wed Aug 24 19:33:44 2022 +0530
+
+    Merge pull request #141 from ganesh-utla/master
+
+[33mcommit 1396089192e635dc525a7e3b72ece31fc3b841e4[m
+Author: Ganesh Utla <ganeshutla888@gmail.com>
+Date:   Mon Aug 22 19:59:34 2022 +0530
+
+    Handled the responsiveness of Image
+
+[33mcommit 6c034881909ca15a2df6290f8d47509ef84b1826[m
+Author: Ashish4321-hub <ashishsharshm@gmail.com>
+Date:   Sat Aug 20 23:46:16 2022 +0530
+
+    some changes
+
+[33mcommit 58e9ca351757a60aee33ef6a6fed3c3b8915ed13[m
+Merge: 61daddf d39f47d
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Thu Aug 18 17:13:12 2022 +0530
+
+    Merge pull request #138 from mayank2002-jpg/mayank-contribution
+    
+    Fixed the responsiveness of the heading acadmeia
+
+[33mcommit 61daddf1108ea55560927b579e5e30396a4205d5[m
+Merge: 16de0ab 41ef4c6
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Thu Aug 18 17:13:00 2022 +0530
+
+    Merge pull request #136 from VaibhavSinghDev/workingBranch
+    
+    docs:Issue#135 solved, Added contribution guidelines in readme
+
+[33mcommit d39f47d0457eb74931266e2940d8ff158b72c04a[m
+Author: Mayank_Mahajan <mayankmahajan936@gmail.com>
+Date:   Wed Aug 17 23:15:53 2022 +0530
+
+    Fixed the responsiveness of the heading acadmeia
+
+[33mcommit 41ef4c63c9f29f6c0008043bca2646dda2564e35[m
+Author: Vaibhav <vaibhavsinghr.08@gmail.com>
+Date:   Wed Aug 17 00:14:00 2022 +0530
+
+    docs:Issue#135 Added contribution guidelines in readme
+
+[33mcommit 16de0abb45e9be6572ab416d92345bb285198511[m
+Merge: 57b7f68 47c1776
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Mon Aug 15 22:20:40 2022 +0530
+
+    Merge pull request #133 from kanishak11-cyber/master
+
+[33mcommit 47c1776f2454a47f4a4defc5341126cf30e03447[m
+Author: Kanishak Chaurasia <kanishakchaurasia2@gmail.com>
+Date:   Mon Aug 15 18:17:33 2022 +0530
+
+    pages missing of electrical, mechanical, civil and electronics #132
+
+[33mcommit 57b7f68ddffdac4ed63e7b56c380c276ff323900[m
+Merge: de4b7fd 0f7aa60
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Sun Aug 14 00:33:57 2022 +0530
+
+    Merge pull request #131 from fykaa/master
+
+[33mcommit 0f7aa607bb0a7f6c1253ca2aeea739a1f96f503c[m
+Author: Fyka Ansari <97490463+fykaa@users.noreply.github.com>
+Date:   Sun Aug 14 00:28:16 2022 +0530
+
+    Update index.html
+
+[33mcommit 76fc3bdd54f862e74a8db99c8e3f6f5836e5df53[m
+Author: Fyka Ansari <97490463+fykaa@users.noreply.github.com>
+Date:   Sun Aug 14 00:28:10 2022 +0530
+
+    Update main.html
+
+[33mcommit f8c9494120321231adfbdf936dc85d18a658c210[m
+Author: Faeka <faeka6@gmail.com>
+Date:   Sat Aug 13 22:36:17 2022 +0530
+
+    Updated mispellings
+
+[33mcommit de4b7fd06738e4d2fd6ab930d98a8708f1e0069e[m
+Merge: a85e5ce b6f06a8
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sat Aug 13 19:18:51 2022 +0530
+
+    Merge pull request #129 from kanishak11-cyber/master
+    
+    Improvement in resources section #104
+
+[33mcommit b6f06a8be72dc8506f5bad01316e75f27ee38311[m
+Merge: 3739281 a85e5ce
+Author: KANISHAK CHAURASIA <kanishakchaurasia2@gmail.com>
+Date:   Fri Aug 12 15:33:50 2022 +0530
+
+    Merge branch 'master' into master
+
+[33mcommit a85e5ce19d5ce89b1fdb9ae6a188faea8b6f36e4[m
+Merge: fcf7e10 33a2f09
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Aug 12 07:56:06 2022 +0530
+
+    Merge pull request #127 from Anubhavgupta14/new_ag
+    
+    Navigation Issue Fixed (Dark Mode) and Responsive Navbar Issue Fixed
+
+[33mcommit 33a2f09d3b3da8bb2255c6cb06218ceee99cfb1c[m
+Author: Anubhavgupta14 <anubhavgu2002@gmail.com>
+Date:   Thu Aug 11 23:24:51 2022 +0530
+
+    Navigation Issue Fixed (Dark Mode) and Responsive Navbar Issue Fixed
+
+[33mcommit 3739281d39e9c64d1665204c72044e94c08c2f3d[m
+Author: Kanishak Chaurasia <kanishakchaurasia2@gmail.com>
+Date:   Thu Aug 11 15:49:27 2022 +0530
+
+    Task done
+
+[33mcommit fcf7e10ed3a603e6ff7c7ac95171476c2cf0b6e0[m
+Merge: 6cf16c9 c2b75f4
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Thu Aug 11 15:27:23 2022 +0530
+
+    Merge pull request #121 from tushar-glitch/master
+    
+    Removed classes for fixing toggle of +/- in faq section
+
+[33mcommit c2b75f47738301f54a818c99d611af0796e174ce[m
+Author: Tushar <tusharc20001@gmail.com>
+Date:   Thu Aug 11 14:52:18 2022 +0530
+
+    Removed classes for fixing toggle of +/- in faq section
+
+[33mcommit 6cf16c945b6e4f4c563cb12097f9bf8df9a6c802[m
+Merge: a16f021 1c392e8
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Aug 10 21:24:36 2022 +0530
+
+    Merge pull request #118 from Anubhavgupta14/new_ag
+    
+    Navbar was not working in Web.HTML (FIXED) and Theme Change has been …
+
+[33mcommit 1c392e865d3b78396aab9d72717a810a6d8d2ab8[m
+Author: Anubhavgupta14 <anubhavgu2002@gmail.com>
+Date:   Wed Aug 10 20:43:04 2022 +0530
+
+    Navbar was not working in Web.HTML (FIXED) and Theme Change has been added in Web.Html
+
+[33mcommit a16f021a7496fec6361a5aa76fa0ed38930f50fd[m
+Merge: a4f68a1 0c7a00e
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Aug 10 20:01:47 2022 +0530
+
+    Merge pull request #117 from 11WALTER11/master
+    
+    Issue #102 fixed  [FOOTER UPDATED]
+
+[33mcommit 0c7a00e4a5e3ef4d29c61310edc76692a36c4a71[m
+Author: Mohammad Arish Siddiqui <81313264+11WALTER11@users.noreply.github.com>
+Date:   Wed Aug 10 17:30:05 2022 +0530
+
+    updated
+
+[33mcommit a4f68a17dc47b7564f3753e23ea12ab44f9ff6ef[m
+Merge: 132ce9b f1d69b0
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Aug 10 09:15:19 2022 +0530
+
+    Merge pull request #116 from SushanthReddy-49/loading-and-minor_fixes
+    
+    Some changes to the Theme Icon and few errors in study room nav.
+
+[33mcommit f1d69b042ba9c9db79af8d27e2875b13de710d9a[m
+Merge: e386235 132ce9b
+Author: SushanthReddy <s.sushanth.reddy49@gmail.com>
+Date:   Tue Aug 9 23:40:12 2022 +0530
+
+    Merge branch 'loading-and-minor_fixes' of https://github.com/SushanthReddy-49/Acadmica into loading-and-minor_fixes
+
+[33mcommit e3862356a26c6586d305f1e99b1c7c407835d642[m
+Author: SushanthReddy <s.sushanth.reddy49@gmail.com>
+Date:   Tue Aug 9 23:40:06 2022 +0530
+
+    Fixed some errors in study pae and theme icon change.
+
+[33mcommit 132ce9b98d360fb2d5aaa6b25d6e70448bd850f1[m
+Merge: 0eb3c79 bbacd49
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Tue Aug 9 19:36:12 2022 +0530
+
+    Merge pull request #115 from tier3guy/revert-114-revert-113-loading-and-minor_fixes
+    
+    Revert "Revert "Fixed #100 #111 #112.""
+
+[33mcommit bbacd49cdb4a57772445bd76879c7f2effee6127[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Tue Aug 9 19:35:59 2022 +0530
+
+    Revert "Revert "Fixed #100 #111 #112.""
+
+[33mcommit 0eb3c79da8e60b0cb85b35bbfa2f56b1def4f797[m
+Merge: 484b611 ae9d0b2
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Tue Aug 9 19:28:34 2022 +0530
+
+    Merge pull request #114 from tier3guy/revert-113-loading-and-minor_fixes
+    
+    Revert "Fixed #100 #111 #112."
+
+[33mcommit ae9d0b24327facf2e0e33271aad7edabf0709c60[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Tue Aug 9 19:28:14 2022 +0530
+
+    Revert "Fixed #100 #111 #112."
+
+[33mcommit 484b6111836d589c4870db051754da48e8c7d44f[m
+Merge: fbe14c5 646f60f
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Tue Aug 9 19:27:54 2022 +0530
+
+    Merge pull request #113 from SushanthReddy-49/loading-and-minor_fixes
+    
+    Fixed #100 #111 #112.
+
+[33mcommit 646f60faac90241a05594adc2f0535086391dee5[m
+Author: SushanthReddy <s.sushanth.reddy49@gmail.com>
+Date:   Tue Aug 9 18:59:54 2022 +0530
+
+    Small CSS changes to development main page
+
+[33mcommit 3e24ee1584de771e6bc6dbc14c92c73fdd15d7da[m
+Author: SushanthReddy <s.sushanth.reddy49@gmail.com>
+Date:   Tue Aug 9 18:40:18 2022 +0530
+
+    Added nav bar in all the pages. Responsiveness in Development page.
+
+[33mcommit 477e4fcf2fa17f18793caa2ab4c5f04975b4fd54[m
+Author: SushanthReddy <s.sushanth.reddy49@gmail.com>
+Date:   Tue Aug 9 15:32:47 2022 +0530
+
+    made loading visible and fixed bug in FAQ, nav bar in Dev page
+
+[33mcommit fbe14c57f76744880862d777eabf4da591754e7e[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Tue Aug 9 14:21:40 2022 +0530
+
+    --discord-btn-home-page
+
+[33mcommit 3021597c831d7c63bf9323879be5b87f4a340fc2[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Tue Aug 9 13:55:53 2022 +0530
+
+    --height--in--the--about-section
+
+[33mcommit 26883ae6266542ea97ad352a2706e33f4616b573[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Tue Aug 9 13:49:15 2022 +0530
+
+    FAQ Fixed
+
+[33mcommit c8c529e407fefcd810456438f2f6b138fb98f47b[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Tue Aug 9 13:42:18 2022 +0530
+
+    About-section fixed
+
+[33mcommit 0d9a137062cf724a30a339c396913eb0eb569037[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Tue Aug 9 11:44:00 2022 +0530
+
+    Update in darkMode button
+
+[33mcommit 5c1c22ab9e3b06963fcdb915557e8a73af93e88b[m
+Merge: d5fbaac bcea49f
+Author: DIVESH MANDHYAN <81958292+Divesh2003@users.noreply.github.com>
+Date:   Tue Aug 9 10:54:37 2022 +0530
+
+    Merge pull request #107 from vaibhavsharma1234/feat/added-theme-switcher
+    
+    Feat/added theme switcher
+
+[33mcommit bcea49ff8e88ae8085ef72beae750a8b653741ce[m
+Author: vaibhav <vaibh>
+Date:   Mon Aug 8 21:36:20 2022 +0530
+
+    new commit
+
+[33mcommit a41d4bbe525a951e8e3e11ddedde9e6be271d95c[m
+Merge: 159d669 6485267
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Mon Aug 8 14:22:39 2022 +0530
+
+    Merge pull request #103 from dilpreet102/master
+    
+    #86 issue solved .
+
+[33mcommit 64852671b70dc23dcfda45115790fc0a61301aac[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 22:15:23 2022 +0530
+
+    Add files via upload
+
+[33mcommit 1ca225971e169cc44a8895d8af9f65757a3ce5a0[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 22:14:41 2022 +0530
+
+    Add files via upload
+
+[33mcommit 539b330fe1699ede44f8cb88d5f75c5803aec732[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 22:13:48 2022 +0530
+
+    Add files via upload
+
+[33mcommit f54ca181a8b62374fc7e8c43c124802cf8282275[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 22:13:23 2022 +0530
+
+    Add files via upload
+
+[33mcommit 6bf50ecf5839ad16359c7c1718ba03675815c8fa[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 22:12:47 2022 +0530
+
+    Add files via upload
+
+[33mcommit 0a1ae7b1ab8097370b3921315e2e7409d4b23491[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 22:12:16 2022 +0530
+
+    Add files via upload
+
+[33mcommit 7c2fee1ce568fc36f5e139cf9d30e17bde547baf[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 22:11:36 2022 +0530
+
+    Add files via upload
+
+[33mcommit e0ed61f3b28ede33556420e0b13045dddf7f19ce[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 22:10:21 2022 +0530
+
+    Add files via upload
+
+[33mcommit 4319d200c368f5884e54d93d11862df1b44bf037[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 22:09:47 2022 +0530
+
+    Add files via upload
+
+[33mcommit 121a16617927eb4ff9cfb59acb1d072c0604918c[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 22:09:16 2022 +0530
+
+    Add files via upload
+
+[33mcommit ec9c4b6b268c9ac9ad1785a6ad2f05439f129530[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 22:08:36 2022 +0530
+
+    Add files via upload
+
+[33mcommit 5c4850a14651742cc1cabee1e4e1623e72a64017[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 22:07:50 2022 +0530
+
+    Add files via upload
+
+[33mcommit a700a88fc132da49d9c2f20ed1ed3ce8da9f71a6[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 22:07:06 2022 +0530
+
+    Add files via upload
+
+[33mcommit 6ce938e28e18e013c55a38286ac014ec338aecf9[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 22:06:07 2022 +0530
+
+    Add files via upload
+
+[33mcommit 159d6697593033c2a859ad979e06d25900c8fe57[m
+Merge: ab29e60 1834834
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Aug 7 18:19:48 2022 +0530
+
+    Merge pull request #99 from Anjuli08/master
+    
+    Improved UI of the Home Page
+
+[33mcommit 1834834691d16725fef4baf4ebdc055579a89ad5[m
+Author: Anjuli Aggarwal <90701800+Anjuli08@users.noreply.github.com>
+Date:   Sun Aug 7 18:05:24 2022 +0530
+
+    Improved UI of the Home Page
+
+[33mcommit 83209a6ddcec09976d1d1d4167d5088d0207d5ab[m
+Author: Anjuli Aggarwal <90701800+Anjuli08@users.noreply.github.com>
+Date:   Sun Aug 7 18:02:04 2022 +0530
+
+    Update index.css
+
+[33mcommit ab29e600a7c0d8628d5af230e06cb0fcef55df2d[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sun Aug 7 17:50:45 2022 +0530
+
+    Images
+
+[33mcommit c56f8bb7d855f7a1fc4a375fd3e7dd2202520881[m
+Merge: b89fd56 c24875a
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sun Aug 7 17:40:00 2022 +0530
+
+    Images have been updated
+
+[33mcommit b89fd56beeb4b306c1c8c2c836cfb463e35e59f4[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sun Aug 7 17:06:43 2022 +0530
+
+    Prev
+
+[33mcommit c24875a53d675be6b0c3b5ece85ce7c469d6451e[m
+Merge: 0ee79b3 7af26ff
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Aug 7 17:04:17 2022 +0530
+
+    Merge pull request #92 from vaibhavchaubey/issue-65
+    
+    #65 development sub-pages UI changed
+
+[33mcommit 0ee79b3b39cf09d05c4c1a0d3eda82ccf29586be[m
+Merge: 7d061b9 70d7333
+Author: DIVESH MANDHYAN <81958292+Divesh2003@users.noreply.github.com>
+Date:   Sun Aug 7 03:11:01 2022 +0530
+
+    Merge pull request #94 from vaibhavsharma1234/feat/improvedResponsiveness
+    
+    new commit improved responsiveness
+
+[33mcommit 7d061b9d7ddfa7f4a829dd391366cd0d7b9ca807[m
+Merge: 98f3d50 95ac317
+Author: DIVESH MANDHYAN <81958292+Divesh2003@users.noreply.github.com>
+Date:   Sun Aug 7 03:09:54 2022 +0530
+
+    Merge pull request #96 from Aman-Singh-Kushwaha/master
+    
+    Updated Contact Us icons under Issue#73
+
+[33mcommit 8d3172db3a6f4e2360537811b8a2ca5fe9df0168[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 00:45:16 2022 +0530
+
+    Add files via upload
+
+[33mcommit 3f018db20f1ee9d7b508c26c9c839eceacc49877[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 00:43:09 2022 +0530
+
+    Add files via upload
+
+[33mcommit 893a8ea2f6dc53240d24d0bd959a4587458162b0[m
+Author: Dilpreet Singh <83696202+dilpreet102@users.noreply.github.com>
+Date:   Sun Aug 7 00:41:06 2022 +0530
+
+    Add files via upload
+
+[33mcommit 95ac3177bbcf93ca019e80ce22a17f0b60444eeb[m
+Merge: 8df136f 98f3d50
+Author: Aman Kumar Singh Kushwaha <96011814+Aman-Singh-Kushwaha@users.noreply.github.com>
+Date:   Sun Aug 7 00:15:13 2022 +0530
+
+    Merge branch 'tier3guy:master' into master
+
+[33mcommit 8df136fc6f1bf475fd40183ac6f7d3192e1c84c3[m
+Author: Aman Singh Kushwaha <as8962703520.gmail.com>
+Date:   Sun Aug 7 00:12:23 2022 +0530
+
+    Updated 'Contact Us' icons-hover effect
+
+[33mcommit 98f3d50c3b5c0e09b17d13c774595ff7bb9029a6[m
+Merge: 68ab500 5a04658
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Sat Aug 6 23:50:16 2022 +0530
+
+    Merge pull request #95 from Himanshu-370/master
+
+[33mcommit 5a04658c65bb9d3b6c74cdf88439add75ccb614e[m
+Author: Himanshu Singh <himanshuich20@gmail.com>
+Date:   Sat Aug 6 21:19:26 2022 +0530
+
+    removed extra navs in syllabus.html
+
+[33mcommit 70d7333ac6b8cbfaf56de2eb91207fca1d2c8c9b[m
+Author: vaibhav <vaibh>
+Date:   Sat Aug 6 19:04:17 2022 +0530
+
+    new commit improved responsiveness
+
+[33mcommit 7af26ff87b064ca5fb86b8d14f24e33002adb5dc[m
+Merge: c201e88 68ab500
+Author: Vaibhav Chaubey <88048439+vaibhavchaubey@users.noreply.github.com>
+Date:   Sat Aug 6 17:28:25 2022 +0530
+
+    Merge branch 'master' into issue-65
+
+[33mcommit c201e88fc5849568506fc29ba20eb2df808b1a56[m
+Author: Vaibhav <vaibhavchaubey8802@gamil@.com>
+Date:   Sat Aug 6 17:11:57 2022 +0530
+
+    development sub-pages UI changed
+
+[33mcommit 68ab50096ae7fa7d497dfc90e85c535195e121b0[m
+Merge: f3dbf00 a048b33
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Sat Aug 6 03:13:43 2022 +0530
+
+    Merge pull request #89 from Harsh3363/harsh
+
+[33mcommit a048b33d35d610137523d5ebbe37ed7efcc3b5ce[m
+Author: Harsh Kanodiya <harsh.kanodiya@gmail.com>
+Date:   Sat Aug 6 03:04:25 2022 +0530
+
+    fixed the typo in the study room section
+
+[33mcommit f3dbf0005e17723d2867576d82c5003988fed552[m
+Merge: 8a05190 8812d50
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Sat Aug 6 02:30:19 2022 +0530
+
+    Merge pull request #62 from jklagrosa/JK-acadmica
+
+[33mcommit 8a05190548987769f77568103af3656f1c1fed45[m
+Merge: 15bbfcd b968f37
+Author: Narayan soni <77617189+narayan954@users.noreply.github.com>
+Date:   Fri Aug 5 23:47:24 2022 +0530
+
+    Merge pull request #87 from Aman-Singh-Kushwaha/master
+
+[33mcommit b968f373a30463076f9554f702f28336cffa260c[m
+Merge: d75fd67 0c287bf
+Author: Aman Singh Kushwaha <as8962703520.gmail.com>
+Date:   Fri Aug 5 17:24:43 2022 +0530
+
+    Merge branch 'master' of https://github.com/Aman-Singh-Kushwaha/Acadmica
+
+[33mcommit d75fd673bd6cbd14ce20ebb7407bc89fb320db8e[m
+Author: Aman Singh Kushwaha <as8962703520.gmail.com>
+Date:   Fri Aug 5 16:53:54 2022 +0530
+
+    Updated Favicon Address
+
+[33mcommit 0c287bf1295412bd3766a71386d2eb9b64de68b2[m
+Merge: 26e0371 15bbfcd
+Author: Aman Kumar Singh Kushwaha <96011814+Aman-Singh-Kushwaha@users.noreply.github.com>
+Date:   Fri Aug 5 16:51:22 2022 +0530
+
+    Merge branch 'tier3guy:master' into master
+
+[33mcommit 15bbfcdee843b77717653171f96282763bdf1b56[m
+Merge: 227a813 d6c533c
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Aug 5 15:36:05 2022 +0530
+
+    Merge pull request #78 from Harsh3363/harsh
+    
+    added hover effect to the social icons
+
+[33mcommit 227a8138ee3259efdcc5491b33382b9426e49a1f[m
+Merge: f9efa06 02525da
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Aug 5 15:34:21 2022 +0530
+
+    Merge pull request #60 from tushar-glitch/patch-2
+    
+    Fixed a typo and a grammatical error.
+
+[33mcommit f9efa0690443fe768368a5b49aa9ac86d089e3fe[m
+Merge: d5fbaac 7d916fa
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Aug 5 15:33:56 2022 +0530
+
+    Merge pull request #59 from tushar-glitch/patch-1
+    
+    Two typos corrected
+
+[33mcommit 26e037186d415a66d41b3e68a1970019a018d696[m
+Merge: ecb68d2 c002615
+Author: Aman Singh Kushwaha <as8962703520.gmail.com>
+Date:   Fri Aug 5 09:44:50 2022 +0530
+
+    Merge branch 'master' of https://github.com/Aman-Singh-Kushwaha/Acadmica
+
+[33mcommit ecb68d2bedaa35454e02223e1523b9c51b28c4a5[m
+Author: Aman Singh Kushwaha <as8962703520.gmail.com>
+Date:   Fri Aug 5 09:25:08 2022 +0530
+
+    Updated Favicon location and address
+
+[33mcommit c002615d86c6e1d4924681286ab14a5565aa3de5[m
+Merge: 0c78c0b d5fbaac
+Author: Aman Kumar Singh Kushwaha <96011814+Aman-Singh-Kushwaha@users.noreply.github.com>
+Date:   Fri Aug 5 08:28:10 2022 +0530
+
+    Merge branch 'tier3guy:master' into master
+
+[33mcommit d6c533cf2e1d2856e86f2a849d15acc8e8e4fe07[m
+Author: Harsh Kanodiya <harsh.kanodiya@gmail.com>
+Date:   Wed Aug 3 18:55:47 2022 +0530
+
+    added hover effect to the social icons
+
+[33mcommit d5fbaac6f8f62075ab8e7a129ed5e65b1c53d3fe[m
+Merge: 47162ef 112c124
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Thu Jul 28 21:52:19 2022 +0530
+
+    Merge pull request #71 from SushanthReddy-49/loading-and-minor_fixes
+    
+    Fixed nav bar in interview page & footers. Closes #70 and #66
+
+[33mcommit 112c1247ba84c13253b6305471c52a2036433806[m
+Merge: 06ed807 47162ef
+Author: S. Sushanth Reddy <73791994+SushanthReddy-49@users.noreply.github.com>
+Date:   Thu Jul 28 21:45:41 2022 +0530
+
+    Merge branch 'master' into loading-and-minor_fixes
+
+[33mcommit 06ed8077d72f45264ef7287d10e48c1cf6424aaa[m
+Author: SushanthReddy <s.sushanth.reddy49@gmail.com>
+Date:   Thu Jul 28 21:40:25 2022 +0530
+
+    Fixed nav bar in interview page & footers
+
+[33mcommit 47162efd9bab16c248b7e8df7c5033e885e8b2c1[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Thu Jul 28 20:14:10 2022 +0530
+
+    Apti-section
+
+[33mcommit efd8260c9dc7544d09a76c2039bff22fe838fb3a[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Thu Jul 28 19:17:06 2022 +0530
+
+    Updating links
+
+[33mcommit 74400e9774db0f17fa57fbb43ca15a68ff6775a1[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Thu Jul 28 19:06:37 2022 +0530
+
+    Main.html ft. development
+
+[33mcommit 8812d506b2e0911e977fa36e3b21e753e3014654[m
+Author: jk <jklagrosa.dev@gmail.com>
+Date:   Wed Jul 27 17:30:52 2022 +0800
+
+    Show menu at 991px instead of 700px | 2. Add overflow-x: hidden
+
+[33mcommit 02525da512a0a011ffbbcf9b67544a19d7c220d8[m
+Author: tushar-glitch <67220766+tushar-glitch@users.noreply.github.com>
+Date:   Wed Jul 27 11:05:47 2022 +0530
+
+    Fixed a typo and a grammatical error.
+
+[33mcommit 7d916fac20a50b338ce7cce1accdb562beca0081[m
+Author: tushar-glitch <67220766+tushar-glitch@users.noreply.github.com>
+Date:   Wed Jul 27 11:01:17 2022 +0530
+
+    Two typos corrected
+
+[33mcommit 08fe9593028eb03345485a4276371beace2065c9[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Wed Jul 27 10:46:57 2022 +0530
+
+    loading scrn
+
+[33mcommit c801b5cad71d11b351d911d523fa5e76f06f2330[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Wed Jul 27 10:40:56 2022 +0530
+
+    Interview prep
+
+[33mcommit 6a5f292317a03d80f449d2bb8e969332de25472c[m
+Merge: 8902943 ffeb257
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 27 09:58:27 2022 +0530
+
+    Merge pull request #47 from Aspireve/master
+    
+    Contrast in button text #44
+
+[33mcommit ffeb25783702d50d7f054d1f17f873a86ceb2b32[m
+Merge: c2b1c47 8902943
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 27 09:58:10 2022 +0530
+
+    Merge branch 'master' into master
+
+[33mcommit 8902943d1884ea36bb526e9caa00fc581ede276a[m
+Merge: f89c0db ac07f7a
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 27 09:57:19 2022 +0530
+
+    Merge pull request #49 from khan-mujeeb/master
+    
+    Created a Computer Science Fundamentals Section in Interview Preparation Page with Video and Notes Resources
+
+[33mcommit f89c0db8f48de32a2a3f1e08406009c68ccaacda[m
+Merge: 4e353df e61d4b7
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 27 09:57:09 2022 +0530
+
+    Merge pull request #50 from jklagrosa/JK-acadmica
+    
+    made all buttons' backgrounds dark blue when hovering
+
+[33mcommit 4e353dfff8758213eda845509f3a366d2f25b5b5[m
+Merge: 5c62893 4879f3b
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 27 09:56:36 2022 +0530
+
+    Merge pull request #54 from SushanthReddy-49/loading-and-minor_fixes
+    
+    Closes #51, #53, #55 and #56 with few minor changes.
+
+[33mcommit 4879f3b5000239be749fb187e2c6f6d9b8d118b4[m
+Author: SushanthReddy <s.sushanth.reddy49@gmail.com>
+Date:   Tue Jul 26 23:33:21 2022 +0530
+
+    fixed #55 and #56. Aligned everything in navBar.
+
+[33mcommit 5c6289331657a31b39ac3af7fd3e927eb393b0e1[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Tue Jul 26 23:20:42 2022 +0530
+
+    Login page
+
+[33mcommit 37c271402a09530764c8211203dd7128526edc58[m
+Author: SushanthReddy <s.sushanth.reddy49@gmail.com>
+Date:   Tue Jul 26 13:14:41 2022 +0530
+
+    WEB link corrected, Loader in Index Page, few minor tweaks.
+
+[33mcommit e61d4b7083cc353e886ed37926b67132e8e2039b[m
+Author: jk <jklagrosa.dev@gmail.com>
+Date:   Mon Jul 25 20:05:11 2022 +0800
+
+    Changed the bg of btn to dark blue when hovering
+
+[33mcommit 0c78c0bcaf5b1126a24d8b765ed3b21186b8b8b5[m
+Author: Aman Singh Kushwaha <as8962703520.gmail.com>
+Date:   Mon Jul 25 12:57:48 2022 +0530
+
+    Added favicon.png file to root dir and modified every html pages
+
+[33mcommit ac07f7aef66c55d87365c81fe132b7bbbc3bcb4e[m
+Author: Mujeeb Khan <89351750+khan-mujeeb@users.noreply.github.com>
+Date:   Sun Jul 24 20:15:53 2022 +0530
+
+    Add files via upload
+
+[33mcommit 6f78df07f30300acf32494a007564b6c96b9777e[m
+Author: Mujeeb Khan <89351750+khan-mujeeb@users.noreply.github.com>
+Date:   Sun Jul 24 20:14:16 2022 +0530
+
+    Delete main.html
+
+[33mcommit c2b1c47faf28d91b4ec6b33ba4bf14db938306a1[m
+Author: Steve <steve1818fernandes@gmail.com>
+Date:   Sat Jul 23 12:37:21 2022 +0530
+
+    Contrast in button text #44
+
+[33mcommit 7c59b49533c35adecbbc229380d779fa6f698c3c[m
+Merge: cd4a89d d09b215
+Author: Aspireve <93852415+Aspireve@users.noreply.github.com>
+Date:   Sat Jul 23 12:24:28 2022 +0530
+
+    Merge pull request #3 from tier3guy/master
+    
+    staying upto date
+
+[33mcommit d09b215a8ecffa1e846f5573c84e5d942dd7250d[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sat Jul 23 09:57:43 2022 +0530
+
+    503.HTML
+
+[33mcommit fb88bf4f772d846c8c8d77bd36c2c3ee17ea17f5[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sat Jul 23 09:52:07 2022 +0530
+
+    DSA SHEETS
+
+[33mcommit 333b1781287fed9cae22e4729cebe214942747bf[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sat Jul 23 09:41:39 2022 +0530
+
+    Update README.md
+
+[33mcommit 4dc1a645f95a96cff326b7fc017d90e67220c370[m
+Merge: df72c61 e89ab7d
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sat Jul 23 09:38:03 2022 +0530
+
+    Merge pull request #45 from khan-mujeeb/master
+    
+    Created a webpage containing all the famous DSA Sheets
+
+[33mcommit e89ab7d7e70236b1993290f18af867794fa8357a[m
+Author: Mujeeb Khan <89351750+khan-mujeeb@users.noreply.github.com>
+Date:   Sat Jul 23 09:20:36 2022 +0530
+
+    Add files via upload
+
+[33mcommit df72c61344deab14f068878dd94634a08178b9f5[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Jul 22 16:19:59 2022 +0530
+
+    Create CNAME
+
+[33mcommit 1410ea92284524ef4a73cca3b3716566a98b80a2[m
+Merge: 87df6bc 9e45dd3
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Jul 22 16:17:40 2022 +0530
+
+    Merge pull request #37 from Arpit-mohankar/master
+    
+    added name of contributors
+
+[33mcommit 87df6bc300794a7ea38cbda4344091d17edd76c5[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Jul 22 16:08:18 2022 +0530
+
+    Delete CNAME
+
+[33mcommit 406ee56d8986f933a3a5381c88b8cfb61114b09c[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Jul 22 15:49:12 2022 +0530
+
+    Update README.md
+
+[33mcommit 2967afd9bdbe625f44563270625896f0999dbebf[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Jul 22 15:39:16 2022 +0530
+
+    Create CNAME
+
+[33mcommit 51ab47f088aee4638c8a9fc74679f03e7d67fef1[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Jul 22 15:39:02 2022 +0530
+
+    Delete CNAME
+
+[33mcommit fcce35d4b49d4a63991426bd7c2f0287828c4619[m
+Merge: ad88faf ad84fc4
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Jul 22 11:16:55 2022 +0530
+
+    Merge pull request #34 from Trevy05/discord-button-link
+    
+    handled all the discord routing
+
+[33mcommit ad84fc4cc190156f4dc8c1d680dd6e706ac4e249[m
+Merge: 3be2707 ad88faf
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Jul 22 11:16:47 2022 +0530
+
+    Merge branch 'master' into discord-button-link
+
+[33mcommit ad88faf3c69edad14d1bafd175ae53334b8844d4[m
+Merge: 358a166 ed50d1d
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Jul 22 11:13:52 2022 +0530
+
+    Merge pull request #41 from parshuraam/patch-1
+    
+    Fixed grammatical errors
+
+[33mcommit 358a166b363c1c8a17009ce3f4066ee1026bd0e0[m
+Merge: 87f7676 5f75e9f
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Fri Jul 22 11:13:38 2022 +0530
+
+    Merge pull request #42 from Jasleen-001/add-githubLink
+    
+    Added link to github repository
+
+[33mcommit 5f75e9fecdd12962e9223681873805790d6a45f6[m
+Author: Jasleen-001 <kaurjasleen1103@gmail.com>
+Date:   Fri Jul 22 10:10:33 2022 +0530
+
+    Added link to github repository
+
+[33mcommit 3be270798cc915d50207185e36845e7638c4f6c7[m
+Merge: 9a93053 4a6f7ec
+Author: Trevy05 <trevon.bernard@gmail.com>
+Date:   Thu Jul 21 19:27:00 2022 -0400
+
+    Merge branch 'master' of https://github.com/tier3guy/Acadmica into discord-button-link
+
+[33mcommit ed50d1db6b22610b40b98f96d4453291e6da82c0[m[33m ([m[1;31morigin/patch-1[m[33m)[m
+Author: Rajat Khanduri <38693805+parshuraam@users.noreply.github.com>
+Date:   Fri Jul 22 01:16:38 2022 +0530
+
+    Update main.html
+
+[33mcommit 87f76768753bcf8a3edf014ea45b5aadf4db2220[m
+Merge: 565f161 a42bf09
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Thu Jul 21 12:36:18 2022 +0530
+
+    Merge pull request #39 from Roshani9731/gatedoc
+    
+    GATE BOOK ADDED
+
+[33mcommit a42bf09a4aaf58c557d67dc4eafcb7750f0d12d8[m
+Author: Roshani <roshaninavdiya@gmail.com>
+Date:   Thu Jul 21 11:50:07 2022 +0530
+
+    GATE BOOK ADDED
+
+[33mcommit 565f161e75c6b2458ea01b86bd3532f054e38694[m
+Merge: 9a220b4 3c796ab
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 20 23:52:47 2022 +0530
+
+    Merge pull request #38 from parshuraam/master
+    
+    fix grammatical errors and formatting
+
+[33mcommit 3c796ab01067c64c9f9ad2a78eb8d496edeb5640[m
+Author: Rajat Khanduri <38693805+parshuraam@users.noreply.github.com>
+Date:   Wed Jul 20 21:05:23 2022 +0530
+
+    fix grammatical errors and formatting
+    
+    Fixed various grammatical errors and did proper formatting of the site's main page for better readability.
+
+[33mcommit 9e45dd3f553d2fb0c791c75675cfb7a07c63e18c[m
+Author: Arpit-mohankar <92590594+Arpit-mohankar@users.noreply.github.com>
+Date:   Wed Jul 20 14:54:20 2022 +0530
+
+    added name of contributors
+
+[33mcommit 9a220b4df474cb5fac1adf82f3094d46a951d532[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 20 11:42:07 2022 +0530
+
+    Update README.md
+
+[33mcommit 9c65211acc626f8fb0bb386eee687b8f3c43843d[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 20 11:41:30 2022 +0530
+
+    Create README.md
+
+[33mcommit c8be45c9faa7bb731fe6e05f419e4b16a07f2fd0[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 20 11:39:56 2022 +0530
+
+    Update README.md
+
+[33mcommit 62feb2ac8853f55036c38e5b67b4d229da7cd996[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 20 11:39:11 2022 +0530
+
+    Update README.md
+
+[33mcommit b41e0aa151df76e7d76d146fe2d8743105541094[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 20 11:37:57 2022 +0530
+
+    Update README.md
+
+[33mcommit d7161adfc438814ebe55a18c39438d5658bf794d[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 20 11:36:31 2022 +0530
+
+    Update README.md
+
+[33mcommit 859257f3174db1f59f5f47372039285cb91560cd[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 20 11:33:38 2022 +0530
+
+    Update README.md
+
+[33mcommit 1055b57959bf3f36b10dc266b71ee88d5c3c12a7[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 20 11:21:15 2022 +0530
+
+    Update README.md
+
+[33mcommit 191cef2d53c3d5c11f99668dd495d5ea1ca5dd73[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 20 11:15:46 2022 +0530
+
+    Create README.md
+
+[33mcommit afa5e528b0806014c931e4f6a5f07d62ade08e7a[m
+Merge: 1bee557 39a68e0
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 20 10:59:36 2022 +0530
+
+    Merge pull request #32 from Arpit-mohankar/master
+    
+    Added name of organizaton , mission and contributor's name
+
+[33mcommit 1bee557e263f36cd12846e105eae96c843c55f9a[m
+Merge: dd78cfb 25a69b9
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 20 10:39:34 2022 +0530
+
+    Merge pull request #36 from Roshani9731/discordbranch
+    
+    discord link added
+
+[33mcommit dd78cfbf843aa916da5d88f49b31ee9b1c536c8d[m
+Merge: 4a6f7ec fa2d827
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed Jul 20 10:39:10 2022 +0530
+
+    Merge pull request #35 from Roshani9731/newbranch
+    
+    link added
+
+[33mcommit 25a69b99248984a8301ce7e1be05505e6d4791d4[m
+Author: Roshani <roshaninavdiya@gmail.com>
+Date:   Wed Jul 20 08:50:19 2022 +0530
+
+    discord link added
+
+[33mcommit fa2d827670eb221643fbae1d4132d06734fcd3b2[m
+Author: Roshani <roshaninavdiya@gmail.com>
+Date:   Wed Jul 20 08:36:08 2022 +0530
+
+    link added
+
+[33mcommit 9a930535d5fe2938cba367cc73b7af5b651f7617[m
+Author: Trevy05 <trevon.bernard@gmail.com>
+Date:   Tue Jul 19 17:47:11 2022 -0400
+
+    handled all the discord routing
+
+[33mcommit 4a6f7ece341b809c31ffb0bd0368f05c144c9691[m
+Merge: eca12b6 e65db0d
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Tue Jul 19 22:05:54 2022 +0530
+
+    Merge pull request #33 from Korra15/pageLink
+    
+    Added all links
+
+[33mcommit e65db0ddfa72cfe09142133a128dc24c2af4004c[m
+Author: Korra15 <mailayushi15@gmail.com>
+Date:   Tue Jul 19 21:16:16 2022 +0530
+
+    Added all links
+
+[33mcommit 39a68e0f44216f284d77d83fb8093ffea2647280[m
+Author: Arpit-mohankar <92590594+Arpit-mohankar@users.noreply.github.com>
+Date:   Tue Jul 19 18:15:40 2022 +0530
+
+    added name of org , mission and contributor's name
+
+[33mcommit eca12b611a035d3b4cef979691c91938b13878cd[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Mon Jul 18 17:43:59 2022 +0530
+
+    Fonts have been updated
+
+[33mcommit fef28fcff8faaf108be70b9c4ba0798249d5e4ae[m
+Merge: aedb59e cd4a89d
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Mon Jul 18 17:30:15 2022 +0530
+
+    Merge pull request #31 from Aspireve/master
+    
+    Create 503 page #28
+
+[33mcommit cd4a89d3d71f40baab84b92e64c8073f0c5837c0[m
+Author: Steve <steve1818fernandes@gmail.com>
+Date:   Mon Jul 18 17:12:52 2022 +0530
+
+    Create 503 page #28
+
+[33mcommit dffd15a0025eda07062d204965462486e2d014f5[m
+Merge: 243ab47 aedb59e
+Author: Aspireve <93852415+Aspireve@users.noreply.github.com>
+Date:   Mon Jul 18 15:11:04 2022 +0530
+
+    Merge pull request #2 from tier3guy/master
+    
+    updating...
+
+[33mcommit aedb59ec5aff51fa4373007e393e9b28acb99725[m
+Merge: 2157040 b3d94fc
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Mon Jul 18 14:22:42 2022 +0530
+
+    Merge pull request #29 from ivanetra/fix/Acadmica-23
+    
+    fix/Acadmica-23: fix the availability and responsiveness of the Donate button on all pages
+
+[33mcommit 2157040ae1c6e40d0595fb0bb1546058e89570ae[m
+Merge: 72e11bc c4ca97e
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Mon Jul 18 14:20:18 2022 +0530
+
+    Merge pull request #30 from losier/master
+    
+    enhancement to 404 Page
+
+[33mcommit c4ca97e8ada2f9b0a0a1d6b207e29b9c7dbbb050[m
+Author: losier <arv95464@gmail.com>
+Date:   Mon Jul 18 11:14:34 2022 +0530
+
+    enhancement to 404 Page
+
+[33mcommit 243ab47a669884aad2adc165d4e72ff622cbd692[m
+Merge: 03eb05b 72e11bc
+Author: Aspireve <93852415+Aspireve@users.noreply.github.com>
+Date:   Mon Jul 18 10:59:08 2022 +0530
+
+    Merge pull request #1 from tier3guy/master
+    
+    making fork upto date
+
+[33mcommit b3d94fcfaeb2212e76bfad2168203d0d3d6030c6[m
+Merge: 406b4cc 72e11bc
+Author: ivan.eka.ritase <ivan.eka@ritase.com>
+Date:   Mon Jul 18 11:59:05 2022 +0700
+
+    Merge branch 'master' into fix/Acadmica-23
+
+[33mcommit 406b4cc6f890dd97fe665583d31698a922666373[m
+Author: ivan.eka.ritase <ivan.eka@ritase.com>
+Date:   Mon Jul 18 11:57:37 2022 +0700
+
+    fix/Acadmica-23: fix the availability and responsiveness of the Donate button on all pages
+
+[33mcommit 72e11bc774bb23531580a880ec9e367dca1938de[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Mon Jul 18 10:05:21 2022 +0530
+
+    Linking 4O4 page
+
+[33mcommit 0c18808300ca1cb63809d427e0f5761d35cd5558[m
+Merge: 6b38d2b 9fc7165
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Mon Jul 18 10:01:01 2022 +0530
+
+    Merge pull request #24 from losier/master
+    
+    added 404 page
+
+[33mcommit 9fc71654eaee116ac46f32905001f44098e86d76[m
+Author: losier <arv95464@gmail.com>
+Date:   Mon Jul 18 09:46:38 2022 +0530
+
+    added 404 page
+
+[33mcommit 6b38d2bc649bbc511d7c4411b4e1a95b2333cb18[m
+Merge: 6dd10ab d278aec
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Mon Jul 18 07:51:22 2022 +0530
+
+    Merge branch 'master' of https://github.com/tier3guy/Acadmica
+
+[33mcommit 6dd10ab5055f73aabb0dbff503525d5563eaa674[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Mon Jul 18 07:50:59 2022 +0530
+
+    Support button added
+
+[33mcommit d278aec2c2a190d4b851a67f1c665023bac8ed69[m
+Merge: 5107c48 c6af677
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Jul 17 20:55:20 2022 +0530
+
+    Merge pull request #21 from Ayushrawat-cmd/Discord-link
+    
+    Added the given discord link in every webpage
+
+[33mcommit c6af677aae62e9b8512ddc52f799d119197827eb[m
+Author: Ayush Rawat <ayushrawat324@gmail.com>
+Date:   Sun Jul 17 20:08:45 2022 +0530
+
+    Added the given discord link in every webpage
+
+[33mcommit 5107c485250ab96a23eba98499369d87b4a16f12[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Jul 17 18:12:07 2022 +0530
+
+    Update README.md
+
+[33mcommit ad49489c5ed25f79c8204b8c51a710939b00cfd0[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sun Jul 17 18:07:54 2022 +0530
+
+    public/index has fetched out on the top level of the folder structure
+
+[33mcommit 1cb30b5c357d7fd3468179d38591dd8be7f7b130[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sun Jul 17 18:05:07 2022 +0530
+
+    PAGES/ACADMICS LINKS HAS BEEN UPDATED
+
+[33mcommit bfd17b6d3833f821c384d261eba1f17e7ec6ff4b[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sun Jul 17 18:01:57 2022 +0530
+
+    PAGES/ACADMICS LINKS HAS BEEN UPDATED
+
+[33mcommit 8f28e97974a02bcebd927ce502255f4677e12601[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sun Jul 17 17:55:31 2022 +0530
+
+    Links have been updated in public folder
+
+[33mcommit 35fd78428bfe035e9fa026c8922a50b2b7f543e4[m
+Merge: 08486a0 b7eee49
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sun Jul 17 17:34:46 2022 +0530
+
+    Merge branch 'master' of https://github.com/tier3guy/Acadmica
+
+[33mcommit 08486a0319d7219aef6003a231ccd57fc5bf4f47[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sun Jul 17 17:34:36 2022 +0530
+
+    Last Commits
+
+[33mcommit b7eee49ced1f3708709ed15116b2e945fbc53fce[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Jul 17 17:29:37 2022 +0530
+
+    Create CNAME
+
+[33mcommit c87bff9b1f0e4630bb718cb2d3f4a1e28f06416f[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Jul 17 17:28:20 2022 +0530
+
+    Delete CNAME
+
+[33mcommit 84b29fec62d652e331f81e543edbec1e30b00ddd[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Jul 17 17:24:21 2022 +0530
+
+    Create CNAME
+
+[33mcommit 62b8672bef5cbb486bb61fad157070d600fd8d2d[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Jul 17 11:03:48 2022 +0530
+
+    Delete CNAME
+
+[33mcommit 4789536cf15ec17113048aafa0afc797cb5d7186[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Jul 17 10:47:10 2022 +0530
+
+    Create CNAME
+
+[33mcommit 04e97522435a29f871502a17706e00d6ccc8efff[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Jul 17 10:16:37 2022 +0530
+
+    Delete CNAME
+
+[33mcommit b70f11820a5a2fc0b11158c40cb6a3755807d434[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Jul 17 10:15:36 2022 +0530
+
+    Create CNAME
+
+[33mcommit 9d399d75130916559a182f59a9d3a2449348cc1c[m
+Merge: 9993beb 94f865b
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Jul 17 10:15:16 2022 +0530
+
+    Merge pull request #15 from Trevy05/icon-hover-fix
+    
+    add hover for icons
+
+[33mcommit 9993beb085189e6eeb000898f36a5ae131d2fea4[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Jul 17 10:12:25 2022 +0530
+
+    Delete CNAME
+
+[33mcommit f107c697a03f11c7b02c87074dc432ea841e70ed[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Sun Jul 17 10:11:17 2022 +0530
+
+    Create CNAME
+
+[33mcommit 94f865bf8e7fffb6a6c3c8cd57f2c7b5111f7c3f[m
+Author: Trevy05 <trevon.bernard@gmail.com>
+Date:   Sat Jul 16 13:27:34 2022 -0400
+
+    add hover for icons
+
+[33mcommit abb429ae0e83c0e3f4b0a8060beecfd31db75604[m
+Merge: 3423681 03eb05b
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Thu Jul 14 20:37:50 2022 +0530
+
+    Merge pull request #13 from Aspireve/master
+    
+    Customized the scrollbar to make it match the theme of the website
+
+[33mcommit 03eb05b65c2e59dfdf93204d2562d1f01a53bbd0[m
+Author: Steve <steve1818fernandes@gmail.com>
+Date:   Thu Jul 14 18:15:39 2022 +0530
+
+    Modified the scrollbar to make it blue
+
+[33mcommit 342368126ac003eb7318f522296708f963032c8a[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Thu Jul 14 16:22:48 2022 +0530
+
+    Acadmica APK file ( In progress )
+
+[33mcommit 0f2945d8a9bde7b5081302cb2ab893f525ab0fc2[m
+Merge: 597dead 6de50dc
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Thu Jul 14 15:33:08 2022 +0530
+
+    Merge pull request #6 from rohangupta8756/master
+    
+    Updated the Discord Server Link
+
+[33mcommit 6de50dc978cd413f08084fbcbe5c7c453d09a31a[m
+Author: rohangupta8756 <120ee0686@nitrkl.ac.in>
+Date:   Thu Jul 14 12:03:43 2022 +0530
+
+    Updated the Discord Server Link
+
+[33mcommit 597dead177084c836a9d84776b9c8b17ddc5ff53[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Thu Jul 14 09:57:53 2022 +0530
+
+    Update README.md
+    
+    Adding website link
+
+[33mcommit 5993aa1e0ac5cb8218ee076e01d4c5bab45a0b8b[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed May 18 22:45:42 2022 +0530
+
+    Create index.html
+
+[33mcommit 5eb6c760043cbde06a035e0e022024211e65f525[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed May 18 22:45:23 2022 +0530
+
+    Delete index.html
+
+[33mcommit ed6a007a7d9bcc54e7df43a1391155b690776f96[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed May 18 22:42:38 2022 +0530
+
+    Delete .firebase directory
+
+[33mcommit 56033e3f5c2d4e023b1bfc7f5b19cca553f439bf[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed May 18 22:40:59 2022 +0530
+
+    Create index.html
+
+[33mcommit 27854845f19c05dda20dfeb0532e7fe67fe8617e[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed May 18 22:40:32 2022 +0530
+
+    Delete index.html
+
+[33mcommit 2cac97471fdcc4ec031b2a085adf91740c5eebb0[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed May 18 22:38:37 2022 +0530
+
+    Update index.html
+
+[33mcommit 9c5f795828a36eb107307e1f51622df122629b84[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed May 18 22:35:10 2022 +0530
+
+    Update index.html
+
+[33mcommit d6f6ba2a0266bf4245cdd8b323b5b631ef9bbc22[m
+Author: Avinash Gupta <73595465+tier3guy@users.noreply.github.com>
+Date:   Wed May 18 22:34:18 2022 +0530
+
+    Create index.html
+
+[33mcommit 6e3c70399736ed0c7b9d3aae050fd6e632c4b015[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Mon May 2 19:32:45 2022 +0530
+
+    Avi Dada
+
+[33mcommit 13bfc23a9e6d10616050c339889b4880cb878923[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Sun May 1 13:43:21 2022 +0530
+
+    adding file to csit section
+
+[33mcommit 31996c8169537e627fb2dc6b14ff2c64670d8fa3[m
+Merge: 13aae92 78e4179
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Sun May 1 11:31:38 2022 +0530
+
+    Merge branch 'master' of https://github.com/tier3guy/Acadmica
+
+[33mcommit 13aae924cce7177a1ca83bf49091ffd7034cb07b[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Sun May 1 11:29:20 2022 +0530
+
+    adding accordion
+
+[33mcommit 78e41796f20016d0a729b1075990e32080a08b45[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sun May 1 10:52:07 2022 +0530
+
+    CREDENTIALS
+
+[33mcommit 3bfbc88ee8f11157bbe8cc6cf1706b67eba8f337[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Mon Apr 18 22:11:57 2022 +0530
+
+    kammo aunty
+
+[33mcommit 723eda74423e41d244d86ebf3b7b6c1dd8b471ae[m
+Merge: f57c3da 395fa1e
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Mon Apr 18 22:06:39 2022 +0530
+
+    Merge branch 'master' of https://github.com/tier3guy/Acadmica
+
+[33mcommit f57c3daf84674c748e51d3056fe4d937459f6cf2[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Mon Apr 18 22:06:21 2022 +0530
+
+    dev pages has been added
+
+[33mcommit 395fa1e8f944b9f93708620d7e01aa6486fca1a3[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Mon Apr 18 22:04:31 2022 +0530
+
+    adding css to image
+
+[33mcommit b5495a9a8fc294d7365cbd8a8d55d26d607b0528[m
+Merge: 5d97c1a 07ccdf8
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Mon Apr 18 21:46:40 2022 +0530
+
+    Merge branch 'master' of https://github.com/tier3guy/Acadmica
+
+[33mcommit 5d97c1a9b318f41d64971f26a1902059591c2b3f[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Mon Apr 18 21:45:54 2022 +0530
+
+    Responsive nav --@avinash.gupta
+
+[33mcommit 07ccdf884ee800352a730575880496d451f1c4d1[m
+Merge: d0dfce1 94e8301
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Mon Apr 18 21:05:48 2022 +0530
+
+    updating changes
+
+[33mcommit d0dfce1b1cbbae2be24b16e9f753e1fa4302000f[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Mon Apr 18 21:02:42 2022 +0530
+
+    updating faq-css
+
+[33mcommit 94e8301947967386956ef327af64a4dbc3f99688[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Mon Apr 18 21:00:36 2022 +0530
+
+    changes made
+
+[33mcommit 3d4ddd27b736aed4390274dcdcd722169a833414[m
+Merge: ab97b6a fd25cb4
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Mon Apr 18 20:51:27 2022 +0530
+
+    Merge branch 'master' of https://github.com/tier3guy/Acadmica
+
+[33mcommit ab97b6a4e48c746a5e1688d0a2edc99ca5e8d5e9[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Mon Apr 18 20:50:57 2022 +0530
+
+    updating changes
+
+[33mcommit fd25cb430cb5c69b2e44ee08670f63a3d0113f3c[m
+Author: Laraib <laraibmallick7@gmail.com>
+Date:   Sun Apr 17 19:27:41 2022 +0530
+
+    final commit
+
+[33mcommit 4f300832a56cdb90f3f47f408660b9d04f0df61d[m
+Author: Laraib <laraibmallick7@gmail.com>
+Date:   Sun Apr 17 19:10:46 2022 +0530
+
+    final commit
+
+[33mcommit 3a38af2bba3bdefd6893bd826ae1d362a2621608[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sun Apr 17 09:37:03 2022 +0530
+
+    Responsive FAQ
+
+[33mcommit f3a32afacc6b6b51b00555882ae867e66f4ff618[m
+Merge: 090f718 52a5825
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sun Apr 17 09:30:27 2022 +0530
+
+    Merge branch 'master' of https://github.com/tier3guy/Acadmica
+
+[33mcommit 090f718a51d527c9f802199ffcee6a6701df0840[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sun Apr 17 09:30:06 2022 +0530
+
+    FAQ ADDED
+
+[33mcommit 52a5825e932e92816990a002a64f9e86f99e83cf[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Sat Apr 16 21:15:28 2022 +0530
+
+    responsive homepage body
+
+[33mcommit 8b865815e4cd2a89a9d38b82bdbe4c10e577445b[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sat Apr 16 18:37:19 2022 +0530
+
+    responsive in interview-main
+
+[33mcommit 67aee2f6c3a7cdaf5bb04ecd7abd1fa57fca3a4a[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sat Apr 16 17:58:17 2022 +0530
+
+    Links has been updated in INTERVIEW PAGE
+
+[33mcommit 3dec670c5ee51ec78386e7ee288753fa5e5fedb3[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sat Apr 16 17:40:30 2022 +0530
+
+    target__blank is not giving good exp.
+
+[33mcommit 4ce3223338c0e112dcb26726e8eee86eebe18c07[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Sat Apr 16 16:52:15 2022 +0530
+
+    responsive facilities part
+
+[33mcommit cf8fa9c1559647450ad621255d287db3328dc17f[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sat Apr 16 14:11:46 2022 +0530
+
+    interview page is done for now
+
+[33mcommit 5ffb9f4701b749b14babe58cbede3d99544d5c4a[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Sat Apr 16 13:49:57 2022 +0530
+
+    uploading syllabus
+
+[33mcommit f585cff740d5384555f782047c4ea98aadf9ee2c[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sat Apr 16 13:47:03 2022 +0530
+
+    studyroom -done
+
+[33mcommit 9981624128d6f8cf8687bc1c0d5e3053a62626e6[m
+Merge: 0e6d950 13345dd
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Sat Apr 16 12:53:34 2022 +0530
+
+    Merge branch 'master' of https://github.com/tier3guy/Acadmica
+
+[33mcommit 0e6d950786a97c1bd83f3c9eb9b1e51b739ca23d[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Sat Apr 16 12:52:50 2022 +0530
+
+    uploading documents
+
+[33mcommit 13345dda63bc452990bfbbe52c4e234077e62854[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sat Apr 16 12:21:36 2022 +0530
+
+    studyroom main html
+
+[33mcommit a50b2b8297e211144022e4d5f2152021f0521615[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sat Apr 16 11:41:06 2022 +0530
+
+    study-room links has been updated
+
+[33mcommit 63267db0794fdb146d3495547a26544f5f13fde4[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sat Apr 16 10:31:44 2022 +0530
+
+    interview-age added
+
+[33mcommit a1405c50fd602fca72f51fa6fdfd6d0748708080[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sat Apr 16 09:36:43 2022 +0530
+
+    added
+
+[33mcommit ec2c8937c60ecd977f65057d986998d70fe25633[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Sat Apr 16 09:36:12 2022 +0530
+
+    syllabus page added
+
+[33mcommit 384c11557194c76a3755df876c570c9120b0a4c9[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Fri Apr 15 20:53:02 2022 +0530
+
+    ref.
+
+[33mcommit 55f465aa96149d537135d7153e7bccf37c4321d0[m
+Merge: 1f56db4 a8d7084
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Fri Apr 15 20:40:34 2022 +0530
+
+    Merge branch 'master' of https://github.com/tier3guy/Acadmica
+
+[33mcommit 1f56db4945e40338f3c56ce6c9a1e80eb7b9a5bf[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Fri Apr 15 20:39:59 2022 +0530
+
+    accord
+
+[33mcommit a8d708437f89705855c76a2b3586bde422f5cb4e[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Fri Apr 15 20:16:53 2022 +0530
+
+    correcting font
+
+[33mcommit ffdf6823254292cdce7294ea958a606e76b04387[m
+Merge: 92749ca 99e5c8c
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Fri Apr 15 20:01:16 2022 +0530
+
+    Merge branch 'master' of https://github.com/tier3guy/Acadmica
+
+[33mcommit 92749ca202e20fa62dc0e844a6d7f024d8003d20[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Fri Apr 15 20:00:59 2022 +0530
+
+    accoord
+
+[33mcommit 99e5c8ca0c0cbd2e1dc01b9f0f040938e24c0ccd[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Fri Apr 15 19:59:46 2022 +0530
+
+    adding js for faq
+
+[33mcommit 8baf5863d4349ea6cd02f1cfab7cb5a0e2fa1fbd[m
+Merge: 4c7af4b 1ec2775
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Fri Apr 15 15:44:29 2022 +0530
+
+    Merge branch 'master' of https://github.com/tier3guy/Acadmica
+
+[33mcommit 4c7af4b5c102d898df45a63e17913b76d483bb53[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Fri Apr 15 15:42:54 2022 +0530
+
+    adding faq section
+
+[33mcommit 1ec27752cb59115fc56fee7baccccd6fc39f10be[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Fri Apr 15 14:16:20 2022 +0530
+
+    firebase integration
+
+[33mcommit 51f592cea0ed9fc07ab073ea2933ca5fc0f96735[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Fri Apr 15 13:02:21 2022 +0530
+
+    csit
+
+[33mcommit bf75307672a212adfbb6415d362d762669373444[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Fri Apr 15 11:29:50 2022 +0530
+
+    acad-main
+
+[33mcommit abd0daf2513fd6b4f4ebb43d12e7f676360125f2[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Fri Apr 15 11:08:29 2022 +0530
+
+    development home done
+
+[33mcommit 0953486a2f7558fe17793b73a48b4dedfdb7ebe2[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Fri Apr 15 10:23:48 2022 +0530
+
+    image links updated
+
+[33mcommit ae0e09111038906a111755478a6cbfcd1c93fbf2[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Fri Apr 15 10:09:35 2022 +0530
+
+    btn-link updated
+
+[33mcommit cbc99d8e2ccdfe1c2a14c4cd5006ed4ced46d05e[m
+Merge: e02a2e4 1db0513
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Fri Apr 15 10:01:02 2022 +0530
+
+    Footer icons
+
+[33mcommit e02a2e4776654bf7d656d6594285e41202ec67ee[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Fri Apr 15 09:26:18 2022 +0530
+
+    Subscribe page
+
+[33mcommit 1db051372afebfee047d60b13740654a7011b67c[m
+Merge: e3df43a 38a355e
+Author: Kamya123 <80412200+Kamya123@users.noreply.github.com>
+Date:   Fri Apr 15 00:52:57 2022 +0530
+
+    Merge pull request #1 from Kamya123/master
+    
+    Create README.md
+
+[33mcommit 38a355ef6b5ecf8fe4d8207ff02b73c33f6c7146[m
+Author: Kamya123 <80412200+Kamya123@users.noreply.github.com>
+Date:   Fri Apr 15 00:49:34 2022 +0530
+
+    Create README.md
+
+[33mcommit e3df43a6a136398bf8f64a216cdc9978ae1b47ed[m
+Merge: 70df302 23e3200
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Fri Apr 15 00:09:13 2022 +0530
+
+    adding footer part
+
+[33mcommit 70df302a7fcf9e0a51ba5775aa34ce86008a5032[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Thu Apr 14 17:26:36 2022 +0530
+
+    commit this
+
+[33mcommit 23e3200d1d671c4119d2f9cb5e2e381d693d14cd[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Thu Apr 14 16:34:07 2022 +0530
+
+    about page done
+
+[33mcommit 8a094641089eaa28914882143aa9b090fe68e10f[m
+Author: Kamya <kamyakumari140@gmail.com>
+Date:   Thu Apr 14 15:35:40 2022 +0530
+
+    adding about part
+
+[33mcommit c92f7aa62eea5f15c1799a0ed09ca27c14f7bb6d[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Thu Apr 14 15:03:18 2022 +0530
+
+    Frontend --hero ui done
+
+[33mcommit 4ef8f8251ea65a5b7e53b4067232c01a442c954c[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Thu Apr 14 13:29:46 2022 +0530
+
+    adding color themes
+
+[33mcommit 39fa34273d4f3a2d0c1866f2e720306124467f4c[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Thu Apr 14 13:15:31 2022 +0530
+
+    adding public folder
+
+[33mcommit e2c146e575cf17778794a91cec2a7c09f5199061[m
+Author: Avinash Gupta <gavinash6290@gmail.com>
+Date:   Thu Apr 14 13:13:42 2022 +0530
+
+    folder structure
