@@ -28,7 +28,11 @@ footer {
   .footer-col-first {
     flex-basis: 30%;
   }
-  
+
+  .img-buy-coffee{
+    width: 2em;
+    height: 2em;
+  }
   
   footer hr {
     width: 90%;

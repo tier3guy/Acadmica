@@ -1,12 +1,12 @@
 .main-container{
   width: 90vw;
-  min-height : 100vh;
+  min-height : 60vh;
   margin: 0 auto;
   position: relative;
+  margin-top: 10em;
 }
 
 .text-container{
-  margin-top: 10em;
   width: 35%;
   position: absolute;
   left: 0;
@@ -29,7 +29,6 @@
   width: 45%;
   position: absolute;
   right: 0;
-  margin-top: 10em;
 }
 
 .img-responsive{
@@ -39,6 +38,11 @@
   border-radius: 18px;
 }
 
+.main-btn-container{
+  text-align: center;
+  justify-content: center;
+  margin-top: 2rem !important;
+}
 
 .fa-discord{
   font-size: 1.1em;

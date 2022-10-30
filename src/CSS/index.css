@@ -48,9 +48,9 @@ body.dark {
 
   --background-color: #000000;
   --laoding-bg: #000;
-  --blue: white;
+  /* --blue: white; */
   color: white;
-  /* --blue: #7FB5FF; */
+  --blue: #7FB5FF;
   --dark-blue: #7FB5FF;
   --button-color: #1363DF;
   --button-discord: transparent;
@@ -164,7 +164,7 @@ a {
 }
 
 .center {
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
 }
@@ -603,10 +603,10 @@ iframe:hover {
   margin-left: 25px;
 }
 
-.theme-toggle-button:hover {
-  /* background-color: var(--text-color2); */
+/* .theme-toggle-button:hover {
+  background-color: var(--text-color2);
 
-}
+} */
 
 .subscribe-btn>a {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
@@ -643,20 +643,20 @@ iframe:hover {
 
 
 
-@media (max-width: 849px) {
+/* @media (max-width: 849px) {
   .image-container {
     margin: 0 auto;
     margin-top: 5em;
   }
-}
+} */
 
 
-@media (min-width: 851px) {
+/* @media (min-width: 851px) {
   .image-container {
     margin: 0 auto;
     margin-top: 10em;
   }
-}
+} */
 
 
 
