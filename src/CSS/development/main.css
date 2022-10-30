@@ -47,6 +47,7 @@
   width: 90%;
   margin: auto;
   font-family: var(--font-barlow);
+  padding-top: 9em;
 }
 .tracks-section a.text-center {
   background: #5E5DF0;
