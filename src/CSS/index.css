@@ -223,11 +223,11 @@ li {
   border-radius: 5px;
   font-size: 1.1em;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
-  /* border:1px solid var(--button-color); */
+/* border:1px solid var(--button-color); */
 /* } */
 
 
-.button-all{
+.button-all {
   border: none;
   outline: none;
   padding: 0.5em 1.5em;
@@ -235,34 +235,35 @@ li {
   transition: all 0.5s;
 }
 
-.button-primary{
+.button-primary {
   background: var(--blue);
   color: var(--gray);
 }
 
-.btn-join, .btn-discord{
+.btn-join,
+.btn-discord {
   color: white;
   padding: 0.8em 2.5em;
   font-size: 1.1em;
 }
 
-.btn-discord{
+.btn-discord {
   background: white;
-  color : var(--dark-blue);
-  margin : 0 20px;
+  color: var(--dark-blue);
+  margin: 0 20px;
   padding: 0.8em 1.2em;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
 }
 
-.button-primary:hover{
+.button-primary:hover {
   text-decoration: none;
-  color : white;
+  color: white;
 }
 
-.logo:hover{
+.logo:hover {
   color: var(--dark-blue);
 }
 
@@ -615,6 +616,13 @@ iframe:hover {
 
 
 @media(max-width: 700px) {
+  .image-container {
+    margin-top: 2em !important;
+    padding: 0px;
+    width: auto;
+    margin: auto;
+  }
+
   .btn-discord-small {
     display: flex !important;
     justify-content: center !important;
@@ -624,7 +632,7 @@ iframe:hover {
   .main-btn-container {
     margin-top: 2em !important;
     margin: auto !important;
-    display: flex !important;
+    /* display: flex !important; */
     justify-content: space-between !important;
   }
 
@@ -664,35 +672,35 @@ iframe:hover {
 
   .image-container img {
     height: 15em;
-    width: auto;
+    /* width: auto; */
   }
 }
 
 @media (max-width: 420px) {
   .image-container img {
     height: 14em;
-    width: auto;
+    /* width: auto; */
   }
 }
 
 @media (max-width: 380px) {
   .image-container img {
     height: 13em;
-    width: auto;
+    /* width: auto; */
   }
 }
 
 @media (max-width: 365px) {
   .image-container img {
     height: 12em;
-    width: auto;
+    /* width: auto; */
   }
 }
 
 @media (max-width: 340px) {
   .image-container img {
     height: 11em;
-    width: auto;
+    /* width: auto; */
   }
 }
 

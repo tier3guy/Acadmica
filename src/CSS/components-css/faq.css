@@ -12,16 +12,16 @@
   box-shadow: var(--box-shadow-1) 0px 1px 2px 0px, var(--box-shadow-2) 0px 2px 6px 2px;
 }
 
-.FAQ .faq-row:hover{
-  
+.FAQ .faq-row:hover {
+
   /* background: #595959; */
-  background-color:transparent;
-  border:1px solid var(--button-color);
+  background-color: transparent;
+  border: 1px solid var(--button-color);
   padding-left: 40px;
   transition: all 0.6s ease 0s;
   /* color: var(--text-color2); */
   background: #0b1db4;
-  color:var(--loading-bg);
+  color: var(--loading-bg);
 
 }
 
@@ -44,24 +44,24 @@
   font-family: var(--font-roboto);
 }
 
-.faq-box{
-    margin-top: 4em;
-    margin-bottom: 6em;
+.faq-box {
+  margin-top: 4em;
+  margin-bottom: 6em;
 }
 
-.faq-row{
-    width: 60%;
-    border-radius: 15px;
-    margin: auto;
-    margin-bottom: 0.8em;
-    padding: 1.5em;
-    /* background: var(--button-color); */
-    border:1px solid var(--button-color);
+.faq-row {
+  width: 90%;
+  border-radius: 15px;
+  margin: auto;
+  margin-bottom: 0.8em;
+  padding: 1.5em;
+  /* background: var(--button-color); */
+  border: 1px solid var(--button-color);
 
 }
 
 
-.faq-btn{
+.faq-btn {
   width: 100%;
   background-color: transparent;
   display: flex;
@@ -70,22 +70,23 @@
   border: none;
   outline: none;
   padding: 1px 0;
-  color:var(--text-color2);
-}
-.faq-row:hover .faq-btn{
-  color:white;
+  color: var(--text-color2);
 }
 
-.fa-moon{
-  color:var(--text-color2);
+.faq-row:hover .faq-btn {
+  color: white;
+}
+
+.fa-moon {
+  color: var(--text-color2);
 
 }
 
-.faq-content>p{
+.faq-content>p {
   margin: 20px 0 auto;
 }
 
-.faq-content{
+.faq-content {
   height: 0;
   text-align: justify;
   font-size: 14px;
@@ -95,30 +96,51 @@
   position: relative;
 }
 
-.faq-content > a{
+.faq-content>a {
   position: revert;
   top: 8em !important;
   color: var(--background-color);
   padding-bottom: 5px;
 }
 
-@media(max-width: 700px) {
-  .FAQ{
-    width: 92%;
-    padding-left: 15px; 
-    padding-right: 15px; 
+
+@media(min-width: 815px) and (max-width: 910px) {
+  .FAQ {
+    margin: auto;
+    margin-top: 3em;
+    padding-top: 5em !important;
+    text-align: center;
+    border-radius: 20px;
+    height: 40%;
+    width: 70%;
+    padding: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    box-shadow: var(--box-shadow-1) 0px 1px 2px 0px, var(--box-shadow-2) 0px 2px 6px 2px;
+    font-size: 0.9rem;
   }
 }
+
+@media(max-width: 700px) {
+  .FAQ {
+    width: 92%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 @media screen and (max-width: 426px) {
-  .faq-content>p{
+  .faq-content>p {
     margin: 17px -65px 0px 63px;
   }
 }
+
 @media screen and (max-width: 765px) {
-  .faq-content>p{
+  .faq-content>p {
     margin: 0px 0px 0px 0px;
   }
 }
+
 @media screen and (max-width:342px) {
   .FAQ .acad {
     font-weight: 450;
